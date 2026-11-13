@@ -226,12 +226,6 @@
     fill.style.clipPath = p >= 1 ? 'none' : `circle(${p * p * Math.hypot(vw / 2, r.height) * 1.05 + (p > 0 ? 6 : 0)}px at 50% 0px)`;
   }
 
-  /* ---------- Praxis: Lichtfleck folgt der Maus ---------- */
-  $$('.card').forEach(el => el.addEventListener('pointermove', e => {
-    const r = el.getBoundingClientRect();
-    el.style.setProperty('--mx', e.clientX - r.left + 'px'); el.style.setProperty('--my', e.clientY - r.top + 'px');
-  }));
-
   /* ---------- Navigation: Farbe und Ein-/Ausblenden ---------- */
   const nav = $('.nav'), themed = $$('main [data-theme], .foot');
   let lastY = scrollY;
