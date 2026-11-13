@@ -252,10 +252,12 @@
       const data = await res.json();
       if (!res.ok || !data.ok) throw new Error(data.fehler || 'Fehler');
       form.reset();
+      if (window.pxTrack) window.pxTrack('form');
       say('Danke, Ihr Link ist angekommen. Ich melde mich per WhatsApp, und Sie erhalten Ihren Entwurf innerhalb von drei Tagen.', true);
     } catch (err) {
       const text = `Hallo Herr Heimann, hier ist der Link zu unserer Praxis-Webseite: ${g('link')}${g('nachricht') ? '\n\n' + g('nachricht') : ''}`;
       say('Das hat gerade nicht geklappt. Es öffnet sich WhatsApp mit der vorbereiteten Nachricht, bitte senden Sie sie dort ab.');
+      if (window.pxTrack) window.pxTrack('whatsapp');
       location.href = `https://wa.me/${form.dataset.wa}?text=${encodeURIComponent(text)}`;
     }
     btn.disabled = false;
