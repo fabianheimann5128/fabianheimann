@@ -3,6 +3,10 @@
 Options -Indexes
 RewriteEngine On
 
+# Aufrufe mit www dauerhaft auf die Adresse ohne www umleiten
+RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+
 # Repository-Dateien nicht ausliefern
 RewriteRule ^(\.git|\.gitignore|README\.md) - [F,L]
 
