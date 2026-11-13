@@ -120,7 +120,7 @@
   new IntersectionObserver(([e]) => { heroOn = e.isIntersecting; }).observe(hero);
   function stepRope() {
     if (!reduced) {
-      for (let i = 1; i < N - 1; i++) {
+      for (let i = 1; i < N - 3; i++) {
         const p = rp[i], vx = (p.x - p.px) * .965, vy = (p.y - p.py) * .965;
         p.px = p.x; p.py = p.y;
         p.x += vx + Math.sin(time * .7 + i * .22) * .07 + Math.sin(time * .23 + i * .09) * .05;
@@ -129,11 +129,12 @@
         if (dist < 150 && dist > .01) { const f = (1 - dist / 150) * 2.4; p.x += dx / dist * f; p.y += dy / dist * f; }
       }
       for (let k = 0; k < 10; k++) {
-        rp[0].x = A.x; rp[0].y = A.y; rp[N - 1].x = B.x; rp[N - 1].y = B.y;
+        rp[0].x = A.x; rp[0].y = A.y;
+        for (let e = 1; e <= 3; e++) { rp[N - e].x = B.x; rp[N - e].y = B.y - (e - 1) * rest; } // läuft senkrecht aus, damit der Übergang passt
         for (let i = 0; i < N - 1; i++) {
           const a = rp[i], b = rp[i + 1], dx = b.x - a.x, dy = b.y - a.y, dist = Math.hypot(dx, dy) || 1, diff = (dist - rest) / dist * .5;
-          if (i > 0) { a.x += dx * diff; a.y += dy * diff; }
-          if (i < N - 2) { b.x -= dx * diff; b.y -= dy * diff; }
+          if (i > 0 && i < N - 3) { a.x += dx * diff; a.y += dy * diff; }
+          if (i < N - 4) { b.x -= dx * diff; b.y -= dy * diff; }
         }
       }
     }
@@ -159,18 +160,18 @@
   function drawTangle() {
     const p = clamp((sy - tTop) / tLen);
     if (sy < tTop - vh || sy > tTop + tLen + vh) return;
-    const idx = p > .84 ? 5 : Math.min(4, Math.floor(p / .84 * 5));
+    const n = tItems.length - 1, idx = p > .84 ? n : Math.min(n - 1, Math.floor(p / .84 * n));
     if (idx !== tIdx) {
       tIdx = idx;
       tItems.forEach((el, i) => { el.classList.toggle('on', i === idx); el.classList.toggle('past', i < idx); });
-      tNum.textContent = '0' + Math.min(idx + 1, 5); tCount.style.opacity = idx === 5 ? 0 : 1;
+      tNum.textContent = '0' + Math.min(idx + 1, n); tCount.style.opacity = idx === n ? 0 : 1;
     }
     const a = smooth(0, .8, p), amp = (.25 + a * .75) * (1 - smooth(.83, .96, p));
     const R = amp * Math.min(tw * .2, 250), T = reduced ? 0 : time, M = 520, TAU = Math.PI * 2;
     tctx.clearRect(0, 0, tw, th);
     tctx.beginPath();
     for (let i = 0; i <= M; i++) {
-      const t = i / M, env = Math.pow(Math.sin(Math.PI * t), .7);
+      const t = i / M, env = Math.pow(Math.sin(Math.PI * t), 1.4);
       const x = tcx + R * env * (Math.sin(t * TAU * 3 + T * .3) + a * .75 * Math.sin(t * TAU * 7 + 1.3 - T * .22) + a * a * .45 * Math.sin(t * TAU * 13 + 4 + T * .15));
       const y = t * th + R * env * (.5 * Math.cos(t * TAU * 4 + .5 + T * .25) + a * .5 * Math.cos(t * TAU * 9 + 2 - T * .2) + a * a * .32 * Math.cos(t * TAU * 17 + T * .1));
       i ? tctx.lineTo(x, y) : tctx.moveTo(x, y);
@@ -181,19 +182,23 @@
 
   /* ---------- 04 · Zusammenspiel: waagerechte Fahrt ---------- */
   const jSec = $('.journey'), jTrack = $('.journey__track'), jLine = $('.journey__line i'), jOut = $('.journey__drop--out'), stations = $$('.station');
-  let jTop = 0, jDist = 1;
+  const jPin = $('.journey__pin'), jBar = $('.journey__line'), jIn = $('.journey__drop:not(.journey__drop--out)');
+  let jTop = 0, jDist = 1, jw = 0;
   function initJourney() {
-    jDist = Math.max(1, jTrack.scrollWidth - vw);
+    jw = jPin.clientWidth; jSec.style.setProperty('--pw', jw + 'px');
+    jDist = Math.max(1, jTrack.offsetWidth - jw);
+    const x0 = jIn.parentElement.offsetLeft + jIn.offsetLeft + 1, x1 = jOut.parentElement.offsetLeft + jOut.offsetLeft + 1;
+    jBar.style.left = x0 + 'px'; jBar.style.right = 'auto'; jBar.style.width = x1 - x0 + 'px';
     jSec.style.height = jDist + vh + 'px';
     jTop = jSec.getBoundingClientRect().top + scrollY;
   }
   function drawJourney() {
     if (sy < jTop - vh || sy > jTop + jDist + vh) return;
-    const p = clamp((sy - jTop) / jDist), x = p * jDist, lp = clamp(p / .97);
+    const p = clamp((sy - jTop) / jDist), x = p * jDist, lp = clamp(p / .86);
     jTrack.style.transform = `translate3d(${-x}px,0,0)`;
     jLine.style.transform = `scaleX(${lp})`; jLine.style.setProperty('--inv', 1 / Math.max(lp, .001));
-    jOut.style.setProperty('--out', smooth(.97, 1, p));
-    stations.forEach(s => s.classList.toggle('on', s.offsetLeft - x < vw * .72));
+    jOut.style.setProperty('--out', clamp((p - .86) / .12));
+    stations.forEach(s => s.classList.toggle('on', s.offsetLeft - x < jw * .72));
   }
 
   /* ---------- 06 · Über mich: Wort für Wort ---------- */
@@ -236,7 +241,7 @@
     err.hidden = true;
     const topics = f.getAll('thema').join(', ') || 'noch offen';
     const body = `Hallo Fabian,\n\n${msg}\n\nThema: ${topics}\n\nViele Grüße\n${name}\n${mail}`;
-    location.href = `mailto:${form.dataset.email}?subject=${encodeURIComponent('Anfrage für ein Gespräch – ' + name)}&body=${encodeURIComponent(body)}`;
+    location.href = `mailto:${form.dataset.email}?subject=${encodeURIComponent('Anfrage Erst-Check – ' + name)}&body=${encodeURIComponent(body)}`;
   });
   $$('[data-year]').forEach(el => { el.textContent = new Date().getFullYear(); });
 
