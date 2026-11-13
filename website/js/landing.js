@@ -1,11 +1,11 @@
-/* Landingpage-System – „Der rote Faden“ auf hellem Grund. Aus main.js abgeleitet, ohne Abhängigkeiten. */
+/* Landingpage-System – „Der rote Faden“ für die Fachseiten. Aus main.js abgeleitet, ohne Abhängigkeiten. */
 (() => {
   const $ = (s, r = document) => r.querySelector(s);
   const $$ = (s, r = document) => [...r.querySelectorAll(s)];
   const clamp = (v, a = 0, b = 1) => Math.min(b, Math.max(a, v));
   const smooth = (a, b, v) => { const t = clamp((v - a) / (b - a)); return t * t * (3 - 2 * t); };
   const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
-  const RED = '#ff3d1f', GLOW = 0; // auf hellem Grund ohne Leuchten
+  const RED = '#ff3d1f';
 
   let vw = innerWidth, vh = innerHeight, sy = scrollY, time = 0;
   const dpr = Math.min(devicePixelRatio || 1, 2);
@@ -125,7 +125,7 @@
     for (let i = 1; i < N - 1; i++) rctx.quadraticCurveTo(rp[i].x, rp[i].y, (rp[i].x + rp[i + 1].x) / 2, (rp[i].y + rp[i + 1].y) / 2);
     rctx.lineTo(rp[N - 1].x, rp[N - 1].y);
     rctx.lineCap = 'round'; rctx.strokeStyle = RED;
-    rctx.shadowColor = RED; rctx.shadowBlur = GLOW; rctx.lineWidth = 2; rctx.stroke();
+    rctx.shadowColor = RED; rctx.shadowBlur = 18; rctx.lineWidth = 2; rctx.stroke();
     rctx.shadowBlur = 0;
   }
 
@@ -161,7 +161,7 @@
       i ? tctx.lineTo(x, y) : tctx.moveTo(x, y);
     }
     tctx.lineJoin = tctx.lineCap = 'round'; tctx.strokeStyle = RED; tctx.lineWidth = 2;
-    tctx.shadowColor = RED; tctx.shadowBlur = GLOW; tctx.stroke(); tctx.shadowBlur = 0;
+    tctx.shadowColor = RED; tctx.shadowBlur = 14 * (1 - amp) + 2; tctx.stroke(); tctx.shadowBlur = 0;
   }
 
   /* ---------- So einfach ist es: der Chatverlauf entsteht beim Scrollen ---------- */
@@ -188,9 +188,9 @@
   const nav = $('.nav'), themed = $$('main [data-theme], .foot');
   let lastY = scrollY;
   function drawNav() {
-    let theme = 'light';
+    let theme = 'dark';
     for (const s of themed) { const r = s.getBoundingClientRect(); if (r.top <= 36 && r.bottom > 36) { theme = s.dataset.theme; break; } }
-    if (theme === 'red' && fill.style.clipPath !== 'none') theme = 'light';
+    if (theme === 'red' && fill.style.clipPath !== 'none') theme = 'dark';
     if (nav.dataset.theme !== theme) nav.dataset.theme = theme;
     const y = scrollY;
     if (Math.abs(y - lastY) > 6) { nav.classList.toggle('hide', y > lastY && y > vh * .6); lastY = y; }

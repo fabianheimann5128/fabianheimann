@@ -13,7 +13,7 @@
 <meta property="og:site_name" content="Praxel">
 <meta property="og:title" content="Webseite für Zahnärzte – kostenloser Entwurf">
 <meta property="og:description" content="Schicken Sie den Link zu Ihrer jetzigen Praxis-Webseite und erhalten Sie kostenlos einen Entwurf der neuen.">
-<meta name="theme-color" content="#ece5d8">
+<meta name="theme-color" content="#0c0b0a">
 <link rel="preload" href="../fonts/funnel-display.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="../fonts/funnel-sans.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230c0b0a'/%3E%3Cg transform='translate(5 6)' fill='%23ff3d1f'%3E%3Cpath d='M0 0h5.6L22 20h-5.6z'/%3E%3Cpath d='M16.4 0H22l-7.4 9L11.8 5.6z'/%3E%3Cpath d='M7.4 11l2.8 3.4L5.6 20H0z'/%3E%3C/g%3E%3C/svg%3E">
@@ -51,10 +51,10 @@
 }
 </script>
 </head>
-<body class="lp lp--zahn">
+<body class="lp">
 <a class="skip" href="#inhalt">Zum Inhalt springen</a>
 
-<header class="nav" data-theme="light">
+<header class="nav" data-theme="dark">
   <a class="nav__logo" href="../" aria-label="Praxel, zur Startseite">Pra<svg class="brand-x" viewBox="0 0 22 20" aria-hidden="true"><path d="M0 0h5.6L22 20h-5.6z"/><path d="M16.4 0H22l-7.4 9L11.8 5.6z"/><path d="M7.4 11l2.8 3.4L5.6 20H0z"/></svg>el</a>
   <nav class="nav__links" aria-label="Seitennavigation">
     <a href="#einfach">So einfach</a>
@@ -70,15 +70,15 @@
   <svg class="thread" aria-hidden="true"><path class="thread__path" fill="none"/><circle class="thread__tip" r="5"/></svg>
 
   <!-- ============ Hero ============ -->
-  <section class="hero" id="top" data-theme="light">
+  <section class="hero" id="top" data-theme="dark">
     <canvas class="hero__rope" aria-hidden="true"></canvas>
     <i class="knot knot--hero" data-knot></i>
     <div class="hero__inner">
       <p class="eyebrow hero__eyebrow"><span>Webseiten für Zahnarztpraxen</span></p>
-      <h1 class="hero__title" data-split>Schicken Sie mir Ihren Link. Sie erhalten kostenlos den Entwurf Ihrer neuen <em>Zahnarzt-Webseite.</em></h1>
-      <p class="hero__lead">Innerhalb von drei Tagen sehen Sie Ihre neue Startseite, gebaut aus Ihren Inhalten. Nur wenn sie Ihnen gefällt, sprechen wir unverbindlich darüber, wie es weitergeht.</p>
+      <h1 class="hero__title" data-split>Sehen Sie Ihre neue Zahnarzt-Webseite, bevor Sie sich entscheiden. <em>Kostenlos.</em></h1>
+      <p class="hero__lead">Sie nennen mir die Adresse Ihrer jetzigen Webseite und erhalten innerhalb von drei Tagen einen Entwurf Ihrer neuen Startseite, gebaut aus Ihren Inhalten. Nur wenn er Ihnen gefällt, sprechen wir unverbindlich darüber, wie es weitergeht.</p>
       <div class="hero__form">
-        <form class="ask " data-lead data-endpoint="../anfrage.php" data-email="kontakt@praxel-deutschland.de" novalidate>
+        <form class="ask" data-lead data-endpoint="../anfrage.php" data-email="kontakt@praxel-deutschland.de" novalidate>
           <label class="ask__f"><span>Link zu Ihrer jetzigen Webseite</span><input type="text" name="link" id="h-link" inputmode="url" autocomplete="url" placeholder="www.ihre-praxis.de" required></label>
           <label class="ask__f"><span>Ihre E-Mail-Adresse</span><input type="email" name="email" id="h-mail" autocomplete="email" placeholder="name@ihre-praxis.de" required></label>
           <input class="ask__hp" type="text" name="website2" id="h-hp" tabindex="-1" autocomplete="off" aria-hidden="true">
@@ -129,7 +129,7 @@
   </section>
 
   <!-- ============ Warum kostenlos ============ -->
-  <section class="lp-sec alt free" id="kostenlos" data-theme="light" aria-labelledby="h-frei">
+  <section class="lp-sec free" id="kostenlos" data-theme="dark" aria-labelledby="h-frei">
     <div class="wrap split">
       <header class="split__head">
         <p class="eyebrow" data-reveal>Eine berechtigte Frage</p>
@@ -148,7 +148,7 @@
   </section>
 
   <!-- ============ Praxisalltag: der Faden verknotet sich ============ -->
-  <section class="tangle" data-theme="light" aria-labelledby="h-alltag">
+  <section class="tangle" data-theme="dark" aria-labelledby="h-alltag">
     <i class="knot knot--pin" data-knot style="top:0"></i>
     <div class="tangle__pin">
       <canvas class="tangle__canvas" aria-hidden="true"></canvas>
@@ -170,7 +170,7 @@
   </section>
 
   <!-- ============ Warum die Webseite zählt ============ -->
-  <section class="lp-sec alt" data-theme="light" aria-labelledby="h-warum">
+  <section class="lp-sec" data-theme="light" aria-labelledby="h-warum">
     <i class="knot knot--c knot--top" data-knot></i>
     <div class="wrap split">
       <header class="split__head">
@@ -191,14 +191,14 @@
   </section>
 
   <!-- ============ Angebot ============ -->
-  <section class="lp-sec" id="angebot" data-theme="light" aria-labelledby="h-angebot">
+  <section class="lp-sec" id="angebot" data-theme="dark" aria-labelledby="h-angebot">
     <div class="wrap split">
       <header class="split__head">
         <p class="eyebrow" data-reveal>Das Angebot</p>
         <h2 class="h2" id="h-angebot" data-split>Der Entwurf ist kostenlos. <em>Das Gespräch ist unverbindlich.</em></h2>
         <p class="lead" data-reveal>Eine neue Webseite ist Vertrauenssache. Deshalb sehen Sie zuerst, was Sie bekommen würden, und müssen sich zu nichts verpflichten.</p>
         <p class="promise" data-reveal>Sie erhalten Ihren Entwurf innerhalb von drei Tagen. Nur wenn er Ihnen gefällt, treffen wir uns zu einem unverbindlichen Gespräch und besprechen, wie es weitergehen kann.</p>
-        <a class="btn btn--ink" href="https://wa.me/4915228064893?text=Hallo%20Herr%20Heimann%2C%20hier%20ist%20der%20Link%20zu%20unserer%20Praxis-Webseite%3A%20" target="_blank" rel="noopener" data-reveal><span>Link per WhatsApp schicken</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn btn--red" href="https://wa.me/4915228064893?text=Hallo%20Herr%20Heimann%2C%20hier%20ist%20der%20Link%20zu%20unserer%20Praxis-Webseite%3A%20" target="_blank" rel="noopener" data-reveal><span>Link per WhatsApp schicken</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
       </header>
       <div class="split__body">
         <p class="eyebrow" style="margin-bottom:1.2rem">Ihre neue Praxis-Webseite umfasst</p>
@@ -218,7 +218,7 @@
   </section>
 
   <!-- ============ Grundstein ============ -->
-  <section class="lp-sec alt" data-theme="light" aria-labelledby="h-danach">
+  <section class="lp-sec" data-theme="light" aria-labelledby="h-danach">
     <div class="wrap split">
       <header class="split__head">
         <p class="eyebrow" data-reveal>Wenn Sie später mehr möchten</p>
@@ -241,7 +241,7 @@
   </section>
 
   <!-- ============ Ablauf ============ -->
-  <section class="process" id="ablauf" data-theme="light">
+  <section class="process" id="ablauf" data-theme="dark">
     <div class="wrap process__grid">
       <header class="process__head">
         <p class="eyebrow" data-reveal>Ablauf</p>
@@ -280,7 +280,7 @@
   </section>
 
   <!-- ============ Fragen ============ -->
-  <section class="faq" id="fragen" data-theme="light">
+  <section class="faq" id="fragen" data-theme="dark">
     <div class="wrap faq__grid">
       <header class="faq__head">
         <p class="eyebrow" data-reveal>Fragen</p>
@@ -308,7 +308,7 @@
       <div class="wrap cta__grid">
         <div class="cta__copy">
           <p class="eyebrow">Hier endet der Faden. Und hier beginnt Ihr Entwurf.</p>
-          <h2 class="cta__title">Schicken Sie mir Ihren Link. <em>Ich zeige Ihnen die neue Seite.</em></h2>
+          <h2 class="cta__title">Darf ich Ihnen Ihre neue Seite <em>zeigen?</em></h2>
           <p class="lead">Eine kurze Nachricht mit der Adresse Ihrer jetzigen Webseite genügt. Sie erhalten innerhalb von drei Tagen kostenlos einen Entwurf Ihrer neuen Startseite.</p>
           <a class="btn btn--ink btn--wa" href="https://wa.me/4915228064893?text=Hallo%20Herr%20Heimann%2C%20hier%20ist%20der%20Link%20zu%20unserer%20Praxis-Webseite%3A%20" target="_blank" rel="noopener"><span>Link per WhatsApp schicken</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
           <ol class="offer">
