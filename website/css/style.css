@@ -359,6 +359,13 @@ em { font-style: normal; color: var(--red); }
 .foot { position: relative; padding: clamp(4rem, 10vh, 7rem) 0 2rem; background: var(--ink); overflow: hidden; }
 .foot__top { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2rem 4rem; }
 .foot__line { max-width: 18em; font-size: clamp(1.3rem, 2vw, 1.8rem); line-height: 1.2; letter-spacing: -.025em; }
+.foot__top > .foot__line { flex: 1 1 16rem; }
+.foot__cols { display: flex; flex-wrap: wrap; gap: 2.2rem clamp(2.5rem, 5vw, 5rem); }
+.foot__col { display: grid; gap: .6rem; align-content: start; min-width: 9rem; }
+.foot__h { margin-bottom: .5rem; font: 500 .7rem/1.4 var(--mono); letter-spacing: .14em; text-transform: uppercase; color: var(--fg-dim); }
+.foot__col a { color: var(--bone); opacity: .88; transition: color .3s, opacity .3s; }
+.foot__col a:hover { color: var(--red); opacity: 1; }
+@media (max-width: 860px) { .foot__cols { display: grid; grid-template-columns: 1fr 1fr; gap: 2.2rem 1.5rem; width: 100%; } .foot__col { min-width: 0; } }
 .foot__nav { display: grid; grid-template-columns: repeat(2, auto); gap: .5rem 3rem; }
 .foot__nav a, .foot__base a { color: var(--fg-dim); transition: color .3s; }
 .foot__nav a:hover, .foot__base a:hover { color: var(--red); }

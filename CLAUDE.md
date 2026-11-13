@@ -54,7 +54,9 @@ Software für Arztpraxen und Kliniken. Dieses Repository enthält die Webseite.
   einzige Conversion). Der Ratgeber ist von der Hauptseite aus verlinkt.
 - Welle 1 (live): Übersicht, Webseiten-Selbstcheck (offen, ohne E-Mail-Abfrage), Kosten, Relaunch, Karriereseite.
 - Welle 2: Übersichtsseite Praxis-Webseite („Was eine gute Zahnarzt-Webseite leisten muss“), Übersichtsseite
-  Personalsuche („ZFA finden“), Foto-Leitfaden (kostenlos). Danach Brotkrumen-Zwischenstufen verlinken.
+  Personalsuche („ZFA finden“), Foto-Leitfaden (kostenlos als Beitrag). Brotkrumen-Zwischenstufen sind verlinkt.
+- Footer (seit Welle 2): benannte Spalten (`.foot__cols`, Stil in `style.css`). Ratgeber-Seiten und Hauptseite:
+  Angebot / Ratgeber / Praxel. Fachseite: „Auf dieser Seite“ / Praxel, bewusst ohne Ratgeber-Spalte.
 - Welle 3: Neue Patienten gewinnen (Übersicht), Google-Bewertungen, Google-Unternehmensprofil.
   Welle 4: Online-Terminvergabe (Übersicht), Telefon entlasten. Welle 5: Pflichtangaben, Werberecht
   (Rechtsbeiträge vorher anwaltlich gegenlesen lassen; Pflichtangaben erst nach Prüfung der eigenen Datenschutzerklärung).
