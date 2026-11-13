@@ -204,6 +204,7 @@
     document.documentElement.style.overflow = open ? 'hidden' : '';
     sClose.hidden = !open;
     if (open) { sFrame.style.transform = 'none'; sFrame.style.borderRadius = '0'; sClose.focus(); }
+    else { const w = siteWin(); if (!w || !/index\.html$/.test(w.location.pathname)) sSite.src = sSite.getAttribute('src'); } // nach dem Durchklicken zurück zur Startseite
   }
   $('[data-stage-open]').addEventListener('click', () => openStage(true));
   sClose.addEventListener('click', () => openStage(false));

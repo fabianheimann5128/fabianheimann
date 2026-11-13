@@ -3,97 +3,63 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Zahnmedizin Lindenhain – Beispielentwurf</title>
+<title>Start – Zahnmedizin Lindenhain (Beispielentwurf)</title>
 <meta name="robots" content="noindex, nofollow">
 <meta name="description" content="Beispielentwurf einer Praxis-Webseite. Die Praxis ist erfunden.">
 <link rel="preload" href="../../fonts/funnel-display.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="demo.css">
 <script>document.documentElement.classList.add('js')</script>
 </head>
-<body>
-<p class="demo-note">Beispielentwurf · Praxis, Personen und Kontaktdaten sind erfunden</p>
-
+<body class="home">
 <header class="top">
-  <a class="logo" href="#start" aria-label="Zahnmedizin Lindenhain, Startseite"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M6 13c0-5 4-8 10-8s10 3 10 8c0 6-3 14-6 14-2 0-2-6-4-6s-2 6-4 6c-3 0-6-8-6-14z"/></svg><span>Lindenhain<small>Zahnmedizin</small></span></a>
-  <nav class="menu" aria-label="Hauptnavigation">
-    <a href="#leistungen">Leistungen</a><a href="#besuch">Ihr Besuch</a><a href="#praxis">Praxis</a><a href="#team">Team</a><a href="#karriere">Karriere</a><a href="#kontakt">Kontakt</a>
-  </nav>
+  <a class="logo" href="index.html" aria-label="Zahnmedizin Lindenhain, Startseite"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M6 13c0-5 4-8 10-8s10 3 10 8c0 6-3 14-6 14-2 0-2-6-4-6s-2 6-4 6c-3 0-6-8-6-14z"/></svg><span>Lindenhain<small>Zahnmedizin</small></span></a>
+  <nav class="menu" aria-label="Hauptnavigation"><a href="leistungen.html">Leistungen</a><a href="praxis.html">Praxis & Team</a><a href="karriere.html">Karriere</a><a href="kontakt.html">Kontakt</a></nav>
   <div class="top__cta">
     <a class="tel" href="tel:+4930000000">030 000 00 00</a>
-    <a class="b b--solid" href="#termin">Termin anfragen</a>
+    <a class="b b--solid" href="kontakt.html#termin">Termin anfragen</a>
+    <button class="burger" type="button" aria-label="Menü öffnen" aria-expanded="false"><i></i><i></i></button>
   </div>
 </header>
+<nav class="drawer" aria-label="Mobile Navigation" hidden><a href="leistungen.html">Leistungen</a><a href="praxis.html">Praxis & Team</a><a href="karriere.html">Karriere</a><a href="kontakt.html">Kontakt</a><a class="b b--solid b--lg" href="kontakt.html#termin">Termin anfragen</a></nav>
 
 <main>
-  <!-- Start -->
-  <section class="hero" id="start" data-tour="Ein erster Eindruck, der zur Praxis passt|Wer die Seite öffnet, sieht sofort, wer Sie sind, ob heute geöffnet ist und wie man einen Termin bekommt.">
-    <div class="hero__text">
+  <section class="hero" data-tour="Ein erster Eindruck, der zur Praxis passt|Ein großes Bild, ein klarer Satz und sofort die wichtigsten Antworten: Ist heute geöffnet, und wie bekomme ich einen Termin?">
+    <video class="hero__video" autoplay muted loop playsinline preload="metadata" poster="img/hero-poster.jpg" aria-hidden="true"><source src="img/hero.mp4" type="video/mp4"></video>
+    <div class="hero__shade"></div>
+    <div class="hero__in">
       <p class="status" data-status><i></i><span>Sprechzeiten werden geladen</span></p>
       <h1 data-r>Zahnmedizin, für die wir uns <em>Zeit nehmen.</em></h1>
       <p class="lede" data-r>In unserer Praxis am Lindenhain erklären wir, bevor wir behandeln. Sie wissen immer, was wir tun, warum wir es tun und was es kostet.</p>
-      <div class="row" data-r>
-        <a class="b b--solid b--lg" href="#termin">Termin anfragen</a>
-        <a class="b b--ghost b--lg" href="#leistungen">Unsere Leistungen</a>
-      </div>
-      <ul class="facts" data-r>
-        <li><b>Alle Kassen und privat</b><span>Gesetzlich und privat Versicherte</span></li>
-        <li><b>Eigenes Labor</b><span>Kurze Wege bei Zahnersatz</span></li>
-        <li><b>Barrierefrei</b><span>Aufzug bis in die Praxis</span></li>
-      </ul>
+      <div class="row" data-r><a class="b b--light b--lg" href="kontakt.html#termin">Termin anfragen</a><a class="b b--line b--lg" href="leistungen.html">Unsere Leistungen</a></div>
     </div>
-    <div class="hero__media" data-r>
-      <div class="photo photo--hero" data-parallax><span>Platz für Ihr Praxisfoto</span></div>
-      <div class="pain"><b>Akute Schmerzen?</b><span>Rufen Sie uns an. Wir finden noch heute eine Lösung.</span><a href="tel:+4930000000">030 000 00 00</a></div>
-    </div>
+    <aside class="pain" data-r><b>Akute Schmerzen?</b><span>Rufen Sie uns an. Wir finden noch heute eine Lösung.</span><a href="tel:+4930000000">030 000 00 00</a></aside>
+    <ul class="facts">
+      <li><b>Alle Kassen und privat</b><span>Gesetzlich und privat Versicherte</span></li>
+      <li><b>Eigenes Labor</b><span>Kurze Wege bei Zahnersatz</span></li>
+      <li><b>Barrierefrei</b><span>Aufzug bis in die Praxis</span></li>
+      <li><b>Parkplätze am Haus</b><span>Haltestelle vor der Tür</span></li>
+    </ul>
   </section>
 
-  <!-- Haltung -->
-  <section class="belief">
-    <p data-r>Ein guter Zahnarztbesuch beginnt mit Zuhören. Deshalb planen wir für jeden Termin genug Zeit ein, sprechen offen über Möglichkeiten und Kosten und behandeln erst, wenn Ihre Fragen beantwortet sind.</p>
+  <section class="belief"><p data-r>Ein guter Zahnarztbesuch beginnt mit Zuhören. Deshalb planen wir für jeden Termin genug Zeit ein, sprechen offen über Möglichkeiten und Kosten und behandeln erst, wenn Ihre Fragen beantwortet sind.</p></section>
+
+  <section class="sec" data-tour="Ihre Schwerpunkte stehen vorn|Jede Leistung hat ein Bild, einen verständlichen Satz und eine eigene Seite mit Ablauf, Dauer und Kosten. Sachlich und ohne Heilversprechen.">
+    <header class="sec__head sec__head--row"><div><p class="kick" data-r>Leistungen</p><h2 data-r>Was wir für Ihre Zähne <em>tun können.</em></h2></div><a class="more" href="leistungen.html" data-r>Alle Leistungen <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></header>
+    <div class="cards"><a class="card" href="leistungen.html#vorsorge" data-r><img class="" src="img/behandlung.webp" alt="Vorsorge und Prophylaxe" width="1600" height="1067" loading="lazy"><span class="card__no">01</span><b>Vorsorge und Prophylaxe</b><span>Kontrolle und professionelle Zahnreinigung, damit kleine Probleme klein bleiben.</span><i><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></i></a><a class="card" href="leistungen.html#zahnerhalt" data-r><img class="" src="img/patient.webp" alt="Zahnerhalt und Füllungen" width="1600" height="1067" loading="lazy"><span class="card__no">02</span><b>Zahnerhalt und Füllungen</b><span>Zahnfarbene Füllungen und Wurzelbehandlungen, um Ihre eigenen Zähne zu erhalten.</span><i><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></i></a><a class="card" href="leistungen.html#implantate" data-r><img class="" src="img/raum-1.webp" alt="Implantate und Zahnersatz" width="1600" height="1067" loading="lazy"><span class="card__no">03</span><b>Implantate und Zahnersatz</b><span>Von der Krone bis zum Implantat, geplant mit Ihnen und gefertigt im eigenen Labor.</span><i><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></i></a><a class="card" href="leistungen.html#zahnschienen" data-r><img class="" src="img/schienen.webp" alt="Unsichtbare Zahnschienen" width="1600" height="1067" loading="lazy"><span class="card__no">04</span><b>Unsichtbare Zahnschienen</b><span>Durchsichtige Schienen für leichte bis mittlere Fehlstellungen.</span><i><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></i></a><a class="card" href="leistungen.html#aesthetik" data-r><img class="" src="img/laecheln.webp" alt="Ästhetische Zahnmedizin" width="1600" height="1067" loading="lazy"><span class="card__no">05</span><b>Ästhetische Zahnmedizin</b><span>Bleaching, Veneers und zahnfarbene Korrekturen, ehrlich beraten.</span><i><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></i></a><a class="card" href="leistungen.html#kinder" data-r><img class="" src="img/kinder.webp" alt="Kinderzahnheilkunde" width="1600" height="1067" loading="lazy"><span class="card__no">06</span><b>Kinderzahnheilkunde</b><span>Ein erster Zahnarztbesuch, an den sich Kinder gern erinnern.</span><i><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></i></a></div>
   </section>
 
-  <!-- Leistungen -->
-  <section class="sec" id="leistungen" data-tour="Ihre Schwerpunkte stehen vorn|Jede Behandlung ist verständlich erklärt: wie sie abläuft, wie lange sie dauert und was vorher wichtig ist. Sachlich und ohne Heilversprechen.">
-    <header class="sec__head">
-      <p class="kick" data-r>Leistungen</p>
-      <h2 data-r>Was wir für Ihre Zähne <em>tun können.</em></h2>
-    </header>
-    <div class="svc">
-      <div class="svc__list" role="tablist" aria-label="Leistungen">
-        <button role="tab" aria-selected="true" data-svc="0"><i>01</i>Vorsorge und Prophylaxe</button>
-        <button role="tab" aria-selected="false" data-svc="1"><i>02</i>Zahnerhalt und Füllungen</button>
-        <button role="tab" aria-selected="false" data-svc="2"><i>03</i>Implantate und Zahnersatz</button>
-        <button role="tab" aria-selected="false" data-svc="3"><i>04</i>Unsichtbare Zahnschienen</button>
-        <button role="tab" aria-selected="false" data-svc="4"><i>05</i>Ästhetische Zahnmedizin</button>
-        <button role="tab" aria-selected="false" data-svc="5"><i>06</i>Kinderzahnheilkunde</button>
-      </div>
-      <div class="svc__panels">
-        <article class="panel on"><div class="photo photo--a"><span>Foto: Prophylaxe</span></div><h3>Vorsorge und Prophylaxe</h3><p>Regelmäßige Kontrollen und eine professionelle Zahnreinigung helfen, Karies und Zahnfleischentzündungen früh zu erkennen. Wir zeigen Ihnen dabei, worauf Sie bei der Pflege zu Hause achten können.</p><dl><div><dt>Ablauf</dt><dd>Untersuchung, Reinigung, Politur und eine kurze Beratung zur Pflege.</dd></div><div><dt>Dauer</dt><dd>In der Regel 45 bis 60 Minuten.</dd></div><div><dt>Kosten</dt><dd>Die Kontrolle übernimmt die Krankenkasse. Die Zahnreinigung ist meist eine Privatleistung, viele Kassen bezuschussen sie.</dd></div></dl></article>
-        <article class="panel"><div class="photo photo--b"><span>Foto: Behandlung</span></div><h3>Zahnerhalt und Füllungen</h3><p>Unser Ziel ist, Ihre eigenen Zähne so lange wie möglich zu erhalten. Dazu gehören zahnfarbene Füllungen und, wenn nötig, eine Wurzelbehandlung.</p><dl><div><dt>Ablauf</dt><dd>Befund, Besprechung der Möglichkeiten, Behandlung unter örtlicher Betäubung.</dd></div><div><dt>Dauer</dt><dd>Je nach Befund ein bis zwei Termine.</dd></div><div><dt>Kosten</dt><dd>Sie erhalten vorab eine Übersicht, was die Kasse trägt und was Sie selbst zahlen.</dd></div></dl></article>
-        <article class="panel"><div class="photo photo--c"><span>Foto: Beratung</span></div><h3>Implantate und Zahnersatz</h3><p>Fehlt ein Zahn, besprechen wir mit Ihnen alle Möglichkeiten, von der Brücke bis zum Implantat. Welche Lösung passt, hängt von Ihrem Befund und Ihren Wünschen ab.</p><dl><div><dt>Ablauf</dt><dd>Beratung und Diagnostik, Planung, Eingriff, Einheilzeit, Versorgung mit Zahnersatz.</dd></div><div><dt>Dauer</dt><dd>Mehrere Termine über einige Monate. Den Zeitplan erhalten Sie nach der Planung.</dd></div><div><dt>Kosten</dt><dd>Vor Beginn erstellen wir einen Heil- und Kostenplan, den Sie bei Ihrer Kasse einreichen können.</dd></div></dl></article>
-        <article class="panel"><div class="photo photo--d"><span>Foto: Zahnschiene</span></div><h3>Unsichtbare Zahnschienen</h3><p>Leichte bis mittlere Zahnfehlstellungen lassen sich häufig mit durchsichtigen Schienen korrigieren. Ob das in Ihrem Fall möglich ist, klären wir in einer Beratung.</p><dl><div><dt>Ablauf</dt><dd>Beratung, digitaler Abdruck, Behandlungsplan, Schienen in mehreren Stufen, Kontrollen.</dd></div><div><dt>Dauer</dt><dd>Abhängig von der Fehlstellung. Sie sehen den voraussichtlichen Verlauf vor dem Start.</dd></div><div><dt>Kosten</dt><dd>Privatleistung. Sie erhalten vorab ein schriftliches Angebot.</dd></div></dl></article>
-        <article class="panel"><div class="photo photo--e"><span>Foto: Beratung</span></div><h3>Ästhetische Zahnmedizin</h3><p>Bleaching, Veneers oder zahnfarbene Korrekturen können das Aussehen der Zähne verändern. Wir beraten Sie ehrlich, was sinnvoll ist und wo wir zurückhaltend wären.</p><dl><div><dt>Ablauf</dt><dd>Gespräch über Ihre Wünsche, Befund, Vorschlag mit Alternativen.</dd></div><div><dt>Dauer</dt><dd>Je nach Behandlung ein Termin oder mehrere.</dd></div><div><dt>Kosten</dt><dd>Privatleistung. Sie erhalten vorab ein schriftliches Angebot.</dd></div></dl></article>
-        <article class="panel"><div class="photo photo--f"><span>Foto: Kinderbehandlung</span></div><h3>Kinderzahnheilkunde</h3><p>Der erste Zahnarztbesuch soll eine gute Erfahrung sein. Wir nehmen uns Zeit, erklären kindgerecht und beginnen mit einem Kennenlernen ohne Behandlung.</p><dl><div><dt>Ablauf</dt><dd>Kennenlernen der Praxis, Blick in den Mund, Tipps für Eltern.</dd></div><div><dt>Dauer</dt><dd>Etwa 30 Minuten.</dd></div><div><dt>Kosten</dt><dd>Vorsorgeuntersuchungen für Kinder übernimmt die Krankenkasse.</dd></div></dl></article>
-      </div>
-    </div>
-  </section>
-
-  <!-- Angst -->
-  <section class="calm">
-    <div class="calm__in">
+  <section class="split split--dark">
+    <figure data-r><img class="" src="img/ruhe.webp" alt="Patientin sitzt entspannt im Behandlungsstuhl" width="1600" height="1067" loading="lazy"></figure>
+    <div class="split__text">
       <p class="kick" data-r>Angst vor dem Zahnarzt</p>
       <h2 data-r>Sie bestimmen <em>das Tempo.</em></h2>
       <p data-r>Viele Menschen gehen ungern zum Zahnarzt. Bei uns beginnt alles mit einem Gespräch ohne Behandlung. Wir vereinbaren ein Handzeichen, bei dem wir sofort unterbrechen, und planen bewusst mehr Zeit ein.</p>
-      <a class="b b--light" href="#termin" data-r>Gespräch vereinbaren</a>
+      <a class="b b--light" href="kontakt.html#termin" data-r>Gespräch vereinbaren</a>
     </div>
   </section>
 
-  <!-- Besuch -->
-  <section class="sec" id="besuch">
-    <header class="sec__head">
-      <p class="kick" data-r>Ihr erster Besuch</p>
-      <h2 data-r>So läuft es bei uns <em>ab.</em></h2>
-    </header>
+  <section class="sec">
+    <header class="sec__head"><p class="kick" data-r>Ihr erster Besuch</p><h2 data-r>So läuft es bei uns <em>ab.</em></h2></header>
     <ol class="visit">
       <li data-r><i>1</i><b>Termin anfragen</b><span>Online oder telefonisch. Sie nennen Ihr Anliegen und Ihre Wunschzeit.</span></li>
       <li data-r><i>2</i><b>Ankommen</b><span>Den Anamnesebogen können Sie vorab zu Hause ausfüllen.</span></li>
@@ -102,119 +68,38 @@
     </ol>
   </section>
 
-  <!-- Praxis -->
-  <section class="sec sec--tint" id="praxis">
-    <header class="sec__head">
-      <p class="kick" data-r>Die Praxis</p>
-      <h2 data-r>Helle Räume, kurze Wege, <em>moderne Technik.</em></h2>
-    </header>
-    <div class="rooms">
-      <div class="photo photo--r1" data-r><span>Foto: Empfang</span></div>
-      <div class="photo photo--r2" data-r><span>Foto: Behandlungsraum</span></div>
-      <div class="photo photo--r3" data-r><span>Foto: Wartebereich</span></div>
-    </div>
-    <ul class="feat">
-      <li data-r><b>Digitales Röntgen</b><span>Mit geringer Strahlenbelastung und sofort verfügbaren Bildern.</span></li>
-      <li data-r><b>Digitaler Abdruck</b><span>Ein Scan ersetzt in vielen Fällen die Abdruckmasse.</span></li>
-      <li data-r><b>Eigenes Labor</b><span>Zahnersatz entsteht im Haus, Anpassungen gehen schnell.</span></li>
-      <li data-r><b>Gut erreichbar</b><span>Parkplätze am Haus, Haltestelle vor der Tür, Aufzug.</span></li>
-    </ul>
-  </section>
-
-  <!-- Team -->
-  <section class="sec" id="team" data-tour="Gesichter schaffen Vertrauen|Patienten möchten wissen, wer sie behandelt. Das Team bekommt Platz, mit Fotos und ein paar persönlichen Worten.">
-    <header class="sec__head">
-      <p class="kick" data-r>Team</p>
-      <h2 data-r>Die Menschen, die Sie <em>behandeln.</em></h2>
-    </header>
-    <ul class="team">
-      <li data-r><div class="photo photo--p1"><span>Porträt</span></div><b>Dr. Miriam Voss</b><span>Zahnärztin, Praxisinhaberin</span><p>Schwerpunkte: Zahnerhalt und Implantologie</p></li>
-      <li data-r><div class="photo photo--p2"><span>Porträt</span></div><b>Dr. Jonas Keller</b><span>Zahnarzt</span><p>Schwerpunkte: Zahnschienen und Ästhetik</p></li>
-      <li data-r><div class="photo photo--p3"><span>Porträt</span></div><b>Aylin Demir</b><span>Dentalhygienikerin</span><p>Prophylaxe und Parodontitis-Nachsorge</p></li>
-      <li data-r><div class="photo photo--p4"><span>Porträt</span></div><b>Sophie Brandt</b><span>Praxismanagerin</span><p>Ihre Ansprechpartnerin am Empfang</p></li>
-    </ul>
-  </section>
-
-  <!-- Karriere -->
-  <section class="career" id="karriere" data-tour="Bewerber fühlen sich angesprochen|Eine eigene Karriereseite zeigt, was die Praxis bietet. Die Bewerbung dauert zwei Minuten und funktioniert auch vom Handy.">
-    <div class="career__in">
-      <div>
-        <p class="kick" data-r>Karriere</p>
-        <h2 data-r>Werde Teil <em>unseres Teams.</em></h2>
-        <p data-r>Wir suchen Menschen, die gern mit Patienten arbeiten und sich weiterentwickeln möchten. Bei uns gibt es feste Arbeitszeiten, bezahlte Fortbildungen und ein Team, das zusammenhält.</p>
-        <ul class="jobs">
-          <li data-r><div><b>ZFA (m/w/d)</b><span>Voll- oder Teilzeit · Assistenz und Prophylaxe</span></div><a href="#bewerben">Bewerben</a></li>
-          <li data-r><div><b>Ausbildung zur ZFA</b><span>Start im Sommer · mit fester Ansprechpartnerin</span></div><a href="#bewerben">Bewerben</a></li>
-        </ul>
-      </div>
-      <form class="apply" id="bewerben" data-form data-r>
-        <b>In zwei Minuten bewerben</b>
-        <label>Name<input type="text" name="n" id="a-n" autocomplete="name"></label>
-        <label>Telefon oder E-Mail<input type="text" name="c" id="a-c"></label>
-        <label>Wofür interessierst du dich?<select name="j" id="a-j"><option>ZFA (m/w/d)</option><option>Ausbildung zur ZFA</option><option>Initiativ</option></select></label>
-        <button class="b b--light" type="submit">Absenden</button>
-        <p class="done" hidden>In der echten Seite käme jetzt eine Bestätigung. Im Beispiel wird nichts gesendet.</p>
-        <small>Ein Anschreiben brauchst du nicht. Wir melden uns bei dir.</small>
-      </form>
+  <section class="sec sec--tint" data-tour="Gesichter und Räume schaffen Vertrauen|Patienten möchten wissen, wo sie hinkommen und wer sie behandelt. Praxis und Team bekommen deshalb viel Platz.">
+    <header class="sec__head sec__head--row"><div><p class="kick" data-r>Praxis und Team</p><h2 data-r>Helle Räume und Menschen, <em>die zuhören.</em></h2></div><a class="more" href="praxis.html" data-r>Praxis ansehen <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></header>
+    <div class="mosaic">
+      <figure class="m1" data-r><img class="" src="img/empfang.webp" alt="Empfang der Praxis" width="1600" height="1067" loading="lazy"></figure>
+      <figure class="m2" data-r><img class="" src="img/raum-2.webp" alt="Behandlungsraum" width="1067" height="1600" loading="lazy"></figure>
+      <figure class="m3" data-r><img class="" src="img/aerztin.webp" alt="Zahnärztin der Praxis" width="1067" height="1600" loading="lazy"><figcaption><b>Dr. Miriam Voss</b>Zahnärztin, Praxisinhaberin</figcaption></figure>
+      <figure class="m4" data-r><img class="" src="img/arzt.webp" alt="Zahnarzt der Praxis" width="1600" height="1067" loading="lazy"><figcaption><b>Dr. Jonas Keller</b>Zahnarzt</figcaption></figure>
     </div>
   </section>
 
-  <!-- Fragen -->
-  <section class="sec" id="fragen">
-    <header class="sec__head">
-      <p class="kick" data-r>Häufige Fragen</p>
-      <h2 data-r>Gut zu <em>wissen.</em></h2>
-    </header>
-    <div class="faq">
-      <details name="f" data-r><summary>Nehmen Sie neue Patienten auf?</summary><p>Ja. Neue Patientinnen und Patienten sind willkommen, gesetzlich wie privat versichert.</p></details>
-      <details name="f" data-r><summary>Was kostet eine Behandlung?</summary><p>Vor jeder Behandlung, die über die Kassenleistung hinausgeht, erhalten Sie eine schriftliche Übersicht der Kosten. Sie entscheiden erst danach.</p></details>
-      <details name="f" data-r><summary>Was mache ich bei akuten Schmerzen?</summary><p>Rufen Sie uns während der Sprechzeiten an. Wir halten täglich Zeit für Notfälle frei. Außerhalb der Sprechzeiten hilft der zahnärztliche Notdienst.</p></details>
-      <details name="f" data-r><summary>Kann ich den Anamnesebogen vorab ausfüllen?</summary><p>Ja. Nach der Terminbestätigung erhalten Sie einen Link und können den Bogen in Ruhe zu Hause ausfüllen.</p></details>
-    </div>
+  <section class="strip" data-tour="Karriere hat eine eigene Seite|Auf der Startseite genügt ein kurzer Hinweis. Die Stellen, die Vorteile und die Kurzbewerbung stehen auf einer eigenen Seite.">
+    <p data-r><b>Wir suchen Verstärkung.</b> ZFA in Voll- oder Teilzeit und Auszubildende.</p>
+    <a class="more" href="karriere.html" data-r>Zur Karriereseite <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
   </section>
 
-  <!-- Kontakt -->
-  <section class="contact" id="kontakt" data-tour="Terminwünsche kommen geordnet an|Sprechzeiten, Anfahrt und Terminanfrage stehen an einem Ort. Am Empfang liegt eine vollständige Anfrage statt eines Anrufs zwischendurch.">
-    <div class="contact__in">
-      <div class="hours">
-        <p class="kick">Sprechzeiten</p>
-        <table>
-          <tr data-day="1"><th>Montag</th><td>8:00 – 18:00</td></tr>
-          <tr data-day="2"><th>Dienstag</th><td>8:00 – 18:00</td></tr>
-          <tr data-day="3"><th>Mittwoch</th><td>8:00 – 13:00</td></tr>
-          <tr data-day="4"><th>Donnerstag</th><td>8:00 – 19:00</td></tr>
-          <tr data-day="5"><th>Freitag</th><td>8:00 – 14:00</td></tr>
-        </table>
-        <address>Lindenhain 12<br>12345 Musterstadt<br><a href="tel:+4930000000">030 000 00 00</a></address>
-        <div class="map" aria-hidden="true"><i></i><span>Karte und Anfahrt</span></div>
-      </div>
-      <form class="book" id="termin" data-form>
-        <p class="kick">Termin anfragen</p>
-        <h2>Wann passt es <em>Ihnen?</em></h2>
-        <fieldset><legend>Worum geht es?</legend>
-          <label><input type="radio" name="w" checked><span>Kontrolle</span></label>
-          <label><input type="radio" name="w"><span>Schmerzen</span></label>
-          <label><input type="radio" name="w"><span>Beratung</span></label>
-          <label><input type="radio" name="w"><span>Zahnreinigung</span></label>
-        </fieldset>
-        <label>Wunschzeit<input type="text" name="t" id="b-t" placeholder="z. B. vormittags, Dienstag oder Donnerstag"></label>
-        <div class="two"><label>Name<input type="text" name="n" id="b-n" autocomplete="name"></label><label>Telefon<input type="tel" name="p" id="b-p" autocomplete="tel"></label></div>
-        <button class="b b--solid b--lg" type="submit">Anfrage senden</button>
-        <p class="done" hidden>In der echten Seite käme jetzt eine Bestätigung. Im Beispiel wird nichts gesendet.</p>
-        <small>Wir melden uns innerhalb der Sprechzeiten bei Ihnen zurück.</small>
-      </form>
+  <section class="band" data-tour="Terminwünsche kommen geordnet an|Jede Seite endet mit einer klaren Einladung zum Termin. Am Empfang liegt eine vollständige Anfrage statt eines Anrufs zwischendurch.">
+    <div class="band__in">
+      <h2 data-r>Wann dürfen wir uns Zeit <em>für Sie nehmen?</em></h2>
+      <div class="row" data-r><a class="b b--light b--lg" href="kontakt.html#termin">Termin anfragen</a><a class="b b--line b--lg" href="tel:+4930000000">030 000 00 00</a></div>
     </div>
   </section>
 </main>
 
 <footer class="end">
   <div class="end__in">
-    <a class="logo logo--light" href="#start"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M6 13c0-5 4-8 10-8s10 3 10 8c0 6-3 14-6 14-2 0-2-6-4-6s-2 6-4 6c-3 0-6-8-6-14z"/></svg><span>Lindenhain<small>Zahnmedizin</small></span></a>
-    <nav aria-label="Fußnavigation"><a href="#leistungen">Leistungen</a><a href="#team">Team</a><a href="#karriere">Karriere</a><a href="#kontakt">Kontakt</a><a href="#start">Impressum</a><a href="#start">Datenschutz</a></nav>
-    <p>Beispielentwurf von Fabian Heimann. Praxis, Personen und Kontaktdaten sind erfunden.</p>
+    <div class="end__brand"><a class="logo logo--light" href="index.html"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M6 13c0-5 4-8 10-8s10 3 10 8c0 6-3 14-6 14-2 0-2-6-4-6s-2 6-4 6c-3 0-6-8-6-14z"/></svg><span>Lindenhain<small>Zahnmedizin</small></span></a><p>Zahnmedizin, für die wir uns Zeit nehmen.</p></div>
+    <div><b>Sprechzeiten</b><p>Mo, Di 8–18 Uhr<br>Mi 8–13 Uhr<br>Do 8–19 Uhr<br>Fr 8–14 Uhr</p></div>
+    <div><b>Kontakt</b><p>Lindenhain 12<br>12345 Musterstadt<br><a href="tel:+4930000000">030 000 00 00</a></p></div>
+    <nav aria-label="Fußnavigation"><b>Seiten</b><a href="leistungen.html">Leistungen</a><a href="praxis.html">Praxis & Team</a><a href="karriere.html">Karriere</a><a href="kontakt.html">Kontakt</a><a href="index.html">Impressum</a><a href="index.html">Datenschutz</a></nav>
+    <p class="end__note">Beispielentwurf von Fabian Heimann. Praxis, Personen und Kontaktdaten sind erfunden, die Fotos sind lizenzfreie Beispielbilder von Pexels.</p>
   </div>
 </footer>
-
 <script src="demo.js" defer></script>
 </body>
 </html>

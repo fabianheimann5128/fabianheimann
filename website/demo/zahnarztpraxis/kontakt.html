@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kontakt und Termin – Zahnmedizin Lindenhain (Beispielentwurf)</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Beispielentwurf einer Praxis-Webseite. Die Praxis ist erfunden.">
+<link rel="preload" href="../../fonts/funnel-display.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="demo.css">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body class="sub">
+<header class="top">
+  <a class="logo" href="index.html" aria-label="Zahnmedizin Lindenhain, Startseite"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M6 13c0-5 4-8 10-8s10 3 10 8c0 6-3 14-6 14-2 0-2-6-4-6s-2 6-4 6c-3 0-6-8-6-14z"/></svg><span>Lindenhain<small>Zahnmedizin</small></span></a>
+  <nav class="menu" aria-label="Hauptnavigation"><a href="leistungen.html">Leistungen</a><a href="praxis.html">Praxis & Team</a><a href="karriere.html">Karriere</a><a href="kontakt.html" aria-current="page">Kontakt</a></nav>
+  <div class="top__cta">
+    <a class="tel" href="tel:+4930000000">030 000 00 00</a>
+    <a class="b b--solid" href="kontakt.html#termin">Termin anfragen</a>
+    <button class="burger" type="button" aria-label="Menü öffnen" aria-expanded="false"><i></i><i></i></button>
+  </div>
+</header>
+<nav class="drawer" aria-label="Mobile Navigation" hidden><a href="leistungen.html">Leistungen</a><a href="praxis.html">Praxis & Team</a><a href="karriere.html">Karriere</a><a href="kontakt.html" aria-current="page">Kontakt</a><a class="b b--solid b--lg" href="kontakt.html#termin">Termin anfragen</a></nav>
+
+<main>
+  <section class="contact">
+    <div class="contact__in">
+      <div class="hours">
+        <p class="kick">Kontakt</p>
+        <h1>So erreichen <em>Sie uns.</em></h1>
+        <table>
+          <tr data-day="1"><th>Montag</th><td>8:00 – 18:00</td></tr>
+          <tr data-day="2"><th>Dienstag</th><td>8:00 – 18:00</td></tr>
+          <tr data-day="3"><th>Mittwoch</th><td>8:00 – 13:00</td></tr>
+          <tr data-day="4"><th>Donnerstag</th><td>8:00 – 19:00</td></tr>
+          <tr data-day="5"><th>Freitag</th><td>8:00 – 14:00</td></tr>
+        </table>
+        <address>Lindenhain 12<br>12345 Musterstadt<br><a href="tel:+4930000000">030 000 00 00</a></address>
+        <div class="map" aria-hidden="true"><i></i><span>Karte und Anfahrt</span></div>
+      </div>
+      <form class="book" id="termin" data-form>
+        <p class="kick">Termin anfragen</p>
+        <h2>Wann passt es <em>Ihnen?</em></h2>
+        <fieldset><legend>Worum geht es?</legend>
+          <label><input type="radio" name="w" checked><span>Kontrolle</span></label>
+          <label><input type="radio" name="w"><span>Schmerzen</span></label>
+          <label><input type="radio" name="w"><span>Beratung</span></label>
+          <label><input type="radio" name="w"><span>Zahnreinigung</span></label>
+        </fieldset>
+        <label>Wunschzeit<input type="text" name="t" id="b-t" placeholder="z. B. vormittags, Dienstag oder Donnerstag"></label>
+        <div class="two"><label>Name<input type="text" name="n" id="b-n" autocomplete="name"></label><label>Telefon<input type="tel" name="p" id="b-p" autocomplete="tel"></label></div>
+        <button class="b b--solid b--lg" type="submit">Anfrage senden</button>
+        <p class="done" hidden>In der echten Seite käme jetzt eine Bestätigung. Im Beispiel wird nichts gesendet.</p>
+        <small>Wir melden uns innerhalb der Sprechzeiten bei Ihnen zurück.</small>
+      </form>
+    </div>
+  </section>
+
+  <section class="sec">
+    <header class="sec__head"><p class="kick" data-r>Häufige Fragen</p><h2 data-r>Gut zu <em>wissen.</em></h2></header>
+    <div class="faq">
+      <details name="f" data-r><summary>Nehmen Sie neue Patienten auf?</summary><p>Ja. Neue Patientinnen und Patienten sind willkommen, gesetzlich wie privat versichert.</p></details>
+      <details name="f" data-r><summary>Was kostet eine Behandlung?</summary><p>Vor jeder Behandlung, die über die Kassenleistung hinausgeht, erhalten Sie eine schriftliche Übersicht der Kosten. Sie entscheiden erst danach.</p></details>
+      <details name="f" data-r><summary>Was mache ich bei akuten Schmerzen?</summary><p>Rufen Sie uns während der Sprechzeiten an. Wir halten täglich Zeit für Notfälle frei. Außerhalb der Sprechzeiten hilft der zahnärztliche Notdienst.</p></details>
+      <details name="f" data-r><summary>Kann ich den Anamnesebogen vorab ausfüllen?</summary><p>Ja. Nach der Terminbestätigung erhalten Sie einen Link und können den Bogen in Ruhe zu Hause ausfüllen.</p></details>
+    </div>
+  </section>
+</main>
+
+<footer class="end">
+  <div class="end__in">
+    <div class="end__brand"><a class="logo logo--light" href="index.html"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M6 13c0-5 4-8 10-8s10 3 10 8c0 6-3 14-6 14-2 0-2-6-4-6s-2 6-4 6c-3 0-6-8-6-14z"/></svg><span>Lindenhain<small>Zahnmedizin</small></span></a><p>Zahnmedizin, für die wir uns Zeit nehmen.</p></div>
+    <div><b>Sprechzeiten</b><p>Mo, Di 8–18 Uhr<br>Mi 8–13 Uhr<br>Do 8–19 Uhr<br>Fr 8–14 Uhr</p></div>
+    <div><b>Kontakt</b><p>Lindenhain 12<br>12345 Musterstadt<br><a href="tel:+4930000000">030 000 00 00</a></p></div>
+    <nav aria-label="Fußnavigation"><b>Seiten</b><a href="leistungen.html">Leistungen</a><a href="praxis.html">Praxis & Team</a><a href="karriere.html">Karriere</a><a href="kontakt.html">Kontakt</a><a href="index.html">Impressum</a><a href="index.html">Datenschutz</a></nav>
+    <p class="end__note">Beispielentwurf von Fabian Heimann. Praxis, Personen und Kontaktdaten sind erfunden, die Fotos sind lizenzfreie Beispielbilder von Pexels.</p>
+  </div>
+</footer>
+<script src="demo.js" defer></script>
+</body>
+</html>
