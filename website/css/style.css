@@ -108,10 +108,9 @@ em { font-style: normal; color: var(--red); }
 .nav[data-theme="light"], .nav[data-theme="red"] { color: var(--ink); }
 .nav.hide { transform: translateY(-110%); }
 .nav__logo, .nav__cta { white-space: nowrap; }
-.nav__logo { font-weight: 600; letter-spacing: -.03em; font-size: 1.55rem; line-height: 1; display: inline-flex; align-items: baseline; }
-.brand-x { width: .6em; height: .56em; margin: 0 .015em; fill: none; stroke: var(--red); stroke-width: 3.5; stroke-linecap: round; overflow: visible; transition: stroke .4s; }
-.nav[data-theme="red"] .brand-x { stroke: var(--bone); }
-.foot__mark .brand-x { stroke-width: 3.3; }
+.nav__logo { font-weight: 600; letter-spacing: -.035em; font-size: 1.6rem; line-height: 1; display: inline-flex; align-items: baseline; }
+.brand-x { width: .585em; height: .532em; margin: 0 .035em 0 .05em; fill: var(--red); overflow: visible; transition: fill .4s; }
+.nav[data-theme="red"] .brand-x { fill: var(--bone); }
 .nav__logo i { width: .42em; height: .42em; border-radius: 50%; background: var(--red); transition: background .4s; }
 .nav[data-theme="red"] .nav__logo i { background: var(--ink); }
 .nav__links { display: flex; gap: 2rem; font-size: .92rem; }
