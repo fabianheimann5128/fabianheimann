@@ -21,6 +21,11 @@ Software für Arztpraxen und Kliniken. Dieses Repository enthält die Webseite.
 - `website/js/consent.js` – Einwilligung und Google-Ads-Messung
 - `website/anfrage.php` – nimmt Formularanfragen an, mailt an `fabian@praxel-deutschland.de`
 - `website/impressum.html`, `website/datenschutz.html`, `robots.txt`, `sitemap.xml`
+- `website/ratgeber/` – Ratgeber für Praxisinhaber und Praxismanager (nicht für Patienten). Statische Seiten,
+  nutzen `css/style.css`, `css/landing.css`, zusätzlich `css/ratgeber.css` und `js/ratgeber.js` (Faden-, Navigations-
+  und Formularlogik aus `landing.js` übernommen; Änderungen dort nachziehen). Pfade dort sind absolut (`/css/…`).
+- `vorlagen/ratgeber-beitrag.html` – Vorlage für neue Beiträge mit Arbeitsschritten im Kommentar (wird nicht ausgeliefert).
+  Vorschaubilder fürs Teilen liegen in `website/img/og/` (1200 × 630 px).
 - CSS und JS werden mit `?v=NN` eingebunden. Bei Änderungen die Nummer in allen HTML-Dateien erhöhen,
   sonst liefert das CDN alte Dateien.
 
@@ -38,6 +43,29 @@ Software für Arztpraxen und Kliniken. Dieses Repository enthält die Webseite.
 - Keine erfundenen Referenzen, Zahlen, Testimonials, Abschlüsse oder Erfahrungsjahre.
   OLYMP nicht als Referenz verwenden. Keine eingebettete Beispiel-Praxisseite.
 - Arbeitsweise KI-gestützt darf genannt werden.
+
+## Ratgeber und digitale Produkte (Strategie, freigegeben am 13.11.2026)
+
+- Vier Themen: Praxis-Webseite, Patientengewinnung, Personalsuche, Empfang und Termine. Adressen nach dem Muster
+  `/ratgeber/<thema>/<beitrag>/`, Übersichtsseiten je Thema unter `/ratgeber/<thema>/` (kommen ab Welle 2).
+- Jeder Beitrag: mittig genau EIN Angebot (Entwurf mit Formular, Selbstcheck oder Produkt), am Ende immer das
+  Formular für den kostenlosen Entwurf. Der Entwurf bleibt Hauptziel.
+- Die Fachseite `/webseite-fuer-zahnaerzte/` bleibt frei von Ratgeber- und Produktlinks (Ziel der Anzeigen, eine
+  einzige Conversion). Der Ratgeber ist von der Hauptseite aus verlinkt.
+- Welle 1 (live): Übersicht, Webseiten-Selbstcheck (offen, ohne E-Mail-Abfrage), Kosten, Relaunch, Karriereseite.
+- Welle 2: Übersichtsseite Praxis-Webseite („Was eine gute Zahnarzt-Webseite leisten muss“), Übersichtsseite
+  Personalsuche („ZFA finden“), Foto-Leitfaden (kostenlos). Danach Brotkrumen-Zwischenstufen verlinken.
+- Welle 3: Neue Patienten gewinnen (Übersicht), Google-Bewertungen, Google-Unternehmensprofil.
+  Welle 4: Online-Terminvergabe (Übersicht), Telefon entlasten. Welle 5: Pflichtangaben, Werberecht
+  (Rechtsbeiträge vorher anwaltlich gegenlesen lassen; Pflichtangaben erst nach Prüfung der eigenen Datenschutzerklärung).
+- Produkte: zuerst ZFA-Recruiting-Kit (79–99 €, Bruttopreis anzeigen, Verkauf nur an Praxen, Start per Bestellung auf
+  Rechnung). Später, erst bei Besuchern: Google-Kit (Unternehmensprofil + Bewertungen), Empfang entlasten
+  (zahnarztspezifisch), Leistungstexte-Baukasten zuletzt. Kein Newsletter-Produkt. Noch kein Shop, keine Bezahlfunktion.
+  Rechts- und Steuerfragen klärt Fabian vor dem Verkauf mit Anwalt und Steuerberater.
+- Vor jedem ersten Push einer neuen Seite: Vorschau (Desktop und Handy) zeigen und auf Fabians OK warten.
+- Kein Keyword-Tool vorhanden, keine Suchvolumina erfinden. Google Search Console ist noch einzurichten (Fabian
+  legt die Property an, TXT-Eintrag im DNS bei Hostinger, Sitemap einreichen).
+- Vorerst kein zusätzlicher Marketingkanal (Entscheidung 13.11.2026). Von X und Pinterest wurde abgeraten.
 
 ## Google Ads
 
