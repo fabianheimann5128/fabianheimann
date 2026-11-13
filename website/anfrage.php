@@ -2,13 +2,11 @@
 /**
  * Nimmt Anfragen von den Formularen entgegen (Link zur Webseite + E-Mail-Adresse)
  * und schickt sie als E-Mail an Praxel. Antwortet mit JSON.
- *
- * TODO Fabian: $empfaenger auf das Postfach setzen, das bei Hostinger angelegt wird.
  */
 declare(strict_types=1);
 
-$empfaenger = 'kontakt@praxel-deutschland.de';
-$absender   = 'anfrage@praxel-deutschland.de';
+$empfaenger = 'fabian@praxel-deutschland.de';
+$absender   = 'fabian@praxel-deutschland.de';
 
 header('Content-Type: application/json; charset=utf-8');
 header('X-Content-Type-Options: nosniff');

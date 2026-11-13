@@ -174,6 +174,8 @@
     const n = reduced || vw < 860 ? (r.top < vh * .8 ? msgs.length : 0) : Math.min(msgs.length, Math.floor(p * (msgs.length + 1.2)));
     if (n !== chatOn) { chatOn = n; msgs.forEach((m, i) => { m.classList.toggle('on', i < n); m.style.transitionDelay = vw < 860 ? i * 350 + 'ms' : '0ms'; }); }
   }
+  const sticky = $('.sticky-cta'), ctaSec = $('.cta');
+  function drawSticky() { sticky.classList.toggle('on', scrollY > vh * .9 && ctaSec.getBoundingClientRect().top > vh * .8); }
 
   /* ---------- 08 · Kontakt: der Faden wird zur Fläche ---------- */
   const cta = $('.cta'), fill = $('.cta__fill');
@@ -241,7 +243,7 @@
       const hp = clamp(sy / vh);
       heroInner.style.transform = `translate3d(0,${hp * -80}px,0)`; heroInner.style.opacity = 1 - hp * 1.3;
     }
-    drawThread(); drawTangle(); drawChat(); drawCta(); drawNav();
+    drawThread(); drawTangle(); drawChat(); drawSticky(); drawCta(); drawNav();
     requestAnimationFrame(frame);
   }
   requestAnimationFrame(frame);
