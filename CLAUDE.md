@@ -57,7 +57,8 @@ Software für Arztpraxen und Kliniken. Dieses Repository enthält die Webseite.
   Personalsuche („ZFA finden“), Foto-Leitfaden (kostenlos als Beitrag). Brotkrumen-Zwischenstufen sind verlinkt.
 - Footer (seit Welle 2): benannte Spalten (`.foot__cols`, Stil in `style.css`). Ratgeber-Seiten und Hauptseite:
   Angebot / Ratgeber / Praxel. Fachseite: „Auf dieser Seite“ / Praxel, bewusst ohne Ratgeber-Spalte.
-- Welle 3: Neue Patienten gewinnen (Übersicht), Google-Bewertungen, Google-Unternehmensprofil.
+- Welle 3: Neue Patienten gewinnen (Übersicht), Google-Bewertungen, Google-Unternehmensprofil. Fertige Entwürfe
+  liegen unveröffentlicht in `entwuerfe/welle-3/` (siehe `entwuerfe/LIESMICH.md`); rechtliche Durchsicht steht aus.
   Welle 4: Online-Terminvergabe (Übersicht), Telefon entlasten. Welle 5: Pflichtangaben, Werberecht
   (Rechtsbeiträge vorher anwaltlich gegenlesen lassen; Pflichtangaben erst nach Prüfung der eigenen Datenschutzerklärung).
 - Produkte: zuerst ZFA-Recruiting-Kit (79–99 €, Bruttopreis anzeigen, Verkauf nur an Praxen, Start per Bestellung auf
@@ -65,8 +66,8 @@ Software für Arztpraxen und Kliniken. Dieses Repository enthält die Webseite.
   (zahnarztspezifisch), Leistungstexte-Baukasten zuletzt. Kein Newsletter-Produkt. Noch kein Shop, keine Bezahlfunktion.
   Rechts- und Steuerfragen klärt Fabian vor dem Verkauf mit Anwalt und Steuerberater.
 - Vor jedem ersten Push einer neuen Seite: Vorschau (Desktop und Handy) zeigen und auf Fabians OK warten.
-- Kein Keyword-Tool vorhanden, keine Suchvolumina erfinden. Google Search Console ist noch einzurichten (Fabian
-  legt die Property an, TXT-Eintrag im DNS bei Hostinger, Sitemap einreichen).
+- Kein Keyword-Tool vorhanden, keine Suchvolumina erfinden. Google Search Console ist seit 13.11.2026 für die Domain
+  verifiziert, die Sitemap ist eingereicht (10 Seiten erkannt).
 - Vorerst kein zusätzlicher Marketingkanal (Entscheidung 13.11.2026). Von X und Pinterest wurde abgeraten.
 
 ## Google Ads
@@ -87,6 +88,10 @@ Software für Arztpraxen und Kliniken. Dieses Repository enthält die Webseite.
 
 ## Offen
 
+- `www.praxel-deutschland.de` leitet nicht auf die Adresse ohne www um (canonical stimmt). Weiterleitung in der
+  `.htaccess` nur mit Fabians OK.
+- Barrierefreiheit: Kontrast des hellen Worts in der roten Abschluss-Überschrift (2,82) und Vorlesetext des Logos.
+- Hauptseite: Beschreibung mit 187 Zeichen zu lang, keine strukturierten Daten.
 - Datenschutzerklärung ist ein ungeprüfter Entwurf, rechtliche Prüfung steht aus.
 - Echte Projektbeispiele und Vorher-Nachher folgen, sobald erste Entwürfe für Praxen vorliegen.
 - Weitere Fachseiten (Vorschlag: Hausärzte als nächste).
