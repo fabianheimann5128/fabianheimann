@@ -381,6 +381,8 @@ em { font-style: normal; color: var(--red); }
 /* ---------- Unterseiten ---------- */
 .legal { min-height: 100svh; padding: 9rem 0 6rem; }
 .legal .wrap { max-width: 52rem; display: grid; gap: 1.5rem; }
+.legal .h3 { font-size: 1.4rem; margin-top: 1rem; }
+.legal p { color: var(--fg-dim); max-width: 42em; }
 .legal .todo { padding: 1.2rem 1.4rem; border: 1px dashed var(--red); border-radius: 14px; color: var(--fg-dim); }
 
 /* ---------- Mobile: der Faden läuft am Rand ---------- */

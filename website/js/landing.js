@@ -196,16 +196,27 @@
     if (Math.abs(y - lastY) > 6) { nav.classList.toggle('hide', y > lastY && y > vh * .6); lastY = y; }
   }
 
-  /* ---------- Formular ---------- */
-  const form = $('.form'), err = $('.form__error');
-  form.addEventListener('submit', e => {
+  /* ---------- Formulare: Link + E-Mail an den Server, ohne Server über das E-Mail-Programm ---------- */
+  $$('[data-lead]').forEach(form => form.addEventListener('submit', async e => {
     e.preventDefault();
-    const f = new FormData(form), g = k => (f.get(k) || '').trim();
-    if (!g('name') || !g('praxis') || !/^\S+@\S+\.\S+$/.test(g('email'))) { err.hidden = false; (form.querySelector(':invalid') || form.elements.praxis).focus(); return; }
-    err.hidden = true;
-    const body = `Hallo Fabian,\n\nich möchte einen Entwurf für unsere Webseite anfragen.\n\nPraxis: ${g('praxis')}\nAktuelle Webseite: ${g('webseite') || 'keine Angabe'}\n\n${g('nachricht')}\n\nViele Grüße\n${g('name')}\n${g('email')}`;
-    location.href = `mailto:${form.dataset.email}?subject=${encodeURIComponent(form.dataset.subject + ' – ' + g('praxis'))}&body=${encodeURIComponent(body)}`;
-  });
+    const f = new FormData(form), g = k => (f.get(k) || '').trim(), msg = $('.ask__msg', form), btn = $('button', form);
+    const say = (t, ok) => { msg.hidden = false; msg.textContent = t; msg.classList.toggle('ok', !!ok); };
+    if (!g('link') || !/^\S+@\S+\.\S+$/.test(g('email'))) { say('Bitte tragen Sie den Link zu Ihrer Webseite und Ihre E-Mail-Adresse ein.'); (g('link') ? form.elements.email : form.elements.link).focus(); return; }
+    btn.disabled = true;
+    try {
+      const res = await fetch(form.dataset.endpoint, { method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify({ link: g('link'), email: g('email'), nachricht: g('nachricht'), website2: g('website2'), seite: location.pathname }) });
+      const data = await res.json();
+      if (!res.ok || !data.ok) throw new Error(data.fehler || 'Fehler');
+      form.reset();
+      say('Danke, Ihr Link ist angekommen. Sie erhalten Ihren Entwurf innerhalb von drei Tagen.', true);
+    } catch (err) {
+      const body = `Hallo Herr Heimann,\n\nhier ist der Link zu unserer Praxis-Webseite: ${g('link')}\n\n${g('nachricht')}\n\nViele Grüße\n${g('email')}`;
+      location.href = `mailto:${form.dataset.email}?subject=${encodeURIComponent('Entwurf für unsere Praxis-Webseite')}&body=${encodeURIComponent(body)}`;
+      say('Ihr E-Mail-Programm öffnet sich mit der vorbereiteten Nachricht. Bitte senden Sie sie dort ab.');
+    }
+    btn.disabled = false;
+  }));
   $$('[data-year]').forEach(el => { el.textContent = new Date().getFullYear(); });
 
   /* ---------- Takt ---------- */
