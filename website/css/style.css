@@ -108,7 +108,7 @@ em { font-style: normal; color: var(--red); }
 .nav[data-theme="light"], .nav[data-theme="red"] { color: var(--ink); }
 .nav.hide { transform: translateY(-110%); }
 .nav__logo, .nav__cta { white-space: nowrap; }
-.nav__logo { font-weight: 600; letter-spacing: .005em; font-size: 1.4rem; line-height: 1; display: inline-flex; align-items: center; gap: .45rem; }
+.nav__logo { font-weight: 600; letter-spacing: -.03em; font-size: 1.4rem; line-height: 1; display: inline-flex; align-items: center; gap: .45rem; }
 .brand { width: 1.3em; height: 1.3em; fill: none; stroke: var(--red); stroke-width: 3.2; stroke-linecap: round; stroke-linejoin: round; transition: stroke .4s; }
 .nav[data-theme="red"] .brand { stroke: var(--ink); }
 .nav__logo i { width: .42em; height: .42em; border-radius: 50%; background: var(--red); transition: background .4s; }
@@ -365,8 +365,7 @@ em { font-style: normal; color: var(--red); }
 .foot__more { margin-top: 1.6rem; display: flex; flex-wrap: wrap; gap: .5rem 1rem; font-size: .9rem; color: var(--fg-dim); }
 .foot__more a { color: var(--bone); background: linear-gradient(currentColor, currentColor) 0 100% / 100% 1px no-repeat; padding-bottom: 2px; transition: color .3s; }
 .foot__more a:hover { color: var(--red); }
-.bn { letter-spacing: .012em; }
-.foot .foot__mark { letter-spacing: .01em; }
+.foot .foot__mark { letter-spacing: -.035em; }
 .why-name { max-width: 30em; font: 500 clamp(1.25rem, 2vw, 1.75rem)/1.25 var(--display); letter-spacing: -.025em; }
 .btn--wa { justify-self: start; }
 .form__alt { font: 500 1.2rem var(--display); letter-spacing: -.02em; }
