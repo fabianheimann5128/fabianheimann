@@ -164,51 +164,16 @@
     tctx.shadowColor = RED; tctx.shadowBlur = GLOW; tctx.stroke(); tctx.shadowBlur = 0;
   }
 
-  /* ---------- Beispielentwurf: die Seite geht groß auf und scrollt mit ---------- */
-  const stage = $('.stage'), sTrack = $('.stage__track'), sPin = $('.stage__pin'), sFrame = $('.stage__frame'), sSite = $('.stage__site');
-  const sUi = $('.stage__ui'), sNo = $('.stage__no'), sTitle = $('.stage__cap b'), sText = $('.stage__cap p'), sClose = $('.stage__close');
-  let sMax = 0, sInner = 0, sIdx = -1, sOpen = false, tour = [];
-  const siteWin = () => { try { return sSite.contentWindow && sSite.contentWindow.document ? sSite.contentWindow : null; } catch (e) { return null; } };
-  function initStage() {
-    const w = siteWin(); sMax = 0; tour = [];
-    if (w && w.document.body) {
-      sMax = Math.max(0, w.document.documentElement.scrollHeight - sSite.clientHeight);
-      tour = [...w.document.querySelectorAll('[data-tour]')].map(el => {
-        const [t, p] = el.dataset.tour.split('|');
-        return { y: el.getBoundingClientRect().top + w.scrollY, t, p };
-      });
-    }
-    if (w && !w.__escBound) { w.__escBound = true; w.addEventListener('keydown', e => { if (e.key === 'Escape' && sOpen) openStage(false); }); }
-    sTrack.style.height = sPin.offsetHeight + vh * .9 + sMax * .55 + vh * .3 + 'px';
+  /* ---------- So einfach ist es: der Chatverlauf entsteht beim Scrollen ---------- */
+  const easy = $('.easy'), msgs = $$('.chat__msg');
+  let chatOn = -1;
+  function drawChat() {
+    const r = easy.getBoundingClientRect();
+    if (r.bottom < 0 || r.top > vh) return;
+    const p = clamp((vh * .7 - r.top) / Math.max(1, r.height - vh * .45));
+    const n = reduced || vw < 860 ? (r.top < vh * .8 ? msgs.length : 0) : Math.min(msgs.length, Math.floor(p * (msgs.length + 1.2)));
+    if (n !== chatOn) { chatOn = n; msgs.forEach((m, i) => { m.classList.toggle('on', i < n); m.style.transitionDelay = vw < 860 ? i * 350 + 'ms' : '0ms'; }); }
   }
-  sSite.addEventListener('load', () => measure());
-  function drawStage() {
-    if (sOpen) return;
-    const r = sTrack.getBoundingClientRect();
-    if (r.bottom < -vh || r.top > vh * 2) return;
-    const total = r.height - sPin.offsetHeight, y = clamp(-r.top, 0, total);
-    const o = clamp((vh * .55 - r.top) / (vh * 1.45)), e = o * o * (3 - 2 * o); // öffnet sich schon beim Hereinscrollen
-    sFrame.style.transform = `scale(${(.62 + .38 * e).toFixed(4)})`;
-    sFrame.style.borderRadius = ((1 - e) * 28).toFixed(1) + 'px';
-    const tp = clamp((y - vh * .9) / Math.max(1, total - vh * 1.2)), target = tp * sMax;
-    sInner = reduced ? target : sInner + (target - sInner) * .2;
-    const w = siteWin();
-    if (w) w.scrollTo({ top: sInner, behavior: 'instant' });
-    sUi.classList.toggle('on', e > .97);
-    let idx = 0;
-    tour.forEach((t, i) => { if (t.y <= sInner + sSite.clientHeight * .5) idx = i; });
-    if (tour.length && idx !== sIdx) { sIdx = idx; sNo.textContent = '0' + (idx + 1); sTitle.textContent = tour[idx].t; sText.textContent = tour[idx].p; }
-  }
-  function openStage(open) {
-    sOpen = open; stage.classList.toggle('is-open', open);
-    document.documentElement.style.overflow = open ? 'hidden' : '';
-    sClose.hidden = !open;
-    if (open) { sFrame.style.transform = 'none'; sFrame.style.borderRadius = '0'; sClose.focus(); }
-    else { const w = siteWin(); if (!w || !/index\.html$/.test(w.location.pathname)) sSite.src = sSite.getAttribute('src'); } // nach dem Durchklicken zurück zur Startseite
-  }
-  $('[data-stage-open]').addEventListener('click', () => openStage(true));
-  sClose.addEventListener('click', () => openStage(false));
-  addEventListener('keydown', e => { if (e.key === 'Escape' && sOpen) openStage(false); });
 
   /* ---------- 08 · Kontakt: der Faden wird zur Fläche ---------- */
   const cta = $('.cta'), fill = $('.cta__fill');
@@ -247,7 +212,7 @@
   let pw = 0;
   function measure() {
     vw = innerWidth; vh = innerHeight;
-    pw = page.clientWidth; initStage(); initTangle(); initRope(); buildThread();
+    pw = page.clientWidth; initTangle(); initRope(); buildThread();
   }
   let rT; const remeasure = () => { clearTimeout(rT); rT = setTimeout(measure, 120); };
   addEventListener('resize', remeasure);
@@ -265,7 +230,7 @@
       const hp = clamp(sy / vh);
       heroInner.style.transform = `translate3d(0,${hp * -80}px,0)`; heroInner.style.opacity = 1 - hp * 1.3;
     }
-    drawThread(); drawTangle(); drawStage(); drawCta(); drawNav();
+    drawThread(); drawTangle(); drawChat(); drawCta(); drawNav();
     requestAnimationFrame(frame);
   }
   requestAnimationFrame(frame);
