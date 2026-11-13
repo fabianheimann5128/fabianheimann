@@ -150,16 +150,18 @@
   /* ---------- 02 · Alltag: der Faden verknotet sich ---------- */
   const tSec = $('.tangle'), tCan = $('.tangle__canvas'), tctx = tCan.getContext('2d');
   const tItems = $$('.tangle__item'), tCount = $('.tangle__count'), tNum = $('b', tCount);
-  let tw = 0, th = 0, tcx = 0, tTop = 0, tLen = 1, tIdx = -1;
+  let tw = 0, th = 0, tcx = 0, tp = 0, tIdx = -1;
   function initTangle() {
     const pin = $('.tangle__pin'); tw = pin.clientWidth; th = pin.clientHeight;
     tCan.width = tw * dpr; tCan.height = th * dpr; tctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     tcx = $('.knot--pin').getBoundingClientRect().left;
-    tTop = tSec.getBoundingClientRect().top + scrollY; tLen = tSec.offsetHeight - vh;
   }
   function drawTangle() {
-    const p = clamp((sy - tTop) / tLen);
-    if (sy < tTop - vh || sy > tTop + tLen + vh) return;
+    const r = tSec.getBoundingClientRect();
+    if (r.bottom < -vh || r.top > vh * 2) return;
+    const live = clamp(-r.top / Math.max(1, r.height - th));
+    tp = reduced ? live : tp + (live - tp) * .16;
+    const p = tp;
     const n = tItems.length - 1, idx = p > .84 ? n : Math.min(n - 1, Math.floor(p / .84 * n));
     if (idx !== tIdx) {
       tIdx = idx;
@@ -183,22 +185,26 @@
   /* ---------- 04 · Zusammenspiel: waagerechte Fahrt ---------- */
   const jSec = $('.journey'), jTrack = $('.journey__track'), jLine = $('.journey__line i'), jOut = $('.journey__drop--out'), stations = $$('.station');
   const jPin = $('.journey__pin'), jBar = $('.journey__line'), jIn = $('.journey__drop:not(.journey__drop--out)');
-  let jTop = 0, jDist = 1, jw = 0;
+  const jEnd = $('.journey__panel--outro');
+  let jw = 0, jp = 0;
   function initJourney() {
     jw = jPin.clientWidth; jSec.style.setProperty('--pw', jw + 'px');
-    jDist = Math.max(1, jTrack.offsetWidth - jw);
-    const x0 = jIn.parentElement.offsetLeft + jIn.offsetLeft + 1, x1 = jOut.parentElement.offsetLeft + jOut.offsetLeft + 1;
+    const dist = Math.max(1, jEnd.offsetLeft); // Weg, bis das letzte Panel genau im Bild steht
+    const x0 = jIn.parentElement.offsetLeft + jIn.offsetLeft + 1, x1 = jEnd.offsetLeft + jOut.offsetLeft + 1;
     jBar.style.left = x0 + 'px'; jBar.style.right = 'auto'; jBar.style.width = x1 - x0 + 'px';
-    jSec.style.height = jDist + vh + 'px';
-    jTop = jSec.getBoundingClientRect().top + scrollY;
+    jSec.style.height = dist + jPin.offsetHeight + 'px';
   }
   function drawJourney() {
-    if (sy < jTop - vh || sy > jTop + jDist + vh) return;
-    const p = clamp((sy - jTop) / jDist), x = p * jDist, lp = clamp(p / .86);
+    const r = jSec.getBoundingClientRect();
+    if (r.bottom < -vh || r.top > vh * 2) return;
+    const live = clamp(-r.top / Math.max(1, r.height - jPin.offsetHeight));
+    jp = reduced ? live : jp + (live - jp) * .16;
+    if (Math.abs(live - jp) < .0002) jp = live;
+    const x = Math.round(jp * jEnd.offsetLeft), lp = clamp(jp / .86);
     jTrack.style.transform = `translate3d(${-x}px,0,0)`;
     jLine.style.transform = `scaleX(${lp})`; jLine.style.setProperty('--inv', 1 / Math.max(lp, .001));
-    jOut.style.setProperty('--out', clamp((p - .86) / .12));
-    stations.forEach(s => s.classList.toggle('on', s.offsetLeft - x < jw * .72));
+    jOut.style.setProperty('--out', clamp((jp - .86) / .12));
+    stations.forEach(st => st.classList.toggle('on', st.offsetLeft - x < jw * .72));
   }
 
   /* ---------- 06 · Über mich: Wort für Wort ---------- */
@@ -258,6 +264,7 @@
 
   function frame(t) {
     time = t / 1000;
+    if (innerWidth !== vw || innerHeight !== vh || jPin.clientWidth !== jw) measure();
     sy = reduced ? scrollY : sy + (scrollY - sy) * .16;
     if (Math.abs(scrollY - sy) < .05) sy = scrollY;
     if (heroOn) {
