@@ -239,16 +239,27 @@
   }
 
   /* ---------- Formular ---------- */
-  const form = $('.form'), err = $('.form__error');
-  form.addEventListener('submit', e => {
+  // Link + WhatsApp-Nummer gehen an den Server; klappt das nicht, öffnet sich WhatsApp mit der vorbereiteten Nachricht.
+  $$('[data-lead]').forEach(form => form.addEventListener('submit', async e => {
     e.preventDefault();
-    const f = new FormData(form), name = (f.get('name') || '').trim(), mail = (f.get('email') || '').trim(), msg = (f.get('nachricht') || '').trim();
-    if (!name || !msg || !/^\S+@\S+\.\S+$/.test(mail)) { err.hidden = false; (form.querySelector(':invalid') || form.elements.name).focus(); return; }
-    err.hidden = true;
-    const topics = f.getAll('thema').join(', ') || 'noch offen';
-    const body = `Hallo Fabian,\n\n${msg}\n\nThema: ${topics}\n\nViele Grüße\n${name}\n${mail}`;
-    location.href = `mailto:${form.dataset.email}?subject=${encodeURIComponent('Anfrage Erstgespräch – ' + name)}&body=${encodeURIComponent(body)}`;
-  });
+    const f = new FormData(form), g = k => (f.get(k) || '').trim(), msg = $('.ask__msg', form), btn = $('button', form);
+    const say = (t, ok) => { msg.hidden = false; msg.textContent = t; msg.classList.toggle('ok', !!ok); };
+    if (!g('link') || g('whatsapp').replace(/\D/g, '').length < 6) { say('Bitte tragen Sie den Link zu Ihrer Webseite und Ihre WhatsApp-Nummer ein.'); (g('link') ? form.elements.whatsapp : form.elements.link).focus(); return; }
+    btn.disabled = true;
+    try {
+      const res = await fetch(form.dataset.endpoint, { method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify({ link: g('link'), whatsapp: g('whatsapp'), nachricht: g('nachricht'), website2: g('website2'), seite: location.pathname }) });
+      const data = await res.json();
+      if (!res.ok || !data.ok) throw new Error(data.fehler || 'Fehler');
+      form.reset();
+      say('Danke, Ihr Link ist angekommen. Ich melde mich per WhatsApp, und Sie erhalten Ihren Entwurf innerhalb von drei Tagen.', true);
+    } catch (err) {
+      const text = `Hallo Herr Heimann, hier ist der Link zu unserer Praxis-Webseite: ${g('link')}${g('nachricht') ? '\n\n' + g('nachricht') : ''}`;
+      say('Das hat gerade nicht geklappt. Es öffnet sich WhatsApp mit der vorbereiteten Nachricht, bitte senden Sie sie dort ab.');
+      location.href = `https://wa.me/${form.dataset.wa}?text=${encodeURIComponent(text)}`;
+    }
+    btn.disabled = false;
+  }));
   $$('[data-year]').forEach(el => { el.textContent = new Date().getFullYear(); });
 
   /* ---------- Takt ---------- */

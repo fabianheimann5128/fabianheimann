@@ -1,6 +1,6 @@
 <?php
 /**
- * Nimmt Anfragen von den Formularen entgegen (Link zur Webseite + E-Mail-Adresse)
+ * Nimmt Anfragen von den Formularen entgegen (Link zur Webseite + WhatsApp-Nummer)
  * und schickt sie als E-Mail an Praxel. Antwortet mit JSON.
  */
 declare(strict_types=1);
@@ -45,27 +45,30 @@ if ($feld('website2', 200) !== '') {
 }
 
 $link      = $feld('link', 300);
-$email     = $feld('email', 200);
+$whatsapp  = $feld('whatsapp', 40);
+$ziffern   = preg_replace('/\D+/', '', $whatsapp) ?? '';
 $nachricht = $text('nachricht', 2000);
 $seite     = $feld('seite', 200);
 
 if ($link === '' || !preg_match('/^[^\s@]+\.[^\s@]{2,}/u', preg_replace('~^https?://~i', '', $link) ?? '')) {
     antwort(422, ['ok' => false, 'fehler' => 'Bitte tragen Sie den Link zu Ihrer Webseite ein.']);
 }
-if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-    antwort(422, ['ok' => false, 'fehler' => 'Bitte tragen Sie eine gültige E-Mail-Adresse ein.']);
+if (strlen($ziffern) < 6 || strlen($ziffern) > 16) {
+    antwort(422, ['ok' => false, 'fehler' => 'Bitte tragen Sie Ihre WhatsApp-Nummer ein.']);
 }
+// Nummer für den direkten Chat-Link: führende 0 durch die deutsche Vorwahl ersetzen
+$chat = str_starts_with($ziffern, '00') ? substr($ziffern, 2) : (str_starts_with($ziffern, '0') ? '49' . substr($ziffern, 1) : $ziffern);
 
 $betreff = 'Neue Anfrage: Entwurf für ' . $link;
 $inhalt  = "Neue Anfrage über die Webseite\n\n"
          . "Link zur Webseite: {$link}\n"
-         . "E-Mail-Adresse:    {$email}\n"
+         . "WhatsApp-Nummer:   {$whatsapp}\n"
+         . "Chat öffnen:       https://wa.me/{$chat}\n"
          . "Seite:             {$seite}\n"
          . "Zeitpunkt:         " . date('d.m.Y H:i') . "\n\n"
          . ($nachricht !== '' ? "Nachricht:\n{$nachricht}\n" : "Keine Nachricht.\n");
 $kopf = [
     'From'         => "Praxel Webseite <{$absender}>",
-    'Reply-To'     => $email,
     'Content-Type' => 'text/plain; charset=utf-8',
 ];
 

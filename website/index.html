@@ -15,7 +15,8 @@
 <link rel="preload" href="fonts/funnel-display.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/funnel-sans.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230c0b0a'/%3E%3Cg transform='translate(5 6)' fill='%23ff3d1f'%3E%3Cpath d='M0 0h5.6L22 20h-5.6z'/%3E%3Cpath d='M16.4 0H22l-7.4 9L11.8 5.6z'/%3E%3Cpath d='M7.4 11l2.8 3.4L5.6 20H0z'/%3E%3C/g%3E%3C/svg%3E">
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style.css?v=21">
+<link rel="stylesheet" href="css/landing.css?v=21">
 <script>document.documentElement.classList.add('js')</script>
 </head>
 <body>
@@ -44,13 +45,17 @@
     <div class="hero__inner">
       <p class="eyebrow hero__eyebrow"><span>Arztpraxen</span><span>Kliniken</span><span>Medizinische Einrichtungen</span></p>
       <h1 class="hero__title" data-split>Digitale Lösungen für Praxen und Kliniken, mit <em>rotem Faden.</em></h1>
-      <div class="hero__row">
-        <p class="hero__lead">Webseiten, die Patienten und Fachkräfte überzeugen, Automatisierungen, die Ihren Empfang entlasten, und Software, mit der Ihr Team gut arbeiten kann. Schicken Sie mir den Link zu Ihrer jetzigen Webseite, und Sie erhalten kostenlos einen Entwurf der neuen.</p>
-        <div class="hero__actions">
-          <a class="btn btn--red" href="https://wa.me/4915228064893?text=Hallo%20Herr%20Heimann%2C%20hier%20ist%20der%20Link%20zu%20unserer%20Praxis-Webseite%3A%20" target="_blank" rel="noopener"><span>Link per WhatsApp schicken</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-          <a class="link" href="#leistungen">Was ich für Ihre Praxis tun kann</a>
-          <p class="hero__terms">Entwurf kostenlos<i></i>Gespräch unverbindlich<i></i>ein Ansprechpartner</p>
-        </div>
+      <p class="hero__lead">Webseiten, die Patienten und Fachkräfte überzeugen, Automatisierungen, die Ihren Empfang entlasten, und Software, mit der Ihr Team gut arbeiten kann. Nennen Sie mir die Adresse Ihrer jetzigen Webseite, und Sie erhalten innerhalb von drei Tagen kostenlos einen Entwurf der neuen.</p>
+      <div class="hero__form">
+        <form class="ask" data-lead data-endpoint="anfrage.php" data-wa="4915228064893" novalidate>
+          <label class="ask__f"><span>Link zu Ihrer jetzigen Webseite</span><input type="text" name="link" id="h-link" inputmode="url" autocomplete="url" placeholder="www.ihre-praxis.de" required></label>
+          <label class="ask__f"><span>Ihre WhatsApp-Nummer</span><input type="tel" name="whatsapp" id="h-wa" inputmode="tel" autocomplete="tel" placeholder="0151 2345678" required></label>
+          <input class="ask__hp" type="text" name="website2" id="h-hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <button class="btn btn--red" type="submit"><span>Kostenlosen Entwurf anfordern</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+          <p class="ask__msg" role="status" hidden></p>
+        </form>
+        <p class="ask__alt">Ich melde mich per WhatsApp bei Ihnen. Sie können mir den Link auch <a class="link" href="https://wa.me/4915228064893?text=Hallo%20Herr%20Heimann%2C%20hier%20ist%20der%20Link%20zu%20unserer%20Praxis-Webseite%3A%20" target="_blank" rel="noopener">direkt dort schicken</a>.</p>
+        <p class="hero__terms">Entwurf in drei Tagen<i></i>kostenlos<i></i>Gespräch unverbindlich</p>
       </div>
     </div>
     <p class="hero__hint" aria-hidden="true">Dem Faden folgen</p>
@@ -310,7 +315,7 @@
         <div class="cta__copy">
           <p class="eyebrow">Hier endet der Faden. Und hier beginnt das Gespräch.</p>
           <h2 class="cta__title">Schicken Sie mir Ihren Link. <em>Ich zeige Ihnen die neue Seite.</em></h2>
-          <p class="lead">Eine kurze WhatsApp-Nachricht mit der Adresse Ihrer jetzigen Praxis-Webseite genügt. Sie erhalten kostenlos einen Entwurf Ihrer neuen Startseite. Geht es Ihnen um Automatisierung oder Software, schreiben Sie mir einfach, was Sie beschäftigt.</p>
+          <p class="lead">Eine kurze WhatsApp-Nachricht mit der Adresse Ihrer jetzigen Praxis-Webseite genügt. Sie erhalten innerhalb von drei Tagen kostenlos einen Entwurf Ihrer neuen Startseite. Geht es Ihnen um Automatisierung oder Software, schreiben Sie mir einfach, was Sie beschäftigt.</p>
           <a class="btn btn--ink btn--wa" href="https://wa.me/4915228064893?text=Hallo%20Herr%20Heimann%2C%20hier%20ist%20der%20Link%20zu%20unserer%20Praxis-Webseite%3A%20" target="_blank" rel="noopener"><span>Link per WhatsApp schicken</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
           <ol class="offer">
             <li><b>Der Entwurf ist kostenlos</b><span>Sie sehen Ihre neue Startseite, ohne etwas zu bezahlen.</span></li>
@@ -318,23 +323,17 @@
             <li><b>Ein Ansprechpartner</b><span>Sie schreiben und sprechen von Anfang an direkt mit mir.</span></li>
           </ol>
         </div>
-        <!-- TODO Fabian: data-email durch die echte Kontaktadresse ersetzen -->
-        <form class="form" data-email="fabian@praxel-deutschland.de" novalidate>
-          <p class="form__alt">Lieber per E-Mail?</p>
-          <label class="field"><span>Ihr Name</span><input type="text" name="name" autocomplete="name" required></label>
-          <label class="field"><span>Ihre E-Mail-Adresse</span><input type="email" name="email" autocomplete="email" required></label>
-          <fieldset class="pick"><legend>Worum geht es?</legend>
-            <label><input type="checkbox" name="thema" value="Webseite"><span>Webseite</span></label>
-            <label><input type="checkbox" name="thema" value="Automatisierung"><span>Automatisierung</span></label>
-            <label><input type="checkbox" name="thema" value="KI"><span>KI</span></label>
-            <label><input type="checkbox" name="thema" value="Software"><span>Software</span></label>
-            <label><input type="checkbox" name="thema" value="Weiß ich noch nicht genau"><span>Weiß ich noch nicht genau</span></label>
-          </fieldset>
-          <label class="field"><span>Was beschäftigt Sie gerade?</span><textarea name="nachricht" rows="3" required></textarea></label>
-          <p class="form__error" role="alert" hidden>Bitte füllen Sie Name, E-Mail-Adresse und Nachricht aus.</p>
-          <button class="btn btn--ink btn--wide" type="submit"><span>Anfrage senden</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
-          <p class="form__note">Beim Absenden öffnet sich Ihr E-Mail-Programm mit der vorbereiteten Nachricht. Auf dieser Seite wird nichts gespeichert.</p>
+        <div class="form">
+          <p class="form__alt">Oder gleich hier eintragen</p>
+          <form class="ask ask--stack" data-lead data-endpoint="anfrage.php" data-wa="4915228064893" novalidate>
+          <label class="ask__f"><span>Link zu Ihrer jetzigen Webseite</span><input type="text" name="link" id="c-link" inputmode="url" autocomplete="url" placeholder="www.ihre-praxis.de" required></label>
+          <label class="ask__f"><span>Ihre WhatsApp-Nummer</span><input type="tel" name="whatsapp" id="c-wa" inputmode="tel" autocomplete="tel" placeholder="0151 2345678" required></label>
+          <label class="ask__f"><span>Was soll besser werden? (freiwillig)</span><textarea name="nachricht" id="c-msg" rows="2"></textarea></label>
+          <input class="ask__hp" type="text" name="website2" id="c-hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <button class="btn btn--ink" type="submit"><span>Kostenlosen Entwurf anfordern</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+          <p class="ask__msg" role="status" hidden></p>
         </form>
+        </div>
       </div>
     </div>
   </section>
@@ -361,6 +360,6 @@
   </div>
 </footer>
 
-<script src="js/main.js" defer></script>
+<script src="js/main.js?v=21" defer></script>
 </body>
 </html>
