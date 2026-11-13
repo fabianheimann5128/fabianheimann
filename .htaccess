@@ -1,0 +1,20 @@
+# Die Webseite liegt im Ordner website/. Diese Regeln liefern sie unter der Hauptadresse aus
+# und halten alles andere aus dem Repository (Git-Daten, README) vom Netz fern.
+Options -Indexes
+RewriteEngine On
+
+# Repository-Dateien nicht ausliefern
+RewriteRule ^(\.git|\.gitignore|README\.md) - [F,L]
+
+# Direkte Aufrufe von /website/... auf die saubere Adresse umleiten
+RewriteCond %{THE_REQUEST} \s/website/ [NC]
+RewriteRule ^website/(.*)$ /$1 [R=301,L]
+
+# Ordner ohne Schrägstrich am Ende ergänzen, bevor intern umgeschrieben wird
+RewriteCond %{REQUEST_URI} !^/website/
+RewriteCond %{DOCUMENT_ROOT}/website/$1 -d
+RewriteRule ^(.*[^/])$ /$1/ [R=301,L]
+
+# Alles Übrige aus dem Ordner website/ bedienen
+RewriteCond %{REQUEST_URI} !^/website/
+RewriteRule ^(.*)$ /website/$1 [L]
