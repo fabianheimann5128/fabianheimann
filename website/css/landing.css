@@ -71,8 +71,6 @@
 .chat__card b { display: block; font: 600 .9rem var(--display); }
 .chat__card span { font-size: .76rem; color: var(--fg-dim); }
 .phone__note { margin-top: .9rem; text-align: center; font: 500 .62rem var(--mono); letter-spacing: .14em; text-transform: uppercase; color: rgba(236, 229, 216, .5); }
-.btn--wa { justify-self: start; }
-.form__alt { font: 500 1.2rem var(--display); letter-spacing: -.02em; }
 @media (max-width: 860px) {
   .easy__left { padding-right: 0; }
   .easy .split__body { position: static; }
