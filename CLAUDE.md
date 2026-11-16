@@ -68,7 +68,7 @@ Software für Arztpraxen und Kliniken. Dieses Repository enthält die Webseite.
 - Vor jedem ersten Push einer neuen Seite: Vorschau (Desktop und Handy) zeigen und auf Fabians OK warten.
 - Kein Keyword-Tool vorhanden, keine Suchvolumina erfinden. Google Search Console ist seit 13.11.2026 für die Domain
   verifiziert, die Sitemap ist eingereicht (10 Seiten erkannt).
-- Vorerst kein zusätzlicher Marketingkanal (Entscheidung 13.11.2026). Von X und Pinterest wurde abgeraten.
+- Von X und Pinterest wurde abgeraten. Fabian hat Instagram und YouTube angelegt (16.11.2026).
 
 ## Google Ads
 
@@ -91,9 +91,11 @@ Software für Arztpraxen und Kliniken. Dieses Repository enthält die Webseite.
 - Erledigt am 13.11.2026: www-Weiterleitung (301) in der `.htaccess`, Kontrast der roten Abschluss-Überschrift
   (dunkle Schrift mit heller Unterstreichung), Logo-Beschriftung (`.sr-only` + `.nav__word`), Beschreibung und
   strukturierte Daten der Hauptseite. Lighthouse mobil: Ratgeber-Beitrag Barrierefreiheit 100, SEO überall 100.
-- Noch offen aus Lighthouse (Hauptseite und Fachseite, je 93 bei Barrierefreiheit): rotes Akzentwort auf hellem
-  Grund (`.journey__panel h2 em`, Kontrast 2,82; Markenfarbe, Entscheidung bei Fabian), `.phone__note` (4,44),
-  `<i class="knot">` als direktes Kind von `ol.steps`.
+- Erledigt am 16.11.2026: restliche Lighthouse-Hinweise (Akzentrot auf hellem Grund jetzt `#e8300f`, `.phone__note`
+  heller, Faden-Knoten liegt im letzten `li` statt direkt im `ol.steps`), Seitentitel gekürzt (alle höchstens 60 Zeichen).
+- Soziale Profile (seit 16.11.2026): Instagram `praxel.deutschland`, YouTube `@PraxelDeutschland`. Verlinkt im Footer
+  (`.foot__social`) auf Hauptseite und Ratgeber-Seiten und als `sameAs` in den strukturierten Daten der Hauptseite.
+  Auf der Fachseite bewusst nicht (Ziel der Anzeigen).
 - Geplanter Webseiten-Preis laut Fabian: 999 € (Stand 13.11.2026, noch nicht veröffentlicht). Texte dürfen nicht
   nahelegen, sein Preis liege im vierstelligen Bereich. Keine Aussagen zu Umsatzsteuer oder Leistungsumfang erfinden.
 - Datenschutzerklärung ist ein ungeprüfter Entwurf, rechtliche Prüfung steht aus.
