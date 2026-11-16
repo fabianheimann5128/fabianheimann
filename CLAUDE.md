@@ -59,8 +59,8 @@ Software für Arztpraxen und Kliniken. Dieses Repository enthält die Webseite.
   Angebot / Ratgeber / Praxel. Fachseite: „Auf dieser Seite“ / Praxel, bewusst ohne Ratgeber-Spalte.
 - Welle 3: Neue Patienten gewinnen (Übersicht), Google-Bewertungen, Google-Unternehmensprofil. Fertige Entwürfe
   liegen unveröffentlicht in `entwuerfe/welle-3/` (siehe `entwuerfe/LIESMICH.md`); rechtliche Durchsicht steht aus.
-  Welle 4: Online-Terminvergabe (Übersicht), Telefon entlasten, dazu ZFA-Stellenanzeige: Entwürfe liegen in
-  `entwuerfe/welle-4/`, Vorschau an Fabian am 16.11.2026 geschickt, OK steht aus. Welle 5: Pflichtangaben, Werberecht
+  Welle 4: Online-Terminvergabe (Übersicht), Telefon entlasten, dazu ZFA-Stellenanzeige: live seit 16.11.2026
+  (Themengruppe „Empfang und Termine“ unter `/ratgeber/online-terminvergabe/`). Welle 5: Pflichtangaben, Werberecht
   (Rechtsbeiträge vorher anwaltlich gegenlesen lassen; Pflichtangaben erst nach Prüfung der eigenen Datenschutzerklärung).
 - Produkte: zuerst ZFA-Recruiting-Kit (79–99 €, Bruttopreis anzeigen, Verkauf nur an Praxen, Start per Bestellung auf
   Rechnung). Später, erst bei Besuchern: Google-Kit (Unternehmensprofil + Bewertungen), Empfang entlasten

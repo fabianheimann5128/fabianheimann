@@ -17,14 +17,6 @@ Vor der Veröffentlichung:
    als „Thema 03 Patientengewinnung“ mit drei Karten ergänzen.
 4. Vorschau zeigen und auf Fabians OK warten.
 
-## Welle 4 und Stellenanzeige (Stand 16.11.2026)
+## Welle 4 und Stellenanzeige
 
-- `welle-4/online-terminvergabe.html` → `website/ratgeber/online-terminvergabe/index.html`
-- `welle-4/telefon-entlasten.html` → `website/ratgeber/online-terminvergabe/telefon-entlasten/index.html`
-- `welle-4/stellenanzeige.html` → `website/ratgeber/personalsuche/stellenanzeige/index.html`
-- `welle-4/img-og/*.png` → `website/img/og/`
-
-Vor der Veröffentlichung: Vorschau liegt Fabian vor, sein OK fehlt noch. Rechtlich berührt sind der Hinweis zu
-Auftragsverarbeitung und Barrierefreiheit (Terminvergabe), Anamnesebogen im Netz (Telefon) sowie AGG und
-Entgelttransparenz (Stellenanzeige). Danach wie bei Welle 3: Datum setzen, verschieben, Sitemap und Übersicht ergänzen
-(neue Themengruppe „Empfang und Termine“, Karte „Stellenanzeige“ unter Personalsuche).
+Veröffentlicht am 2026-11-16 (Online-Terminvergabe, Telefon entlasten, ZFA-Stellenanzeige).
