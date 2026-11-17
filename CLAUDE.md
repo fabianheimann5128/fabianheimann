@@ -37,7 +37,7 @@ Software für Arztpraxen und Kliniken. Dieses Repository enthält die Webseite.
 
 - Zielgruppe: Gesundheitsbereich. Branchenseiten nach dem Muster `webseite-fuer-…/` (gleicher Aufbau, eigene Texte,
   mindestens 40 % eigenständig): Zahnärzte (live, Anzeigenziel), Arztpraxen, Hausärzte, MVZ, Physiotherapie,
-  Apotheken, Schönheitskliniken, Privatkliniken (Entwürfe vom 17.11.2026, auf Fabians Wunsch). Apotheken ist ein
+  Apotheken, Schönheitskliniken, Privatkliniken (live seit 17.11.2026, auf Fabians Wunsch). Apotheken ist ein
   Test-Segment: keine Apotheken-Inhalte im Praxis-Ratgeber.
 - Angebot: Praxis nennt den Link zur jetzigen Webseite und die WhatsApp-Nummer, erhält innerhalb von
   drei Tagen kostenlos einen Entwurf der neuen Startseite; Gespräch nur bei Gefallen, unverbindlich.

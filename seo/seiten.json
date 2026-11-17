@@ -891,7 +891,7 @@
   {
    "url": "/webseite-fuer-arztpraxen/",
    "typ": "leistung",
-   "status": "entwurf",
+   "status": "live",
    "cluster": "leistungen",
    "keyword": {
     "haupt": "website arztpraxis",
@@ -914,12 +914,13 @@
    "karte": {
     "titel": "Website für Arztpraxen",
     "text": "Der kostenlose Entwurf Ihrer neuen Praxis-Startseite."
-   }
+   },
+   "geaendert": "2026-11-17"
   },
   {
    "url": "/webseite-fuer-hausaerzte/",
    "typ": "leistung",
-   "status": "entwurf",
+   "status": "live",
    "cluster": "leistungen",
    "keyword": {
     "haupt": "website hausarztpraxis",
@@ -941,12 +942,13 @@
    "karte": {
     "titel": "Website für Hausarztpraxen",
     "text": "Sprechzeiten, Rezepte, Vertretung: klar geregelt."
-   }
+   },
+   "geaendert": "2026-11-17"
   },
   {
    "url": "/webseite-fuer-mvz/",
    "typ": "leistung",
-   "status": "entwurf",
+   "status": "live",
    "cluster": "leistungen",
    "keyword": {
     "haupt": "website mvz",
@@ -968,12 +970,13 @@
    "karte": {
     "titel": "Website für MVZ",
     "text": "Fachrichtungen, Standorte und Profile übersichtlich geordnet."
-   }
+   },
+   "geaendert": "2026-11-17"
   },
   {
    "url": "/webseite-fuer-physiotherapie/",
    "typ": "leistung",
-   "status": "entwurf",
+   "status": "live",
    "cluster": "leistungen",
    "keyword": {
     "haupt": "website physiotherapie",
@@ -995,12 +998,13 @@
    "karte": {
     "titel": "Website für Physiotherapie",
     "text": "Behandlungen, Kurse und Termine verständlich dargestellt."
-   }
+   },
+   "geaendert": "2026-11-17"
   },
   {
    "url": "/webseite-fuer-apotheken/",
    "typ": "leistung",
-   "status": "entwurf",
+   "status": "live",
    "cluster": "leistungen",
    "keyword": {
     "haupt": "website apotheke",
@@ -1023,12 +1027,13 @@
    "karte": {
     "titel": "Website für Apotheken",
     "text": "Öffnungszeiten, Notdienst, Vorbestellung und Team."
-   }
+   },
+   "geaendert": "2026-11-17"
   },
   {
    "url": "/webseite-fuer-schoenheitskliniken/",
    "typ": "leistung",
-   "status": "entwurf",
+   "status": "live",
    "cluster": "leistungen",
    "keyword": {
     "haupt": "website schönheitsklinik",
@@ -1051,12 +1056,13 @@
    "karte": {
     "titel": "Website für Schönheitskliniken",
     "text": "Hochwertig gestaltet, sachlich informiert."
-   }
+   },
+   "geaendert": "2026-11-17"
   },
   {
    "url": "/webseite-fuer-privatkliniken/",
    "typ": "leistung",
-   "status": "entwurf",
+   "status": "live",
    "cluster": "leistungen",
    "keyword": {
     "haupt": "website privatklinik",
@@ -1078,7 +1084,8 @@
    "karte": {
     "titel": "Website für Privatkliniken",
     "text": "Behandlung, Kosten und Aufenthalt verständlich erklärt."
-   }
+   },
+   "geaendert": "2026-11-17"
   }
  ]
 }

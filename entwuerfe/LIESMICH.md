@@ -9,6 +9,4 @@ Eine vollständige Vorschau mit allen Entwürfen entsteht mit `python3 seo/build
 Offen (Stand 17.11.2026):
 - Welle 3 (Praxismarketing, Google-Bewertungen, Google-Unternehmensprofil): rechtliche Durchsicht steht aus,
   vor allem Bewertungsbeitrag (Schweigepflicht, Bitte um Bewertungen, Einwilligung bei E-Mail/SMS, Musterantworten).
-- Sieben Branchenseiten (Arztpraxen, Hausärzte, MVZ, Physiotherapie, Apotheken, Schönheitskliniken, Privatkliniken):
-  Vorschau an Fabian am 17.11.2026, OK steht aus. Werden mit `seo/build.py` direkt nach `website/` geschrieben,
-  sobald der Status auf `live` steht.
+- Sieben Branchenseiten: veröffentlicht am 17.11.2026.
