@@ -1,0 +1,79 @@
+{
+ "wort": {"ihre_akk": "Ihre Praxis", "plural": "Physiotherapie-Praxen", "beispiel_url": "www.ihre-physiotherapie.de"},
+ "service": {"name": "Website für Physiotherapie-Praxen", "typ": "Webdesign und Webentwicklung für Physiotherapie-Praxen", "zielgruppe": "Inhaber und Praxisleitung von Physiotherapie-Praxen"},
+ "hero": {
+  "eyebrow": "Webseiten für Physiotherapie",
+  "h1": "Eine Website für Ihre Physiotherapie-Praxis, <em>die Termine leichter macht.</em>",
+  "lead": "Wer eine Verordnung in der Hand hält, sucht eine Praxis in der Nähe, die bald einen Termin hat. Eine gute Website für Physiotherapie zeigt das auf einen Blick. Sie nennen mir die Adresse Ihrer jetzigen Seite und erhalten innerhalb von drei Tagen kostenlos einen Entwurf Ihrer neuen Startseite."
+ },
+ "pruefpunkte": [
+  ["Leistungen verständlich erklärt", "Versteht ein Patient, was Krankengymnastik, Manuelle Therapie oder Lymphdrainage bei Ihnen bedeutet, ohne Fachwissen?"],
+  ["Mit Verordnung oder als Selbstzahler", "Ist klar, was mit einer ärztlichen Verordnung möglich ist und was Patienten selbst zahlen können?"],
+  ["Der Weg zum Termin", "Kann man einen Termin anfragen und dabei schon angeben, welche Behandlung verordnet ist?"],
+  ["Ihr Team und seine Qualifikationen", "Sieht man, wer behandelt und welche Weiterbildungen im Team vorhanden sind?"],
+  ["Kurse und Karriere", "Finden Interessenten Ihre Kurse, und finden Therapeutinnen und Therapeuten eine echte Stellenseite?"]
+ ],
+ "probleme": {
+  "punkte": [
+   "Patienten rufen an, um zu fragen, ob Sie eine bestimmte Behandlung überhaupt anbieten, weil die Website nur eine Liste von Abkürzungen zeigt.",
+   "Ihre Kurse sind voll, wenn Sie sie im Wartezimmer aushängen, aber online findet sie niemand.",
+   "Sie suchen seit Monaten eine Physiotherapeutin, und die Stellenanzeige auf Ihrer Website sagt kaum etwas über Ihre Praxis."
+  ],
+  "ende": "Zwischen Behandlungen bleibt für die Website kaum Zeit. Dabei entscheiden neue Patienten, Kursteilnehmer und Bewerber dort, ob sie sich melden."
+ },
+ "warum": {
+  "h2": "Ihre Website zeigt, <em>wie Sie behandeln.</em>",
+  "lead": "Physiotherapie ist Vertrauenssache und oft eine Behandlung über mehrere Wochen. Patienten möchten vorher wissen, wer sie behandelt, wie die Räume aussehen und was sie erwartet. Das kann Ihre Website zeigen, bevor das erste Telefonat stattfindet.",
+  "punkte": [
+   ["Weniger Rückfragen", "Wenn Leistungen, Hausbesuche und Hinweise zur Verordnung klar beschrieben sind, muss Ihr Team sie seltener am Telefon erklären."],
+   ["Selbstzahler finden Ihre Angebote", "Präventionskurse, Training oder Behandlungen ohne Verordnung brauchen eine eigene, verständliche Darstellung, damit sie gefunden werden."],
+   ["Qualifikation wird sichtbar", "Weiterbildungen und Schwerpunkte Ihres Teams zeigen, welche Behandlungen bei Ihnen möglich sind."],
+   ["Bewerber lernen Sie kennen", "Therapeutinnen und Therapeuten vergleichen Praxen. Echte Einblicke in Team, Räume und Arbeitsbedingungen machen den Unterschied."]
+  ]
+ },
+ "worauf": {
+  "eyebrow": "Worauf es ankommt",
+  "h2": "Was eine Physiotherapie-Website <em>leisten muss.</em>",
+  "absaetze": [
+   "Viele Patienten kommen mit einer Heilmittelverordnung und kennen die Fachbegriffe darauf nicht. Ihre Website sollte jede Behandlung in einfachen Worten erklären und sagen, ob sie bei Ihnen mit Verordnung, privat oder als Selbstzahlerleistung möglich ist.",
+   "Eine Terminanfrage, bei der Patienten die verordnete Behandlung und ihre Wunschzeiten angeben, spart Ihrem Team Rückfragen. Fotos von Verordnungen oder Befunden sollten nur über einen verschlüsselten Weg übertragen werden, und die Datenschutzerklärung muss den Ablauf beschreiben.",
+   "Bei Kursen ist Sorgfalt gefragt: Ob ein Präventionskurs von Krankenkassen bezuschusst wird, hängt von seiner Zertifizierung ab. Auf der Website sollte das nur stehen, wenn es für den jeweiligen Kurs zutrifft.",
+   "Auch Behandlungen fallen unter das Heilmittelwerbegesetz. Ich beschreibe, was Sie tun, nicht welcher Erfolg garantiert ist. Lokale Sichtbarkeit spielt in der Physiotherapie eine große Rolle, deshalb müssen Name, Adresse und Öffnungszeiten auf der Website und im Google-Unternehmensprofil übereinstimmen."
+  ],
+  "hinweis": "Die rechtlichen Hinweise auf dieser Seite sind eine Orientierung und ersetzen keine Rechtsberatung."
+ },
+ "angebot": {
+  "titel": "Ihre neue Website umfasst",
+  "punkte": [
+   "Komplett neues Design, abgestimmt auf Ihre Praxis",
+   "Leistungsseiten, die jede Behandlung verständlich erklären",
+   "Bereich für Kurse und Selbstzahlerangebote",
+   "Terminanfrage mit Angabe der Verordnung, vorhandene Buchungssysteme eingebunden",
+   "Teamseite mit Schwerpunkten und Weiterbildungen",
+   "Für das Handy gebaut, mit kurzen Ladezeiten",
+   "Saubere Grundlage für Suchmaschinen: Ort, Leistungen und Öffnungszeiten klar strukturiert"
+  ]
+ },
+ "spaeter": {
+  "lead": "Die neue Seite steht für sich. Darauf lassen sich Abläufe aufbauen, die gerade bei Behandlungsserien Zeit sparen. Sie entscheiden, ob und wann.",
+  "punkte": [
+   ["Terminerinnerungen für Serien", "Patienten, die dem zugestimmt haben, werden an ihre Termine erinnert und können rechtzeitig absagen. Frei gewordene Termine lassen sich neu vergeben."],
+   ["Kursanmeldung online", "Interessenten melden sich direkt über die Website an, und Sie sehen jederzeit, wie viele Plätze noch frei sind."],
+   ["Warteliste statt Absage", "Wer gerade keinen Termin bekommt, trägt sich in eine Warteliste ein, und Ihr Team meldet sich, sobald etwas frei wird."],
+   ["Bewerbungen im Blick", "Jede Bewerbung bekommt eine Eingangsbestätigung, und Sie sehen, wer noch auf eine Antwort wartet."]
+  ],
+  "hinweis": "Bei Abläufen mit Gesundheitsdaten stimme ich mich mit Ihrer Praxissoftware und Ihren Datenschutzvorgaben ab."
+ },
+ "weiterlesen_titel": "Mehr zu Website <em>und Termin.</em>",
+ "weiterlesen": ["/ratgeber/praxis-webseite/", "/ratgeber/online-terminvergabe/", "/ratgeber/personalsuche/karriereseite/", "/ratgeber/praxis-webseite/foto-leitfaden/"],
+ "faq_titel": "Was Physiotherapie-Praxen <em>vorher fragen.</em>",
+ "faq": [
+  ["Können Patienten ihre Verordnung über die Website schicken?", "Das ist möglich, aber nur über einen verschlüsselten Weg und mit einer passenden Datenschutzerklärung. Oft genügt es, wenn Patienten bei der Anfrage die verordnete Behandlung angeben und die Verordnung zum ersten Termin mitbringen."],
+  ["Wie stellen wir Selbstzahlerleistungen dar?", "Auf eigenen Seiten, sachlich beschrieben und klar getrennt von Leistungen auf Verordnung. Preise nenne ich nur, wenn Sie das möchten und sie verbindlich sind."],
+  ["Können wir Kurse selbst eintragen?", "Ja. Ich baue den Kursbereich so, dass Sie neue Termine ohne Programmierkenntnisse ergänzen können."],
+  ["Binden Sie unsere Terminbuchung ein?", "Ja. Wenn Sie ein Buchungssystem nutzen, binde ich es gut sichtbar ein. Wenn nicht, beginnen wir mit einer einfachen Terminanfrage."],
+  ["Was kostet die neue Website?", "Der Entwurf Ihrer Startseite kostet nichts. Was die gesamte Website kostet, hängt vom Umfang ab. Im Gespräch nach dem Entwurf erhalten Sie ein Festpreisangebot."],
+  ["Wie viel Zeit kostet uns das?", "Wenig. Für den Entwurf genügt der Link zu Ihrer jetzigen Website. Danach braucht es Ihre Rückmeldung und, wenn Ihnen der Entwurf gefällt, ein Gespräch."]
+ ],
+ "cta_lead": "Eine kurze WhatsApp-Nachricht mit der Adresse Ihrer jetzigen Website genügt. Sie erhalten innerhalb von drei Tagen kostenlos einen Entwurf Ihrer neuen Startseite."
+}

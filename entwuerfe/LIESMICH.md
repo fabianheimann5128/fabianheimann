@@ -1,22 +1,14 @@
 # Entwürfe (nicht veröffentlicht)
 
-Dieser Ordner liegt außerhalb von `website/` und wird nicht ausgeliefert.
+Dieser Ordner liegt außerhalb von `website/` und wird nicht ausgeliefert. `seo/build.py` legt hier alle Seiten ab,
+die in `seo/seiten.json` den Status `entwurf` haben (Dateiname = Adresse mit `--` statt `/`). Vorschaubilder für
+Entwürfe, die noch nicht in `website/img/og/` liegen, stehen in `img-og/`.
 
-## Welle 3 (Stand 13.11.2026)
+Eine vollständige Vorschau mit allen Entwürfen entsteht mit `python3 seo/build.py --vorschau ORDNER`.
 
-- `welle-3/patientengewinnung.html` → geplant unter `website/ratgeber/patientengewinnung/index.html`
-- `welle-3/google-bewertungen.html` → `website/ratgeber/patientengewinnung/google-bewertungen/index.html`
-- `welle-3/google-unternehmensprofil.html` → `website/ratgeber/patientengewinnung/google-unternehmensprofil/index.html`
-- `welle-3/img-og/*.png` → `website/img/og/`
-
-Vor der Veröffentlichung:
-1. Rechtliche Durchsicht, vor allem des Bewertungsbeitrags (Schweigepflicht, Bitte um Bewertungen, Einwilligung
-   bei E-Mail/SMS, Musterantworten, Heilmittelwerbegesetz bei Bewertungen auf der Webseite).
-2. Datum (`datePublished`, `dateModified`, `article:published_time`, sichtbares Datum) auf den Tag der Veröffentlichung setzen.
-3. Dateien an die Zielorte verschieben, in `website/sitemap.xml` eintragen und auf `website/ratgeber/index.html`
-   als „Thema 03 Patientengewinnung“ mit drei Karten ergänzen.
-4. Vorschau zeigen und auf Fabians OK warten.
-
-## Welle 4 und Stellenanzeige
-
-Veröffentlicht am 2026-11-16 (Online-Terminvergabe, Telefon entlasten, ZFA-Stellenanzeige).
+Offen (Stand 17.11.2026):
+- Welle 3 (Praxismarketing, Google-Bewertungen, Google-Unternehmensprofil): rechtliche Durchsicht steht aus,
+  vor allem Bewertungsbeitrag (Schweigepflicht, Bitte um Bewertungen, Einwilligung bei E-Mail/SMS, Musterantworten).
+- Sieben Branchenseiten (Arztpraxen, Hausärzte, MVZ, Physiotherapie, Apotheken, Schönheitskliniken, Privatkliniken):
+  Vorschau an Fabian am 17.11.2026, OK steht aus. Werden mit `seo/build.py` direkt nach `website/` geschrieben,
+  sobald der Status auf `live` steht.

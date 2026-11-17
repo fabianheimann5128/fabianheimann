@@ -1,0 +1,79 @@
+{
+ "wort": {"ihre_akk": "Ihre Klinik", "plural": "Privatkliniken", "beispiel_url": "www.ihre-privatklinik.de"},
+ "service": {"name": "Website für Privatkliniken", "typ": "Webdesign und Webentwicklung für Privatkliniken", "zielgruppe": "Geschäftsführung, Klinikleitung und Marketing von Privatkliniken"},
+ "hero": {
+  "eyebrow": "Webseiten für Privatkliniken",
+  "h1": "Eine Website für Ihre Privatklinik, <em>die schon vor der Anreise überzeugt.</em>",
+  "lead": "Wer eine Privatklinik wählt, entscheidet bewusst und informiert sich gründlich, oft aus der Ferne. Eine gute Website für Privatkliniken beantwortet die Fragen, die vor einer Anfrage stehen. Sie nennen mir die Adresse Ihrer jetzigen Seite und erhalten innerhalb von drei Tagen kostenlos einen Entwurf Ihrer neuen Startseite."
+ },
+ "pruefpunkte": [
+  ["Schwerpunkte und Behandlung", "Versteht man schnell, wofür Ihre Klinik steht und wie eine Behandlung bei Ihnen abläuft?"],
+  ["Kosten und Kostenübernahme", "Erfahren Interessenten, wer Ihre Leistungen nutzen kann und wie sie die Frage der Kosten klären?"],
+  ["Aufenthalt und Anreise", "Gibt es Informationen zu Zimmern, Verpflegung, Begleitpersonen und Anreise?"],
+  ["Ärztinnen, Ärzte und Pflege", "Sieht man, wer behandelt und betreut, mit Qualifikationen und Schwerpunkten?"],
+  ["Der Weg zur Anfrage", "Kann man unkompliziert eine Anfrage stellen oder einen Rückruf vereinbaren, auch aus einer anderen Stadt?"]
+ ],
+ "probleme": {
+  "punkte": [
+   "Interessenten rufen an, um Grundsätzliches zu klären, etwa wer aufgenommen wird und wie die Kosten geregelt sind, weil die Website dazu schweigt.",
+   "Ihre Räume, Ihre Pflege und Ihr Haus sind ein wichtiger Grund für die Entscheidung, aber auf der Website sieht man davon kaum etwas.",
+   "Anfragen kommen über Telefon, E-Mail und Formular, und niemand hat einen Überblick, welche schon beantwortet sind."
+  ],
+  "ende": "Für die Website bleibt im Klinikalltag wenig Raum. Dabei fällt die Entscheidung für eine Privatklinik oft, bevor jemand zum Telefon greift."
+ },
+ "warum": {
+  "h2": "Ihre Website ersetzt <em>den ersten Besuch.</em>",
+  "lead": "Patientinnen und Patienten, die eine Privatklinik wählen, kommen nicht immer aus der Nähe und können das Haus vorher selten besichtigen. Die Website ist deshalb der erste Rundgang: durch Ihre Schwerpunkte, Ihre Räume und Ihr Team.",
+  "punkte": [
+   ["Fragen vor der Anfrage beantwortet", "Wer nachlesen kann, wer behandelt wird, wie Aufnahme und Kosten geregelt sind und was der Aufenthalt bietet, stellt gezieltere Anfragen."],
+   ["Das Haus wird sichtbar", "Echte Bilder von Zimmern, Therapieräumen und Außenbereichen zeigen, was Ihre Klinik ausmacht."],
+   ["Vertrauen in das Team", "Vorstellungen von Ärztinnen, Ärzten, Therapeuten und Pflege machen die Menschen sichtbar, die die Behandlung tragen."],
+   ["Fachkräfte finden Sie", "Pflegekräfte, Therapeuten und Ärzte vergleichen Arbeitgeber. Ein eigener Karrierebereich zeigt, warum es sich lohnt, bei Ihnen zu arbeiten."]
+  ]
+ },
+ "worauf": {
+  "eyebrow": "Worauf es ankommt",
+  "h2": "Was eine Klinik-Website <em>anders macht.</em>",
+  "absaetze": [
+   "Die Frage der Kosten steht für viele Interessenten am Anfang. Die Website sollte sachlich erklären, wer Ihre Leistungen in Anspruch nehmen kann, etwa privat Versicherte, Beihilfeberechtigte oder Selbstzahler, und wie eine Kostenzusage oder ein Kostenvoranschlag abläuft. Verbindliche Aussagen dazu gehören vorher abgestimmt.",
+   "Anfragen enthalten oft Angaben zur Gesundheit. Ein Anfrageformular muss verschlüsselt übertragen, darf nur abfragen, was für den ersten Kontakt nötig ist, und muss in der Datenschutzerklärung beschrieben sein. Häufig ist ein Rückrufwunsch der bessere erste Schritt als ein langes Formular.",
+   "Für die Darstellung von Behandlungen gelten das Heilmittelwerbegesetz und das Wettbewerbsrecht. Ich beschreibe Behandlungskonzepte und Abläufe sachlich, ohne Heilversprechen und ohne Erfolgsquoten, die sich nicht belegen lassen.",
+   "Wenn Sie Patientinnen und Patienten aus dem Ausland ansprechen, lohnt eine zweite Sprache für die wichtigsten Seiten. Den Umfang und die Übersetzung klären wir gemeinsam."
+  ],
+  "hinweis": "Die rechtlichen Hinweise auf dieser Seite sind eine Orientierung und ersetzen keine Rechtsberatung. Die Pflichtangaben im Impressum hängen von Rechtsform und Trägerschaft Ihrer Klinik ab."
+ },
+ "angebot": {
+  "titel": "Ihre neue Klinik-Website umfasst",
+  "punkte": [
+   "Hochwertiges Design, abgestimmt auf Ihr Haus und Ihre Schwerpunkte",
+   "Seiten zu Behandlungskonzepten, Aufenthalt, Kosten und Anreise",
+   "Vorstellung von Ärztinnen, Ärzten, Therapie und Pflege",
+   "Anfrage und Rückrufwunsch, sicher übertragen",
+   "Karrierebereich für Pflege, Therapie und ärztlichen Dienst",
+   "Für das Handy gebaut, mit kurzen Ladezeiten",
+   "Saubere Grundlage für Suchmaschinen: Schwerpunkte und Standort klar strukturiert"
+  ]
+ },
+ "spaeter": {
+  "lead": "Die neue Seite steht für sich. Darauf lassen sich Abläufe aufbauen, die Anfragen ordnen und die Aufnahme vorbereiten. Sie entscheiden, ob und wann.",
+  "punkte": [
+   ["Anfragen mit Überblick", "Jede Anfrage kommt geordnet an, bekommt eine Eingangsbestätigung, und Sie sehen, welche noch offen sind."],
+   ["Unterlagen vor der Aufnahme", "Informationen zur Anreise, Packliste und Fragebögen erhalten neue Patientinnen und Patienten rechtzeitig, sicher übertragen."],
+   ["Rückrufwunsch zur passenden Zeit", "Interessenten wählen online ein Zeitfenster für den Rückruf, und Ihr Team ruft vorbereitet an."],
+   ["Bewerbungen im Blick", "Bewerbungen für alle Bereiche kommen an einer Stelle an, und niemand wartet lange auf eine Antwort."]
+  ],
+  "hinweis": "Bei Abläufen mit Gesundheitsdaten stimme ich mich mit Ihrer IT, Ihren Systemen und Ihrem Datenschutzbeauftragten ab."
+ },
+ "weiterlesen_titel": "Mehr zu Website <em>und Personal.</em>",
+ "weiterlesen": ["/ratgeber/praxis-webseite/", "/ratgeber/personalsuche/karriereseite/", "/ratgeber/praxis-webseite/foto-leitfaden/"],
+ "faq_titel": "Was Kliniken vorher <em>wissen möchten.</em>",
+ "faq": [
+  ["Sollen wir Preise oder Kosten auf der Website nennen?", "Interessenten suchen nach Orientierung zu den Kosten. Sinnvoll ist eine sachliche Erklärung, wer Ihre Leistungen nutzen kann und wie Kostenzusage oder Kostenvoranschlag ablaufen. Konkrete Beträge nur, wenn sie verbindlich und rechtlich geprüft sind."],
+  ["Wie gehen wir mit sensiblen Anfragen um?", "Mit einem schlanken, verschlüsselten Formular oder einem Rückrufwunsch. Ausführliche Angaben zur Gesundheit gehören in das Gespräch, nicht in das erste Formular."],
+  ["Brauchen wir die Website in mehreren Sprachen?", "Wenn Sie Patientinnen und Patienten aus dem Ausland ansprechen, ja, zumindest für die wichtigsten Seiten. Den Umfang klären wir im Gespräch nach dem Entwurf."],
+  ["Wir haben mehrere Fachbereiche. Wie bleibt die Seite übersichtlich?", "Durch eine Struktur, die sich daran orientiert, wonach Interessenten suchen: Erkrankung oder Anliegen, Behandlungskonzept, Aufenthalt. Jeder Fachbereich bekommt eigene Seiten im gemeinsamen Erscheinungsbild."],
+  ["Was kostet eine Website für eine Privatklinik?", "Der Entwurf Ihrer Startseite kostet nichts. Der Preis der gesamten Website hängt vom Umfang ab, etwa von der Zahl der Fachbereiche und Sprachen. Nach dem Entwurf erhalten Sie ein Festpreisangebot."],
+  ["Können unsere Domain und unsere E-Mail-Adressen bleiben?", "In der Regel ja. Wie die Umstellung bei Ihrem Anbieter und Ihrer IT abläuft, kläre ich mit Ihnen, bevor etwas geändert wird."]
+ ],
+ "cta_lead": "Eine kurze WhatsApp-Nachricht mit der Adresse Ihrer jetzigen Website genügt. Sie erhalten innerhalb von drei Tagen kostenlos einen Entwurf Ihrer neuen Startseite."
+}

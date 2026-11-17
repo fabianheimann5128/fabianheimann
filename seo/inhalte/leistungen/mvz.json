@@ -1,0 +1,79 @@
+{
+ "wort": {"ihre_akk": "Ihr MVZ", "plural": "MVZ", "beispiel_url": "www.ihr-mvz.de"},
+ "service": {"name": "Website für Medizinische Versorgungszentren", "typ": "Webdesign und Webentwicklung für Medizinische Versorgungszentren", "zielgruppe": "Geschäftsführung, ärztliche Leitung und Praxismanagement von Medizinischen Versorgungszentren"},
+ "hero": {
+  "eyebrow": "Webseiten für Medizinische Versorgungszentren",
+  "h1": "Eine Website für Ihr MVZ, <em>auf der jeder seinen Weg findet.</em>",
+  "lead": "Mehrere Fachrichtungen, mehrere Ärztinnen und Ärzte, vielleicht mehrere Standorte: Eine Website für ein MVZ muss viel ordnen und trotzdem einfach bleiben. Sie nennen mir die Adresse Ihrer jetzigen Seite und erhalten innerhalb von drei Tagen kostenlos einen Entwurf Ihrer neuen Startseite."
+ },
+ "pruefpunkte": [
+  ["Orientierung über Fachrichtungen", "Findet ein Patient in wenigen Sekunden die Fachrichtung, die er sucht, und den richtigen Ansprechpartner?"],
+  ["Standorte und Sprechzeiten", "Ist bei mehreren Standorten klar, welche Leistung wo angeboten wird und welche Sprechzeiten dort gelten?"],
+  ["Ärztinnen und Ärzte", "Gibt es zu jeder Ärztin und jedem Arzt eine kurze, aktuelle Vorstellung mit Schwerpunkten?"],
+  ["Ein gemeinsames Erscheinungsbild", "Wirkt die Seite wie aus einem Guss, oder sieht man, dass Bereiche zu verschiedenen Zeiten entstanden sind?"],
+  ["Arbeitgeber und Karriere", "Sieht man, warum es sich lohnt, in Ihrem MVZ zu arbeiten, und gibt es Stellenseiten für Ärzte, MFA und Verwaltung?"]
+ ],
+ "probleme": {
+  "punkte": [
+   "Patienten rufen am falschen Standort an, weil auf der Website nicht klar wird, welche Fachrichtung wo sitzt.",
+   "Ärztinnen und Ärzte, die längst nicht mehr bei Ihnen arbeiten, stehen noch auf der Teamseite, und neue fehlen.",
+   "Jeder Bereich hat seine Inhalte selbst gepflegt, und heute weiß niemand mehr genau, wer welche Seite ändern darf."
+  ],
+  "ende": "Ein MVZ wächst schneller, als eine Website mithält. Dabei ist sie für Patienten und Bewerber oft der erste Eindruck von der ganzen Einrichtung."
+ },
+ "warum": {
+  "h2": "Ihre Website zeigt, <em>dass Ihr MVZ zusammengehört.</em>",
+  "lead": "Ein Medizinisches Versorgungszentrum bietet Patienten kurze Wege zwischen Fachrichtungen. Die Website sollte genau diesen Vorteil sichtbar machen: eine klare Struktur, eine gemeinsame Sprache und aktuelle Angaben für jeden Bereich.",
+  "punkte": [
+   ["Patienten landen am richtigen Ort", "Eine Navigation nach Fachrichtung und Standort führt direkt zur passenden Seite, mit Telefonnummer und Sprechzeiten."],
+   ["Vertrauen in die Einrichtung", "Ein einheitliches Erscheinungsbild und aktuelle Profile zeigen, dass hier ein Team zusammenarbeitet."],
+   ["Weniger Fehlanrufe", "Wenn klar ist, wer was wo anbietet, sinkt die Zahl der Anrufe, die weiterverbunden werden müssen."],
+   ["Ein starker Auftritt als Arbeitgeber", "Ärztinnen, Ärzte und MFA vergleichen Arbeitgeber. Eine eigene Karriereseite mit echten Einblicken hilft bei der Personalsuche."]
+  ]
+ },
+ "worauf": {
+  "eyebrow": "Worauf es ankommt",
+  "h2": "Was eine MVZ-Website <em>anders macht.</em>",
+  "absaetze": [
+   "Die Struktur entscheidet. Bevor ich gestalte, ordne ich Ihre Inhalte nach Fachrichtungen, Standorten und Personen, und zwar so, wie Patienten suchen, nicht nach der internen Organisation. Jede Fachrichtung bekommt eine eigene Seite mit Leistungen, Ärztinnen und Ärzten und den Kontaktdaten des zuständigen Standorts.",
+   "Bei mehreren Standorten ist Einheitlichkeit wichtig: Name, Adresse und Sprechzeiten müssen auf der Website und in den Google-Unternehmensprofilen der Standorte übereinstimmen. Sonst finden Patienten widersprüchliche Angaben.",
+   "Viele Beteiligte bedeutet: Die Pflege muss geregelt sein. Ich baue die Seite so, dass wiederkehrende Änderungen wie Sprechzeiten, neue Kolleginnen oder Stellenangebote ohne Umwege möglich sind, und wir legen gemeinsam fest, wer was ändern darf.",
+   "Rechtlich gelten das Heilmittelwerbegesetz und die Berufsordnung wie für jede Arztpraxis. Im Impressum eines MVZ stehen in der Regel die Trägergesellschaft mit ihren Pflichtangaben sowie die berufsrechtlichen Angaben für die ärztliche Tätigkeit. Welche Angaben genau nötig sind, hängt von Rechtsform und Trägerschaft ab."
+  ],
+  "hinweis": "Die rechtlichen Hinweise auf dieser Seite sind eine Orientierung und ersetzen keine Rechtsberatung. Die Pflichtangaben sollte Ihre Rechtsberatung für Ihre Trägerschaft prüfen."
+ },
+ "angebot": {
+  "titel": "Ihre neue MVZ-Website umfasst",
+  "punkte": [
+   "Komplett neues Design, einheitlich für alle Fachrichtungen und Standorte",
+   "Navigation nach Fachrichtung und Standort, mit Kontakt und Sprechzeiten je Bereich",
+   "Profile der Ärztinnen und Ärzte mit Schwerpunkten",
+   "Für das Handy gebaut, mit kurzen Ladezeiten",
+   "Terminanfrage je Fachrichtung, vorhandene Buchungssysteme eingebunden",
+   "Karrierebereich mit Stellenseiten und kurzem Bewerbungsweg",
+   "Saubere Grundlage für Suchmaschinen: Fachrichtungen, Orte und Standorte klar strukturiert"
+  ]
+ },
+ "spaeter": {
+  "lead": "Die neue Seite steht für sich. In einem MVZ lohnen sich darüber hinaus Abläufe, die Anfragen ordnen und Verwaltungsarbeit sparen. Sie entscheiden, ob und wann.",
+  "punkte": [
+   ["Anfragen an die richtige Stelle", "Terminanfragen und Rückrufwünsche gehen direkt an den zuständigen Standort oder die Fachrichtung, statt in einem gemeinsamen Postfach zu landen."],
+   ["Bewerbungen zentral im Blick", "Alle Bewerbungen kommen an einer Stelle an, bekommen eine Eingangsbestätigung, und Sie sehen, wer noch auf eine Antwort wartet."],
+   ["Terminerinnerungen", "Patienten, die dem zugestimmt haben, werden an ihre Termine erinnert und können rechtzeitig absagen."],
+   ["Standortdaten an einer Stelle", "Sprechzeiten und Kontaktdaten pflegen Sie einmal, und sie erscheinen überall auf der Website richtig."]
+  ],
+  "hinweis": "Bei Abläufen mit Patientendaten stimme ich mich mit Ihrer IT, Ihrer Praxissoftware und Ihrem Datenschutzbeauftragten ab."
+ },
+ "weiterlesen_titel": "Mehr zu Website <em>und Personal.</em>",
+ "weiterlesen": ["/ratgeber/praxis-webseite/", "/ratgeber/personalsuche/", "/ratgeber/personalsuche/karriereseite/", "/ratgeber/online-terminvergabe/"],
+ "faq_titel": "Was MVZ vorher <em>wissen möchten.</em>",
+ "faq": [
+  ["Wir haben mehrere Standorte. Brauchen wir mehrere Websites?", "In der Regel nicht. Eine gemeinsame Website mit eigenen Seiten für jeden Standort ist für Patienten übersichtlicher und leichter zu pflegen. Ausnahmen gibt es, wenn Standorte unter eigenem Namen auftreten. Das klären wir im Gespräch."],
+  ["Wie gehen Sie mit vielen Beteiligten um?", "Für den Entwurf genügt mir die Adresse Ihrer jetzigen Website. Für das Projekt selbst brauche ich eine feste Ansprechperson auf Ihrer Seite, die Rückmeldungen bündelt. Das hält das Projekt schlank."],
+  ["Können Ärztinnen und Ärzte ihre Profile selbst aktualisieren?", "Wiederkehrende Änderungen sind so angelegt, dass sie ohne Programmierkenntnisse möglich sind. Wer was ändern darf, legen wir gemeinsam fest."],
+  ["Binden Sie unsere Online-Terminbuchung ein?", "Ja. Vorhandene Buchungssysteme binde ich ein, auch getrennt nach Fachrichtung oder Standort, soweit das System das unterstützt."],
+  ["Was kostet eine Website für ein MVZ?", "Der Entwurf Ihrer Startseite kostet nichts. Der Preis der gesamten Website hängt vor allem von der Zahl der Fachrichtungen, Standorte und Profile ab. Nach dem Entwurf erhalten Sie ein Festpreisangebot."],
+  ["Können unsere Domain und unsere E-Mail-Adressen bleiben?", "In der Regel ja. Wie die Umstellung bei Ihrem Anbieter und Ihrer IT abläuft, kläre ich mit Ihnen, bevor etwas geändert wird."]
+ ],
+ "cta_lead": "Eine kurze WhatsApp-Nachricht mit der Adresse Ihrer jetzigen Website genügt. Sie erhalten innerhalb von drei Tagen kostenlos einen Entwurf Ihrer neuen Startseite."
+}

@@ -1,0 +1,79 @@
+{
+ "wort": {"ihre_akk": "Ihre Apotheke", "plural": "Apotheken", "beispiel_url": "www.ihre-apotheke.de"},
+ "service": {"name": "Website für Apotheken", "typ": "Webdesign und Webentwicklung für Apotheken", "zielgruppe": "Inhaberinnen, Inhaber und Filialleitungen von Apotheken"},
+ "hero": {
+  "eyebrow": "Webseiten für Apotheken",
+  "h1": "Eine Website für Ihre Apotheke, <em>die zeigt, was Sie vor Ort leisten.</em>",
+  "lead": "Öffnungszeiten, Notdienst, Vorbestellung, Beratung: Eine gute Website für Apotheken beantwortet, was Kunden wissen wollen, und zeigt, was Ihre Apotheke von anderen unterscheidet. Sie nennen mir die Adresse Ihrer jetzigen Seite und erhalten innerhalb von drei Tagen kostenlos einen Entwurf Ihrer neuen Startseite."
+ },
+ "pruefpunkte": [
+  ["Öffnungszeiten und Notdienst", "Sieht man sofort, wann Sie geöffnet haben und wo Kunden den aktuellen Notdienst finden?"],
+  ["Vorbestellen und abholen", "Gibt es einen klaren Weg, Arzneimittel vorzubestellen oder E-Rezepte einzulösen, und wird er erklärt?"],
+  ["Ihre Leistungen", "Werden Beratung, Botendienst, Messungen, Impfungen oder pharmazeutische Dienstleistungen verständlich dargestellt, soweit Sie sie anbieten?"],
+  ["Gesichter und Team", "Sieht man, wer hinter dem HV-Tisch steht, oder nur Bilder aus einer Datenbank?"],
+  ["Karriere", "Finden PTA, PKA und Approbierte eine echte Stellenseite mit einem kurzen Weg zur Bewerbung?"]
+ ],
+ "probleme": {
+  "punkte": [
+   "Ihre Website ist eine Vorlage, die auch zu jeder anderen Apotheke passen würde. Was Sie besonders machen, erfährt niemand.",
+   "Kunden rufen an, um zu fragen, ob Sie ein Medikament vorrätig haben oder wann Notdienst ist, obwohl die Antwort online stehen könnte.",
+   "Sie suchen eine PTA, und auf Ihrer Website gibt es dazu höchstens einen Satz im Kleingedruckten."
+  ],
+  "ende": "Zwischen Kundschaft, Lieferungen und Dokumentation bleibt für die Website kaum Zeit. Dabei vergleichen Kunden und Bewerber Apotheken heute zuerst online."
+ },
+ "warum": {
+  "h2": "Ihre Website zeigt, <em>warum man zu Ihnen kommt.</em>",
+  "lead": "Viele Apotheken haben eine Website über ihre Kooperation oder einen Dienstleister, oft als Vorlage. Das reicht für Öffnungszeiten. Es reicht selten, um zu zeigen, wofür Ihre Apotheke vor Ort steht: Beratung, Spezialisierungen, Service und das Team.",
+  "punkte": [
+   ["Stammkunden bleiben", "Wer online sieht, dass er bei Ihnen vorbestellen, beraten werden und schnell abholen kann, hat weniger Grund, zu bestellen statt zu kommen."],
+   ["Neue Kunden finden Sie", "Klare Angaben zu Ort, Öffnungszeiten und Leistungen helfen, wenn jemand in der Nähe nach einer Apotheke sucht."],
+   ["Weniger Telefonate", "Antworten auf häufige Fragen zu Vorbestellung, Botendienst und Notdienst entlasten das Team am HV-Tisch."],
+   ["Ein Grund, sich zu bewerben", "PTA und PKA vergleichen Arbeitgeber. Echte Einblicke in Team und Arbeitsbedingungen machen Ihre Apotheke sichtbar."]
+  ]
+ },
+ "worauf": {
+  "eyebrow": "Worauf es ankommt",
+  "h2": "Was eine Apotheken-Website <em>besonders macht.</em>",
+  "absaetze": [
+   "Viele Apotheken nutzen bereits Bestell- oder Vorbestellfunktionen ihrer Kooperation, ihres Großhändlers oder einer App. Die neue Website ersetzt das nicht, sondern bindet es ein oder verlinkt es klar, soweit der Anbieter das zulässt. Ihre eigene Seite erzählt, was die Plattform nicht erzählen kann: wer Sie sind und was Sie vor Ort leisten.",
+   "Für Werbung mit Arzneimitteln gelten strenge Regeln, unter anderem aus dem Heilmittelwerbegesetz, etwa Pflichtangaben bei Werbung für bestimmte Arzneimittel. Die Website stellt deshalb vor allem Ihre Apotheke und Ihre Leistungen dar. Wo Produkte genannt werden sollen, gehört das vorher rechtlich geprüft.",
+   "Ins Impressum einer Apotheke gehören neben den allgemeinen Angaben unter anderem die verantwortliche Apothekerin oder der verantwortliche Apotheker, die zuständige Apothekerkammer, die Aufsichtsbehörde und die Berufsbezeichnung. Wer Arzneimittel online zum Versand anbietet, hat zusätzliche Pflichten, etwa das gemeinsame EU-Sicherheitslogo für den Versandhandel.",
+   "Beim Notdienst ist Aktualität alles. Statt eigene Listen zu pflegen, die veralten, verlinke ich die offizielle Notdienstsuche, die für Ihre Region gilt. Öffnungszeiten, Adresse und Telefonnummer müssen auf der Website und im Google-Unternehmensprofil übereinstimmen."
+  ],
+  "hinweis": "Die rechtlichen Hinweise auf dieser Seite sind eine Orientierung und ersetzen keine Rechtsberatung. Lassen Sie Impressum und produktbezogene Inhalte von Ihrer Kammer oder Rechtsberatung prüfen."
+ },
+ "angebot": {
+  "titel": "Ihre neue Apotheken-Website umfasst",
+  "punkte": [
+   "Komplett neues Design, abgestimmt auf Ihre Apotheke",
+   "Öffnungszeiten, Anfahrt und Verweis auf die offizielle Notdienstsuche auf einen Blick",
+   "Seiten für Ihre Leistungen und Schwerpunkte, sachlich beschrieben",
+   "Vorhandene Vorbestell- und Shopfunktionen eingebunden oder klar verlinkt",
+   "Teamseite und Karrierebereich für PTA, PKA und Approbierte",
+   "Für das Handy gebaut, mit kurzen Ladezeiten",
+   "Datensparsam gebaut: Schriften lokal eingebunden, keine Werbe-Tracker"
+  ]
+ },
+ "spaeter": {
+  "lead": "Die neue Seite steht für sich. Darauf lassen sich Abläufe aufbauen, die am HV-Tisch und am Telefon Zeit sparen. Sie entscheiden, ob und wann.",
+  "punkte": [
+   ["Vorbestellung mit Bestätigung", "Kunden fragen ein Arzneimittel online an und erhalten eine Nachricht, wenn es abholbereit ist, sofern sie dem zugestimmt haben."],
+   ["Termine für Beratung und Messungen", "Für Beratungen, Messungen oder Impfungen, die Sie anbieten, buchen Kunden einen festen Termin, statt zu warten."],
+   ["Bewerbungen im Blick", "Jede Bewerbung bekommt eine Eingangsbestätigung, und Sie sehen, wer noch auf eine Antwort wartet."],
+   ["Öffnungszeiten an einer Stelle", "Sonderöffnungszeiten an Feiertagen pflegen Sie einmal, und sie erscheinen überall auf der Website richtig."]
+  ],
+  "hinweis": "Bei Abläufen mit Gesundheitsdaten, etwa zu Arzneimitteln, stimme ich mich mit Ihren Systemen und Ihren Datenschutzvorgaben ab."
+ },
+ "weiterlesen_titel": "Für den <em>Gesundheitsbereich.</em>",
+ "weiterlesen": [],
+ "faq_titel": "Was Apotheken vorher <em>wissen möchten.</em>",
+ "faq": [
+  ["Wir haben schon eine Website über unsere Kooperation. Lohnt sich eine eigene?", "Das hängt davon ab, was Sie zeigen möchten. Die Seite Ihrer Kooperation erfüllt oft die Grundfunktionen. Eine eigene Website lohnt sich, wenn Sie Ihre Apotheke, Ihr Team und Ihre Schwerpunkte erkennbar machen und Bewerber erreichen möchten. Vorhandene Funktionen der Kooperation lassen sich in der Regel einbinden oder verlinken."],
+  ["Können Kunden über die Website vorbestellen?", "Ja, über ein Anfrageformular oder über die Vorbestellfunktion Ihres bisherigen Anbieters, die ich einbinde. Weil es dabei um Arzneimittel und damit um Gesundheitsdaten gehen kann, klären wir vorher den Datenschutz."],
+  ["Dürfen wir Produkte und Angebote auf der Website zeigen?", "Für Werbung mit Arzneimitteln gelten strenge Regeln. Ich stelle vor allem Ihre Apotheke und Ihre Leistungen dar. Produktwerbung sollte vor der Veröffentlichung rechtlich geprüft werden."],
+  ["Wie halten wir den Notdienst aktuell?", "Indem wir nicht selbst Listen pflegen, sondern die offizielle Notdienstsuche für Ihre Region verlinken. Ihre eigenen Notdiensttage können Sie zusätzlich eintragen."],
+  ["Was kostet eine Website für eine Apotheke?", "Der Entwurf Ihrer Startseite kostet nichts. Was die gesamte Website kostet, hängt vom Umfang ab. Im Gespräch nach dem Entwurf erhalten Sie ein Festpreisangebot."],
+  ["Wir haben mehrere Filialen. Geht das auf einer Website?", "Ja. Jede Filiale bekommt eine eigene Seite mit Adresse, Öffnungszeiten und Team, und die Website hält alles in einem gemeinsamen Erscheinungsbild zusammen."]
+ ],
+ "cta_lead": "Eine kurze WhatsApp-Nachricht mit der Adresse Ihrer jetzigen Website genügt. Sie erhalten innerhalb von drei Tagen kostenlos einen Entwurf Ihrer neuen Startseite."
+}

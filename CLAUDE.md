@@ -21,18 +21,24 @@ Software für Arztpraxen und Kliniken. Dieses Repository enthält die Webseite.
 - `website/js/consent.js` – Einwilligung und Google-Ads-Messung
 - `website/anfrage.php` – nimmt Formularanfragen an, mailt an `fabian@praxel-deutschland.de`
 - `website/impressum.html`, `website/datenschutz.html`, `robots.txt`, `sitemap.xml`
-- `website/ratgeber/` – Ratgeber für Praxisinhaber und Praxismanager (nicht für Patienten). Statische Seiten,
-  nutzen `css/style.css`, `css/landing.css`, zusätzlich `css/ratgeber.css` und `js/ratgeber.js` (Faden-, Navigations-
-  und Formularlogik aus `landing.js` übernommen; Änderungen dort nachziehen). Pfade dort sind absolut (`/css/…`).
-- `vorlagen/ratgeber-beitrag.html` – Vorlage für neue Beiträge mit Arbeitsschritten im Kommentar (wird nicht ausgeliefert).
-  Vorschaubilder fürs Teilen liegen in `website/img/og/` (1200 × 630 px).
-- CSS und JS werden mit `?v=NN` eingebunden. Bei Änderungen die Nummer in allen HTML-Dateien erhöhen,
-  sonst liefert das CDN alte Dateien.
+- `website/ratgeber/` – Ratgeber für Inhaber und Praxismanager von Arzt- und Zahnarztpraxen (nicht für Patienten).
+  Nutzt zusätzlich `css/ratgeber.css` und `js/ratgeber.js` (Faden-, Navigations- und Formularlogik aus `landing.js`).
+- `website/webseite-fuer-<branche>/` – Branchen-Leistungsseiten im Gerüst der Zahnarzt-Seite (nutzen `landing.js`).
+- **`seo/` – SEO-System (siehe `seo/LIESMICH.md`).** Ratgeber, Branchenseiten (außer Zahnarzt), Ratgeber-Übersicht und
+  `sitemap.xml` werden NUR über `python3 seo/build.py` erzeugt, nie von Hand bearbeitet. Register aller Seiten mit
+  Keyword-Zuordnung: `seo/seiten.json`. Keyword-Daten: `seo/keyword-recherche.json`. Vor jedem Push
+  `python3 seo/pruefen.py` (muss ohne Fehler durchlaufen). Vorschau mit Entwürfen: `seo/build.py --vorschau ORDNER`.
+  Vorschaubilder: `node seo/og.js` → `website/img/og/`.
+- `entwuerfe/` – unveröffentlichte Seiten, von `seo/build.py` erzeugt (wird nicht ausgeliefert).
+- CSS und JS werden mit `?v=NN` eingebunden. Bei Änderungen die Nummer erhöhen: `version` in `seo/seiten.json`
+  (erzeugte Seiten) und `?v=` in den handgepflegten Seiten (index, Zahnarzt, Impressum, Datenschutz).
 
 ## Entscheidungen von Fabian
 
-- Zielgruppe: medizinischer Bereich. Start mit Zahnarztpraxen, weitere Fachrichtungen als eigene Seiten
-  nach dem Muster `webseite-fuer-…/` (gleicher Aufbau, eigene Texte).
+- Zielgruppe: Gesundheitsbereich. Branchenseiten nach dem Muster `webseite-fuer-…/` (gleicher Aufbau, eigene Texte,
+  mindestens 40 % eigenständig): Zahnärzte (live, Anzeigenziel), Arztpraxen, Hausärzte, MVZ, Physiotherapie,
+  Apotheken, Schönheitskliniken, Privatkliniken (Entwürfe vom 17.11.2026, auf Fabians Wunsch). Apotheken ist ein
+  Test-Segment: keine Apotheken-Inhalte im Praxis-Ratgeber.
 - Angebot: Praxis nennt den Link zur jetzigen Webseite und die WhatsApp-Nummer, erhält innerhalb von
   drei Tagen kostenlos einen Entwurf der neuen Startseite; Gespräch nur bei Gefallen, unverbindlich.
 - Kontakt läuft über WhatsApp (+49 152 28064893), nicht über E-Mail-Formulare.
@@ -52,6 +58,8 @@ Software für Arztpraxen und Kliniken. Dieses Repository enthält die Webseite.
   Formular für den kostenlosen Entwurf. Der Entwurf bleibt Hauptziel.
 - Die Fachseite `/webseite-fuer-zahnaerzte/` bleibt frei von Ratgeber- und Produktlinks (Ziel der Anzeigen, eine
   einzige Conversion). Der Ratgeber ist von der Hauptseite aus verlinkt.
+- Seit 17.11.2026 richtet sich der Ratgeber an Arzt- UND Zahnarztpraxen (MFA und ZFA), weil die gemessene
+  Nachfrage überwiegend „Arztpraxis“ nennt. Neue Adressen gab es dafür nicht.
 - Welle 1 (live): Übersicht, Webseiten-Selbstcheck (offen, ohne E-Mail-Abfrage), Kosten, Relaunch, Karriereseite.
 - Welle 2: Übersichtsseite Praxis-Webseite („Was eine gute Zahnarzt-Webseite leisten muss“), Übersichtsseite
   Personalsuche („ZFA finden“), Foto-Leitfaden (kostenlos als Beitrag). Brotkrumen-Zwischenstufen sind verlinkt.

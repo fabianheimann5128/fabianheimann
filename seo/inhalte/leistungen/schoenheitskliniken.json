@@ -1,0 +1,79 @@
+{
+ "wort": {"ihre_akk": "Ihre Klinik", "plural": "Schönheitskliniken", "beispiel_url": "www.ihre-klinik.de"},
+ "service": {"name": "Website für Schönheitskliniken und Praxen für ästhetische Medizin", "typ": "Webdesign und Webentwicklung für Schönheitskliniken und ästhetische Medizin", "zielgruppe": "Inhaber und Geschäftsführung von Schönheitskliniken und Praxen für ästhetische Medizin"},
+ "hero": {
+  "eyebrow": "Webseiten für ästhetische Medizin",
+  "h1": "Eine Website für Ihre Schönheitsklinik, <em>die überzeugt, ohne zu versprechen.</em>",
+  "lead": "In der ästhetischen Medizin entscheidet Vertrauen, und die Regeln für Werbung sind streng. Eine gute Website für Schönheitskliniken verbindet beides: hochwertige Gestaltung und sachliche Inhalte. Sie nennen mir die Adresse Ihrer jetzigen Seite und erhalten innerhalb von drei Tagen kostenlos einen Entwurf Ihrer neuen Startseite."
+ },
+ "pruefpunkte": [
+  ["Der erste Eindruck", "Wirkt die Seite so hochwertig und ruhig wie Ihre Klinik, oder wie eine Werbeanzeige?"],
+  ["Wer behandelt", "Sieht man, welche Ärztinnen und Ärzte behandeln und welche Facharztbezeichnung sie tragen?"],
+  ["Behandlungen sachlich erklärt", "Werden Ablauf, Vorbereitung, Erholungszeit und Risiken verständlich beschrieben, ohne Ergebnisse zu versprechen?"],
+  ["Der Weg zur Beratung", "Kann man einen Beratungstermin einfach anfragen, auch abends und vom Handy aus?"],
+  ["Bilder und Social Media", "Passen Bilder und eingebundene Inhalte aus sozialen Netzwerken zu den Regeln für Werbung mit ästhetischen Eingriffen?"]
+ ],
+ "probleme": {
+  "punkte": [
+   "Ihr Instagram-Profil ist gepflegt und modern, aber wer von dort auf Ihre Website wechselt, landet auf einer Seite, die Jahre älter wirkt.",
+   "Auf Ihrer Website stehen noch Vorher-Nachher-Bilder, und niemand ist sicher, ob sie dort noch stehen dürfen.",
+   "Interessenten schreiben über drei Kanäle, und Beratungsanfragen gehen zwischen Telefon, E-Mail und Direktnachrichten verloren."
+  ],
+  "ende": "Im Klinikalltag bleibt für die Website wenig Zeit. Dabei vergleichen Interessenten Kliniken sehr genau, bevor sie eine Beratung anfragen."
+ },
+ "warum": {
+  "h2": "Ihre Website ist der Ort, <em>an dem Vertrauen entsteht.</em>",
+  "lead": "Wer einen ästhetischen Eingriff erwägt, informiert sich lange und gründlich. Soziale Netzwerke wecken Interesse, die Entscheidung fällt aber oft auf der Website: Wer behandelt hier, wie ehrlich wird informiert, wie leicht komme ich zur Beratung?",
+  "punkte": [
+   ["Qualifikation wird sichtbar", "Klare Angaben zu Ausbildung und Facharztbezeichnung der Behandelnden schaffen Vertrauen, gerade weil viele Bezeichnungen im Markt ungeschützt sind."],
+   ["Ehrliche Information überzeugt", "Wer Ablauf, Erholungszeit und Risiken offen erklärt, gewinnt Interessenten mit realistischen Erwartungen."],
+   ["Beratungsanfragen an einem Ort", "Ein klarer Weg zur Beratung bündelt Anfragen, statt sie über viele Kanäle zu verteilen."],
+   ["Ein Auftritt, der zu Ihrer Marke passt", "Gestaltung, Bilder und Ton der Website entsprechen dem Anspruch Ihrer Klinik und Ihrem Auftritt in sozialen Netzwerken."]
+  ]
+ },
+ "worauf": {
+  "eyebrow": "Worauf es ankommt",
+  "h2": "Was in der ästhetischen Medizin <em>anders ist.</em>",
+  "absaetze": [
+   "Das Heilmittelwerbegesetz verbietet Werbung für operative plastisch-chirurgische Eingriffe ohne medizinische Notwendigkeit mit Darstellungen des Körperzustands vor und nach dem Eingriff. Der Bundesgerichtshof hat 2025 entschieden, dass dieses Verbot auch für Unterspritzungen etwa mit Hyaluron gelten kann. Gerichte haben es außerdem auf Bildfolgen in sozialen Netzwerken angewendet. Ich plane die Website deshalb ohne Vorher-Nachher-Galerien.",
+   "Die Bezeichnung „Schönheitschirurg“ ist nicht geschützt, die Facharztbezeichnung für Plastische und Ästhetische Chirurgie dagegen schon. Ihre Website sollte die tatsächlichen Qualifikationen der Behandelnden klar und korrekt nennen.",
+   "Statt Ergebnissen zeigt die Website, was Interessenten wirklich wissen müssen: wie Beratung und Behandlung ablaufen, wie lange die Erholung dauert, welche Risiken bestehen und wer behandelt. Wenn Sie Preise nennen möchten, sollten sie zur Abrechnung nach der Gebührenordnung passen. Das gehört vorher rechtlich geprüft.",
+   "Auch eingebundene Inhalte aus sozialen Netzwerken und Patientenstimmen gelten als Werbung der Klinik. Ich binde nur ein, was Sie vorher geprüft haben, und baue die Seite so, dass sie ohne Tracker von Drittanbietern auskommt."
+  ],
+  "hinweis": "Die rechtlichen Hinweise auf dieser Seite sind eine Orientierung und ersetzen keine Rechtsberatung. Gerade in der ästhetischen Medizin sollte eine Kanzlei für Medizinrecht die fertigen Texte und Bilder prüfen."
+ },
+ "angebot": {
+  "titel": "Ihre neue Website umfasst",
+  "punkte": [
+   "Hochwertiges, ruhiges Design, abgestimmt auf Ihre Klinik und Ihre Marke",
+   "Seiten für Ihre Behandlungen mit Ablauf, Erholungszeit und Risiken, ohne Erfolgsversprechen",
+   "Vorstellung der Behandelnden mit korrekten Qualifikationen",
+   "Beratungsanfrage, vorhandene Buchungssysteme eingebunden",
+   "Für das Handy gebaut, mit kurzen Ladezeiten",
+   "Saubere Grundlage für Suchmaschinen: Behandlungen und Standort klar strukturiert",
+   "Datensparsam gebaut: Schriften lokal eingebunden, keine Werbe-Tracker"
+  ]
+ },
+ "spaeter": {
+  "lead": "Die neue Seite steht für sich. Darauf lassen sich Abläufe aufbauen, die Beratungsanfragen ordnen und Ihrem Team Zeit sparen. Sie entscheiden, ob und wann.",
+  "punkte": [
+   ["Beratungsanfragen an einem Ort", "Anfragen über die Website kommen geordnet an, mit den Angaben, die Sie für die Vorbereitung brauchen."],
+   ["Terminerinnerungen", "Interessenten und Patienten, die dem zugestimmt haben, werden an Beratung und Behandlung erinnert und können rechtzeitig absagen."],
+   ["Unterlagen vor der Beratung", "Aufklärungsinformationen und Fragebögen erhalten Interessenten vorab, sicher übertragen und in Ruhe zu lesen."],
+   ["Nachsorge im Blick", "Patienten erhalten nach der Behandlung zum vereinbarten Zeitpunkt eine Erinnerung an die Kontrolle, sofern sie dem zugestimmt haben."]
+  ],
+  "hinweis": "Bei Abläufen mit Gesundheitsdaten stimme ich mich mit Ihren Systemen und Ihren Datenschutzvorgaben ab."
+ },
+ "weiterlesen_titel": "Mehr zur <em>Website.</em>",
+ "weiterlesen": ["/ratgeber/praxis-webseite/", "/ratgeber/praxis-webseite/foto-leitfaden/", "/ratgeber/praxis-webseite/kosten/"],
+ "faq_titel": "Was Kliniken vorher <em>wissen möchten.</em>",
+ "faq": [
+  ["Dürfen wir Vorher-Nachher-Bilder zeigen?", "Für operative ästhetische Eingriffe ohne medizinische Notwendigkeit verbietet das Heilmittelwerbegesetz solche Darstellungen, und der Bundesgerichtshof hat das 2025 auch auf Unterspritzungen bezogen. Ich plane die Website deshalb ohne Vorher-Nachher-Galerien. Die rechtliche Beurteilung im Einzelfall liegt bei Ihrer Rechtsberatung."],
+  ["Wie zeigen wir dann, was wir können?", "Über die Qualifikation der Behandelnden, eine verständliche Erklärung der Behandlungen, Bilder Ihrer Räume und Ihres Teams und einen hochwertigen Gesamteindruck. Das überzeugt Interessenten, die eine sorgfältige Klinik suchen."],
+  ["Sollen wir Preise auf der Website nennen?", "Das ist Ihre Entscheidung. Viele Interessenten suchen nach Preisangaben. Wenn Sie Preise nennen, sollten sie zur Abrechnung nach der Gebührenordnung passen und vorher rechtlich geprüft sein."],
+  ["Können Sie unseren Instagram-Auftritt einbinden?", "Ich verlinke Ihre Profile gern. Eingebettete Beiträge prüfe ich mit Ihnen vorher, weil sie als Werbung der Klinik gelten und Daten an die Plattform übertragen können."],
+  ["Was kostet eine Website für eine Schönheitsklinik?", "Der Entwurf Ihrer Startseite kostet nichts. Was die gesamte Website kostet, hängt vor allem von der Zahl der Behandlungsseiten ab. Nach dem Entwurf erhalten Sie ein Festpreisangebot."],
+  ["Wie viel Zeit kostet uns das?", "Für den Entwurf genügt der Link zu Ihrer jetzigen Website. Danach braucht es Ihre Rückmeldung und, wenn Ihnen der Entwurf gefällt, ein Gespräch."]
+ ],
+ "cta_lead": "Eine kurze WhatsApp-Nachricht mit der Adresse Ihrer jetzigen Website genügt. Sie erhalten innerhalb von drei Tagen kostenlos einen Entwurf Ihrer neuen Startseite."
+}

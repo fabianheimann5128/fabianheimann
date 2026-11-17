@@ -1,0 +1,1084 @@
+{
+ "einstellungen": {
+  "domain": "https://praxel-deutschland.de",
+  "version": "27",
+  "whatsapp_link": "https://wa.me/4915228064893?text=Hallo%20Herr%20Heimann%2C%20hier%20ist%20der%20Link%20zu%20unserer%20Praxis-Webseite%3A%20",
+  "whatsapp_nummer": "4915228064893",
+  "zielgruppe_ratgeber": "Inhaber und Praxismanager von Arzt- und Zahnarztpraxen",
+  "autor_kurz": "Ich bin Inhaber von Praxel in Berlin und baue Webseiten für Arzt- und Zahnarztpraxen. Sie schreiben und sprechen von Anfang an direkt mit mir."
+ },
+ "cluster": [
+  {
+   "id": "einstieg",
+   "titel": "Wo steht Ihre Webseite heute?",
+   "text": "Bevor Sie etwas ändern, lohnt ein ehrlicher Blick auf das, was da ist."
+  },
+  {
+   "id": "praxis-webseite",
+   "titel": "Praxis-Webseite",
+   "text": "Was eine Webseite kostet, wann sie erneuert werden sollte und was sie leisten muss.",
+   "leistung": "/webseite-fuer-arztpraxen/"
+  },
+  {
+   "id": "personalsuche",
+   "titel": "Personalsuche",
+   "text": "Wie Bewerberinnen und Bewerber Ihre Praxis im Netz erleben und was MFA und ZFA zur Bewerbung bewegt."
+  },
+  {
+   "id": "patientengewinnung",
+   "titel": "Patientengewinnung",
+   "text": "Wie Patienten eine Praxis auswählen und in welcher Reihenfolge Sie handeln sollten.",
+   "folgt": true,
+   "folgt_text": "Patientengewinnung und Google-Bewertungen"
+  },
+  {
+   "id": "termine",
+   "titel": "Empfang und Termine",
+   "text": "Wie Patienten leichter zum Termin kommen und das Team am Empfang entlastet wird."
+  }
+ ],
+ "branchen": [
+  {
+   "url": "/webseite-fuer-arztpraxen/",
+   "label": "Arztpraxen"
+  },
+  {
+   "url": "/webseite-fuer-zahnaerzte/",
+   "label": "Zahnarztpraxen",
+   "generiert": false
+  },
+  {
+   "url": "/webseite-fuer-hausaerzte/",
+   "label": "Hausarztpraxen"
+  },
+  {
+   "url": "/webseite-fuer-mvz/",
+   "label": "MVZ"
+  },
+  {
+   "url": "/webseite-fuer-physiotherapie/",
+   "label": "Physiotherapie"
+  },
+  {
+   "url": "/webseite-fuer-apotheken/",
+   "label": "Apotheken"
+  },
+  {
+   "url": "/webseite-fuer-schoenheitskliniken/",
+   "label": "Schönheitskliniken"
+  },
+  {
+   "url": "/webseite-fuer-privatkliniken/",
+   "label": "Privatkliniken"
+  }
+ ],
+ "karten_extern": {
+  "/webseite-fuer-zahnaerzte/": {
+   "titel": "Webseiten für Zahnarztpraxen",
+   "text": "Mein Angebot: der kostenlose Entwurf Ihrer neuen Startseite."
+  }
+ },
+ "seiten": [
+  {
+   "url": "/",
+   "typ": "kern",
+   "status": "live",
+   "erzeugt": false,
+   "keyword": {
+    "haupt": "praxel",
+    "neben": [
+     "webseiten software arztpraxen kliniken"
+    ]
+   },
+   "karte": {
+    "titel": "Praxel",
+    "text": "Webseiten, Automatisierungen und Software für Praxen und Kliniken."
+   },
+   "og": "startseite",
+   "og_bild": {
+    "eyebrow": "Praxel · Berlin",
+    "text": "Webseiten und Software für <em>Praxen und Kliniken</em>"
+   }
+  },
+  {
+   "url": "/webseite-fuer-zahnaerzte/",
+   "typ": "leistung",
+   "status": "live",
+   "erzeugt": false,
+   "anzeigenziel": true,
+   "keyword": {
+    "haupt": "zahnarzt webseite",
+    "neben": [
+     "homepage zahnarzt",
+     "zahnarzt website erstellen"
+    ]
+   },
+   "karte": {
+    "titel": "Webseiten für Zahnarztpraxen",
+    "text": "Mein Angebot: der kostenlose Entwurf Ihrer neuen Startseite."
+   },
+   "og": "lp-zahnaerzte",
+   "og_bild": {
+    "eyebrow": "Webseiten für Zahnarztpraxen",
+    "text": "Ihre neue Zahnarzt-Webseite, <em>kostenlos als Entwurf</em>"
+   }
+  },
+  {
+   "url": "/impressum.html",
+   "typ": "recht",
+   "status": "live",
+   "erzeugt": false,
+   "index": false
+  },
+  {
+   "url": "/datenschutz.html",
+   "typ": "recht",
+   "status": "live",
+   "erzeugt": false,
+   "index": false
+  },
+  {
+   "url": "/ratgeber/",
+   "typ": "uebersicht",
+   "status": "live",
+   "keyword": {
+    "haupt": "ratgeber arztpraxis",
+    "neben": [
+     "ratgeber zahnarztpraxis"
+    ]
+   },
+   "title": "Ratgeber für Arzt- und Zahnarztpraxen | Praxel",
+   "og_title": "Ratgeber für Arzt- und Zahnarztpraxen",
+   "og": "ratgeber",
+   "ogtype": "website",
+   "desc": "Verständliche Beiträge für Inhaber und Praxismanager von Arzt- und Zahnarztpraxen: Praxis-Website, Patientengewinnung, Personalsuche und Abläufe am Empfang.",
+   "eyebrow": "Ratgeber für Arzt- und Zahnarztpraxen",
+   "h1": "Was Ihre Praxis im Netz braucht, <em>verständlich erklärt.</em>",
+   "lead": "Ich schreibe hier für Inhaberinnen, Inhaber und Praxismanager, nicht für Patienten. Es geht um die Fragen, die sich stellen, wenn man eine Arzt- oder Zahnarztpraxis führt: Website, neue Patienten, Personalsuche und Abläufe am Empfang.",
+   "cta_title": "Darf ich Ihnen Ihre neue Seite <em>zeigen?</em>",
+   "cta_lead": "Schicken Sie mir die Adresse Ihrer jetzigen Webseite. Sie erhalten innerhalb von drei Tagen kostenlos einen Entwurf Ihrer neuen Startseite.",
+   "geaendert": "2026-11-17"
+  },
+  {
+   "url": "/ratgeber/praxis-webseite/kosten/",
+   "typ": "ratgeber",
+   "status": "live",
+   "cluster": "praxis-webseite",
+   "keyword": {
+    "haupt": "arztpraxis website kosten",
+    "neben": [
+     "zahnarzt website kosten",
+     "praxis homepage kosten",
+     "arztpraxis website selbst erstellen"
+    ]
+   },
+   "title": "Was kostet eine Website für die Arztpraxis? | Praxel",
+   "og_title": "Was kostet eine Website für die Arzt- oder Zahnarztpraxis?",
+   "desc": "Baukasten, Festpreis, Agentur oder Mietmodell: Was eine Website für die Arzt- oder Zahnarztpraxis kostet, was den Preis treibt und wie Sie Angebote vergleichen.",
+   "h1": "Was kostet eine Website für die Arztpraxis oder Zahnarztpraxis?",
+   "lead": "Eine ehrliche Zahl für alle Praxen gibt es nicht. Es gibt aber vier übliche Wege, wenige echte Preistreiber und eine Handvoll Fragen, mit denen Sie jedes Angebot einordnen können.",
+   "date": "2026-11-13",
+   "og": "kosten",
+   "crumbs": [
+    [
+     "Ratgeber",
+     "/ratgeber/"
+    ],
+    [
+     "Praxis-Webseite",
+     "/ratgeber/praxis-webseite/"
+    ],
+    [
+     "Kosten",
+     null
+    ]
+   ],
+   "inhalt": "ratgeber/kosten.html",
+   "offer": {
+    "art": "entwurf",
+    "titel": "Sehen Sie zuerst den Entwurf. Über Geld sprechen wir danach.",
+    "text": "Sie nennen mir die Adresse Ihrer jetzigen Webseite und erhalten innerhalb von drei Tagen kostenlos einen Entwurf Ihrer neuen Startseite. Erst wenn er Ihnen gefällt, nenne ich Ihnen im Gespräch einen Festpreis."
+   },
+   "more": [
+    "/ratgeber/praxis-webseite/",
+    "/ratgeber/praxis-webseite/relaunch/",
+    "/webseite-fuer-zahnaerzte/"
+   ],
+   "karte": {
+    "titel": "Was kostet eine Praxis-Website?",
+    "text": "Welche Wege es gibt, was den Preis treibt und wie Sie Angebote vergleichen."
+   },
+   "uebersicht": {
+    "eyebrow": "Kosten",
+    "text": "Baukasten, Festpreis, Agentur oder Mietmodell: wovon der Preis abhängt und mit welchen Fragen Sie Angebote vergleichen.",
+    "rang": 2
+   },
+   "cta_title": "Darf ich Ihnen Ihre neue Seite <em>zeigen?</em>",
+   "cta_lead": "Schicken Sie mir die Adresse Ihrer jetzigen Webseite. Sie erhalten innerhalb von drei Tagen kostenlos einen Entwurf Ihrer neuen Startseite und wissen danach, worüber wir überhaupt sprechen.",
+   "geaendert": "2026-11-17"
+  },
+  {
+   "url": "/ratgeber/praxis-webseite/relaunch/",
+   "typ": "ratgeber",
+   "status": "live",
+   "cluster": "praxis-webseite",
+   "keyword": {
+    "haupt": "praxis website überarbeiten",
+    "neben": [
+     "arztpraxis website modernisieren",
+     "praxis homepage redesign"
+    ]
+   },
+   "title": "Praxis-Webseite neu machen oder überarbeiten? | Praxel",
+   "og_title": "Praxis-Webseite neu machen oder überarbeiten?",
+   "desc": "Sieben Anzeichen, dass die Website Ihrer Arzt- oder Zahnarztpraxis einen Neuanfang braucht, wann Überarbeiten genügt und was dabei nicht verloren gehen darf.",
+   "h1": "Praxis-Webseite neu machen oder überarbeiten? Sieben Anzeichen",
+   "lead": "Ob Ihre Webseite einen Neuanfang braucht, hängt nicht von ihrem Alter ab. Entscheidend ist, ob sie ihre Aufgaben noch erfüllt. Woran Sie das erkennen und wann kleine Korrekturen genügen.",
+   "date": "2026-11-13",
+   "og": "relaunch",
+   "crumbs": [
+    [
+     "Ratgeber",
+     "/ratgeber/"
+    ],
+    [
+     "Praxis-Webseite",
+     "/ratgeber/praxis-webseite/"
+    ],
+    [
+     "Neu machen oder überarbeiten",
+     null
+    ]
+   ],
+   "inhalt": "ratgeber/relaunch.html",
+   "offer": {
+    "art": "link",
+    "eyebrow": "Kostenloser Selbstcheck",
+    "titel": "Prüfen Sie Ihre Webseite in zehn Minuten selbst.",
+    "text": "18 Fragen zu erstem Eindruck, Weg zum Termin, Schwerpunkten, Team, Karriere und Technik. Offen zugänglich, ohne Anmeldung und ohne E-Mail-Adresse.",
+    "href": "/ratgeber/webseiten-selbstcheck/",
+    "label": "Zum Selbstcheck"
+   },
+   "more": [
+    "/ratgeber/webseiten-selbstcheck/",
+    "/ratgeber/praxis-webseite/",
+    "/ratgeber/praxis-webseite/kosten/"
+   ],
+   "karte": {
+    "titel": "Praxis-Webseite neu machen oder überarbeiten?",
+    "text": "Sieben Anzeichen, an denen Sie die Antwort erkennen."
+   },
+   "uebersicht": {
+    "eyebrow": "Entscheidung",
+    "text": "Sieben Anzeichen, dass ein Neuanfang sinnvoller ist als Flickwerk, und wann kleine Korrekturen genügen.",
+    "rang": 3
+   },
+   "cta_title": "Oder ich zeige Ihnen, wie Ihre neue Seite <em>aussehen könnte.</em>",
+   "cta_lead": "Schicken Sie mir die Adresse Ihrer jetzigen Webseite. Sie erhalten innerhalb von drei Tagen kostenlos einen Entwurf Ihrer neuen Startseite, gebaut aus Ihren Inhalten.",
+   "geaendert": "2026-11-17"
+  },
+  {
+   "url": "/ratgeber/personalsuche/karriereseite/",
+   "typ": "ratgeber",
+   "status": "live",
+   "cluster": "personalsuche",
+   "keyword": {
+    "haupt": "karriereseite arztpraxis",
+    "neben": [
+     "karriereseite zahnarztpraxis",
+     "online bewerbung arztpraxis"
+    ]
+   },
+   "title": "Karriereseite für Arzt- und Zahnarztpraxen | Praxel",
+   "og_title": "Karriereseite für Arzt- und Zahnarztpraxen: Aufbau, Inhalte, Bewerbung",
+   "desc": "Was auf die Karriereseite einer Arzt- oder Zahnarztpraxis gehört, wie eine Bewerbung in zwei Minuten vom Handy gelingt und welche Fehler Bewerbungen kosten.",
+   "h1": "Karriereseite für Arzt- und Zahnarztpraxen: Aufbau, Inhalte, Bewerbung",
+   "lead": "Wer eine MFA oder ZFA sucht, schaltet meist eine Anzeige. Wer die Anzeige liest, sieht sich danach Ihre Praxis im Netz an. Was Bewerberinnen und Bewerber dort finden sollten und wie der Weg zur Bewerbung kurz bleibt.",
+   "date": "2026-11-13",
+   "og": "karriereseite",
+   "crumbs": [
+    [
+     "Ratgeber",
+     "/ratgeber/"
+    ],
+    [
+     "Personalsuche",
+     "/ratgeber/personalsuche/"
+    ],
+    [
+     "Karriereseite",
+     null
+    ]
+   ],
+   "inhalt": "ratgeber/karriereseite.html",
+   "offer": {
+    "art": "entwurf",
+    "titel": "Sehen Sie, wie Ihre Praxis auf Bewerber wirken könnte.",
+    "text": "Sie nennen mir die Adresse Ihrer jetzigen Webseite und erhalten innerhalb von drei Tagen kostenlos einen Entwurf Ihrer neuen Startseite, mit einem sichtbaren Einstieg für Bewerberinnen und Bewerber."
+   },
+   "more": [
+    "/ratgeber/personalsuche/",
+    "/ratgeber/praxis-webseite/foto-leitfaden/",
+    "/webseite-fuer-zahnaerzte/"
+   ],
+   "karte": {
+    "titel": "Karriereseite für Arzt- und Zahnarztpraxen",
+    "text": "Was auf die Seite gehört und wie eine Bewerbung in zwei Minuten gelingt."
+   },
+   "uebersicht": {
+    "eyebrow": "Karriereseite",
+    "text": "Was auf die Karriereseite gehört, wie eine Bewerbung in zwei Minuten vom Handy gelingt und welche Fehler Bewerbungen kosten.",
+    "rang": 3
+   },
+   "cta_title": "Darf ich Ihnen Ihre neue Seite <em>zeigen?</em>",
+   "cta_lead": "Schicken Sie mir die Adresse Ihrer jetzigen Webseite. Sie erhalten innerhalb von drei Tagen kostenlos einen Entwurf Ihrer neuen Startseite, auf der auch Bewerber sofort ihren Platz finden.",
+   "geaendert": "2026-11-17"
+  },
+  {
+   "url": "/ratgeber/webseiten-selbstcheck/",
+   "typ": "ratgeber",
+   "status": "live",
+   "cluster": "einstieg",
+   "keyword": {
+    "haupt": "praxis website check",
+    "neben": [
+     "praxis homepage verbessern",
+     "arztpraxis website fehler"
+    ]
+   },
+   "title": "Webseiten-Selbstcheck für Arzt- und Zahnarztpraxen | Praxel",
+   "og_title": "Webseiten-Selbstcheck für Arzt- und Zahnarztpraxen",
+   "desc": "Kostenloser Selbstcheck: 18 Fragen, mit denen Sie die Website Ihrer Arzt- oder Zahnarztpraxis in zehn Minuten prüfen. Ohne Anmeldung, ohne E-Mail-Adresse.",
+   "h1": "Webseiten-Selbstcheck für Arzt- und Zahnarztpraxen",
+   "lead": "18 Fragen, sechs Bereiche, etwa zehn Minuten. Nehmen Sie Ihr Handy, öffnen Sie Ihre Praxis-Webseite und haken Sie ab, was zutrifft. Es wird nichts gespeichert und nichts übertragen.",
+   "date": "2026-11-13",
+   "og": "selbstcheck",
+   "crumbs": [
+    [
+     "Ratgeber",
+     "/ratgeber/"
+    ],
+    [
+     "Selbstcheck",
+     null
+    ]
+   ],
+   "inhalt": "ratgeber/selbstcheck.html",
+   "offer": null,
+   "more": [
+    "/ratgeber/praxis-webseite/relaunch/",
+    "/ratgeber/praxis-webseite/kosten/",
+    "/webseite-fuer-zahnaerzte/"
+   ],
+   "karte": {
+    "titel": "Webseiten-Selbstcheck für Praxen",
+    "text": "18 Fragen, mit denen Sie Ihre Praxis-Website in zehn Minuten selbst prüfen."
+   },
+   "uebersicht": {
+    "eyebrow": "Kostenloser Selbstcheck",
+    "text": "18 Fragen, mit denen Sie Ihre Praxis-Webseite in etwa zehn Minuten selbst prüfen. Ohne Anmeldung und ohne E-Mail-Adresse.",
+    "rang": 1
+   },
+   "cta_title": "Lieber gleich sehen, wie es <em>besser</em> geht?",
+   "cta_lead": "Schicken Sie mir die Adresse Ihrer jetzigen Webseite. Ich gehe dieselben Punkte durch und baue daraus kostenlos einen Entwurf Ihrer neuen Startseite. Sie erhalten ihn innerhalb von drei Tagen.",
+   "ldtype": "Article",
+   "geaendert": "2026-11-17"
+  },
+  {
+   "url": "/ratgeber/praxis-webseite/",
+   "typ": "ratgeber",
+   "status": "live",
+   "cluster": "praxis-webseite",
+   "keyword": {
+    "haupt": "praxis website",
+    "neben": [
+     "arztpraxis website inhalte",
+     "praxiswebsite aufbau",
+     "patientenfreundliche website",
+     "arztpraxis website mobil"
+    ]
+   },
+   "title": "Was eine gute Praxis-Website leisten muss | Praxel",
+   "og_title": "Was eine gute Praxis-Website leisten muss",
+   "desc": "Drei Aufgaben, an denen sich jede Website einer Arzt- oder Zahnarztpraxis messen lässt: Orientierung geben, den Termin leicht machen, Bewerber überzeugen.",
+   "h1": "Was eine gute Praxis-Website leisten muss",
+   "lead": "Orientierung geben, den Termin leicht machen, Bewerber überzeugen. An diesen drei Aufgaben lässt sich jede Praxisseite messen. Was dazugehört und was Sie getrost weglassen können.",
+   "date": "2026-11-13",
+   "og": "hub-webseite",
+   "crumbs": [
+    [
+     "Ratgeber",
+     "/ratgeber/"
+    ],
+    [
+     "Praxis-Webseite",
+     null
+    ]
+   ],
+   "inhalt": "ratgeber/hub-webseite.html",
+   "offer": {
+    "art": "entwurf",
+    "titel": "Sehen Sie, wie Ihre Praxis diese Aufgaben lösen könnte.",
+    "text": "Sie nennen mir die Adresse Ihrer jetzigen Webseite und erhalten innerhalb von drei Tagen kostenlos einen Entwurf Ihrer neuen Startseite, gebaut aus Ihren Inhalten."
+   },
+   "more": [
+    "/ratgeber/webseiten-selbstcheck/",
+    "/ratgeber/praxis-webseite/kosten/",
+    "/webseite-fuer-zahnaerzte/"
+   ],
+   "karte": {
+    "titel": "Was eine gute Praxis-Website leisten muss",
+    "text": "Die Übersicht: drei Aufgaben, an denen sich jede Praxisseite messen lässt."
+   },
+   "uebersicht": {
+    "eyebrow": "Übersicht",
+    "text": "Orientierung geben, den Termin leicht machen, Bewerber überzeugen: drei Aufgaben, an denen sich jede Praxisseite messen lässt.",
+    "rang": 1
+   },
+   "cta_title": "Darf ich Ihnen Ihre neue Seite <em>zeigen?</em>",
+   "cta_lead": "Schicken Sie mir die Adresse Ihrer jetzigen Webseite. Sie erhalten innerhalb von drei Tagen kostenlos einen Entwurf Ihrer neuen Startseite.",
+   "geaendert": "2026-11-17"
+  },
+  {
+   "url": "/ratgeber/personalsuche/",
+   "typ": "ratgeber",
+   "status": "live",
+   "cluster": "personalsuche",
+   "keyword": {
+    "haupt": "mfa finden",
+    "neben": [
+     "zfa finden",
+     "mitarbeitergewinnung arztpraxis"
+    ]
+   },
+   "title": "MFA und ZFA finden: Warum Bewerbungen ausbleiben | Praxel",
+   "og_title": "MFA und ZFA finden: Warum Bewerbungen ausbleiben und was Sie ändern können",
+   "desc": "Warum sich auf Ihre MFA- oder ZFA-Stelle niemand meldet: fünf typische Hürden von der Anzeige bis zur Antwort und ein Plan für die nächsten vier Wochen.",
+   "h1": "MFA und ZFA finden: Warum Bewerbungen ausbleiben und was Sie ändern können",
+   "lead": "Von der Anzeige bis zum ersten Gespräch liegen mehrere kleine Hürden. Wer sie kennt, kann sie nacheinander abbauen: bei der Anzeige, beim Auftritt im Netz, bei der Bewerbung und bei der Antwort.",
+   "date": "2026-11-13",
+   "og": "hub-personal",
+   "crumbs": [
+    [
+     "Ratgeber",
+     "/ratgeber/"
+    ],
+    [
+     "Personalsuche",
+     null
+    ]
+   ],
+   "inhalt": "ratgeber/hub-personal.html",
+   "offer": {
+    "art": "entwurf",
+    "titel": "Sehen Sie, wie Ihre Praxis auf Bewerber wirken könnte.",
+    "text": "Sie nennen mir die Adresse Ihrer jetzigen Webseite und erhalten innerhalb von drei Tagen kostenlos einen Entwurf Ihrer neuen Startseite, mit einem sichtbaren Einstieg für Bewerberinnen und Bewerber."
+   },
+   "more": [
+    "/ratgeber/personalsuche/karriereseite/",
+    "/ratgeber/praxis-webseite/",
+    "/webseite-fuer-zahnaerzte/"
+   ],
+   "karte": {
+    "titel": "MFA und ZFA finden: Warum Bewerbungen ausbleiben",
+    "text": "Die Übersicht: wo die Hürden liegen und was Sie ändern können."
+   },
+   "uebersicht": {
+    "eyebrow": "Übersicht",
+    "text": "Warum sich auf Ihre Stelle niemand meldet: fünf typische Hürden und ein Plan für die nächsten vier Wochen.",
+    "rang": 1
+   },
+   "cta_title": "Darf ich Ihnen Ihre neue Seite <em>zeigen?</em>",
+   "cta_lead": "Schicken Sie mir die Adresse Ihrer jetzigen Webseite. Sie erhalten innerhalb von drei Tagen kostenlos einen Entwurf Ihrer neuen Startseite, auf der auch Bewerber sofort ihren Platz finden.",
+   "geaendert": "2026-11-17"
+  },
+  {
+   "url": "/ratgeber/praxis-webseite/foto-leitfaden/",
+   "typ": "ratgeber",
+   "status": "live",
+   "cluster": "praxis-webseite",
+   "keyword": {
+    "haupt": "praxisfotos",
+    "neben": [
+     "praxisfotos website",
+     "teamfotos praxis",
+     "praxisteam website vorstellen"
+    ]
+   },
+   "title": "Praxis- und Teamfotos: ein Leitfaden für Praxen | Praxel",
+   "og_title": "Foto-Leitfaden für Praxis- und Teamfotos",
+   "desc": "Welche Fotos eine Arzt- oder Zahnarztpraxis für ihre Website braucht, wie Sie den Fototermin vorbereiten, selbst fotografieren und was bei Einwilligungen gilt.",
+   "h1": "Praxis- und Teamfotos: ein Leitfaden für Arzt- und Zahnarztpraxen",
+   "lead": "Welche Bilder Ihre Webseite braucht, wie Sie einen Fototermin vorbereiten und worauf es ankommt, wenn Sie selbst zur Kamera greifen. Mit einer Liste zum Abhaken.",
+   "date": "2026-11-13",
+   "og": "foto-leitfaden",
+   "crumbs": [
+    [
+     "Ratgeber",
+     "/ratgeber/"
+    ],
+    [
+     "Praxis-Webseite",
+     "/ratgeber/praxis-webseite/"
+    ],
+    [
+     "Foto-Leitfaden",
+     null
+    ]
+   ],
+   "inhalt": "ratgeber/foto.html",
+   "offer": {
+    "art": "entwurf",
+    "titel": "Sehen Sie, wie Ihre Bilder auf einer neuen Startseite wirken.",
+    "text": "Sie nennen mir die Adresse Ihrer jetzigen Webseite und erhalten innerhalb von drei Tagen kostenlos einen Entwurf Ihrer neuen Startseite. Dafür verwende ich zunächst die Bilder, die Sie heute schon zeigen."
+   },
+   "more": [
+    "/ratgeber/praxis-webseite/",
+    "/ratgeber/personalsuche/karriereseite/",
+    "/webseite-fuer-zahnaerzte/"
+   ],
+   "karte": {
+    "titel": "Foto-Leitfaden für Praxis- und Teamfotos",
+    "text": "Welche Bilder Sie brauchen und wie sie gelingen."
+   },
+   "uebersicht": {
+    "eyebrow": "Leitfaden",
+    "text": "Welche Bilder Ihre Webseite braucht, wie Sie den Fototermin vorbereiten und was bei Einwilligungen zu beachten ist.",
+    "rang": 4
+   },
+   "cta_title": "Darf ich Ihnen Ihre neue Seite <em>zeigen?</em>",
+   "cta_lead": "Schicken Sie mir die Adresse Ihrer jetzigen Webseite. Sie erhalten innerhalb von drei Tagen kostenlos einen Entwurf Ihrer neuen Startseite, mit Ihren Inhalten und Ihren Bildern.",
+   "geaendert": "2026-11-17"
+  },
+  {
+   "url": "/ratgeber/patientengewinnung/",
+   "typ": "ratgeber",
+   "status": "entwurf",
+   "cluster": "patientengewinnung",
+   "keyword": {
+    "haupt": "praxismarketing",
+    "neben": [
+     "arztpraxis marketing",
+     "neue patienten gewinnen arztpraxis"
+    ]
+   },
+   "rechtspruefung": "offen",
+   "title": "Praxismarketing: neue Patienten gewinnen | Praxel",
+   "og_title": "Praxismarketing: Was für Arzt- und Zahnarztpraxen wirklich zählt",
+   "desc": "Praxismarketing in der richtigen Reihenfolge: Wie Patienten eine Arzt- oder Zahnarztpraxis auswählen und was zuerst zählt, vom Google-Profil bis zur Anzeige.",
+   "h1": "Praxismarketing: Was für Arzt- und Zahnarztpraxen wirklich zählt",
+   "lead": "Google-Profil, Webseite, Bewertungen und erst danach Anzeigen. Wer diese Reihenfolge einhält, gewinnt nicht einfach mehr Patienten, sondern die passenden.",
+   "date": "2026-11-13",
+   "og": "hub-patienten",
+   "crumbs": [
+    [
+     "Ratgeber",
+     "/ratgeber/"
+    ],
+    [
+     "Patientengewinnung",
+     null
+    ]
+   ],
+   "inhalt": "ratgeber/hub-patienten.html",
+   "offer": {
+    "art": "link",
+    "eyebrow": "Kostenloser Selbstcheck",
+    "titel": "Hält Ihre Webseite, was Ihr Google-Profil verspricht?",
+    "text": "18 Fragen zu erstem Eindruck, Weg zum Termin, Schwerpunkten, Team, Karriere und Technik. Offen zugänglich, ohne Anmeldung und ohne E-Mail-Adresse.",
+    "href": "/ratgeber/webseiten-selbstcheck/",
+    "label": "Zum Selbstcheck"
+   },
+   "more": [
+    "/ratgeber/patientengewinnung/google-unternehmensprofil/",
+    "/ratgeber/patientengewinnung/google-bewertungen/",
+    "/ratgeber/webseiten-selbstcheck/"
+   ],
+   "karte": {
+    "titel": "Praxismarketing: neue Patienten gewinnen",
+    "text": "Die Übersicht: Google-Profil, Webseite, Bewertungen und erst dann Anzeigen."
+   },
+   "uebersicht": {
+    "eyebrow": "Übersicht",
+    "text": "Google-Profil, Webseite, Bewertungen und erst dann Anzeigen: die Reihenfolge, mit der Sie die passenden Patienten erreichen.",
+    "rang": 1
+   },
+   "cta_title": "Darf ich Ihnen Ihre neue Seite <em>zeigen?</em>",
+   "cta_lead": "Schicken Sie mir die Adresse Ihrer jetzigen Webseite. Sie erhalten innerhalb von drei Tagen kostenlos einen Entwurf Ihrer neuen Startseite."
+  },
+  {
+   "url": "/ratgeber/patientengewinnung/google-bewertungen/",
+   "typ": "ratgeber",
+   "status": "entwurf",
+   "cluster": "patientengewinnung",
+   "keyword": {
+    "haupt": "google bewertungen arztpraxis",
+    "neben": [
+     "negative google bewertung arztpraxis antworten"
+    ]
+   },
+   "rechtspruefung": "offen",
+   "title": "Google-Bewertungen für Arztpraxen | Praxel Ratgeber",
+   "og_title": "Google-Bewertungen für Arzt- und Zahnarztpraxen: mehr echte Stimmen, richtig antworten",
+   "desc": "Wie eine Arzt- oder Zahnarztpraxis zulässig zu mehr echten Google-Bewertungen kommt und auf Kritik antwortet, ohne die Schweigepflicht zu verletzen.",
+   "h1": "Google-Bewertungen für Arzt- und Zahnarztpraxen: mehr echte Stimmen, richtig antworten",
+   "lead": "Persönlich bitten statt belohnen, alle gleich fragen und auf Kritik nur allgemein antworten. Was erlaubt ist, was Sie unterlassen sollten und wo die Schweigepflicht die Grenze zieht.",
+   "date": "2026-11-13",
+   "og": "google-bewertungen",
+   "crumbs": [
+    [
+     "Ratgeber",
+     "/ratgeber/"
+    ],
+    [
+     "Patientengewinnung",
+     "/ratgeber/patientengewinnung/"
+    ],
+    [
+     "Google-Bewertungen",
+     null
+    ]
+   ],
+   "inhalt": "ratgeber/bewertungen.html",
+   "offer": {
+    "art": "entwurf",
+    "titel": "Nach den Bewertungen kommt der Blick auf Ihre Webseite.",
+    "text": "Sie nennen mir die Adresse Ihrer jetzigen Webseite und erhalten innerhalb von drei Tagen kostenlos einen Entwurf Ihrer neuen Startseite, gebaut aus Ihren Inhalten."
+   },
+   "more": [
+    "/ratgeber/patientengewinnung/",
+    "/ratgeber/patientengewinnung/google-unternehmensprofil/",
+    "/webseite-fuer-zahnaerzte/"
+   ],
+   "karte": {
+    "titel": "Google-Bewertungen für Arzt- und Zahnarztpraxen",
+    "text": "Mehr echte Stimmen bekommen und auf Kritik richtig antworten."
+   },
+   "uebersicht": {
+    "eyebrow": "Bewertungen",
+    "text": "Wie Sie zulässig zu mehr echten Stimmen kommen und auf Kritik antworten, ohne die Schweigepflicht zu verletzen.",
+    "rang": 3
+   },
+   "cta_title": "Darf ich Ihnen Ihre neue Seite <em>zeigen?</em>",
+   "cta_lead": "Schicken Sie mir die Adresse Ihrer jetzigen Webseite. Sie erhalten innerhalb von drei Tagen kostenlos einen Entwurf Ihrer neuen Startseite."
+  },
+  {
+   "url": "/ratgeber/patientengewinnung/google-unternehmensprofil/",
+   "typ": "ratgeber",
+   "status": "entwurf",
+   "cluster": "patientengewinnung",
+   "keyword": {
+    "haupt": "google unternehmensprofil arztpraxis",
+    "neben": [
+     "google maps arztpraxis"
+    ]
+   },
+   "rechtspruefung": "offen",
+   "title": "Google-Unternehmensprofil für Arztpraxen | Praxel",
+   "og_title": "Google-Unternehmensprofil für Arzt- und Zahnarztpraxen einrichten und pflegen",
+   "desc": "Zugriff sichern, Name, Kategorie und Öffnungszeiten richtig eintragen, Fotos hochladen: so pflegen Sie das Google-Profil Ihrer Arzt- oder Zahnarztpraxis.",
+   "h1": "Google-Unternehmensprofil für Arzt- und Zahnarztpraxen einrichten und pflegen",
+   "lead": "Für viele Suchende ist das Profil bei Google der erste Eindruck Ihrer Praxis. In fünf Schritten bringen Sie es in Ordnung, mit einer Liste zum Abhaken.",
+   "date": "2026-11-13",
+   "og": "google-unternehmensprofil",
+   "crumbs": [
+    [
+     "Ratgeber",
+     "/ratgeber/"
+    ],
+    [
+     "Patientengewinnung",
+     "/ratgeber/patientengewinnung/"
+    ],
+    [
+     "Google-Unternehmensprofil",
+     null
+    ]
+   ],
+   "inhalt": "ratgeber/gbp.html",
+   "offer": {
+    "art": "entwurf",
+    "titel": "Das Profil führt auf Ihre Webseite. Überzeugt sie?",
+    "text": "Sie nennen mir die Adresse Ihrer jetzigen Webseite und erhalten innerhalb von drei Tagen kostenlos einen Entwurf Ihrer neuen Startseite, gebaut aus Ihren Inhalten."
+   },
+   "more": [
+    "/ratgeber/patientengewinnung/",
+    "/ratgeber/patientengewinnung/google-bewertungen/",
+    "/webseite-fuer-zahnaerzte/"
+   ],
+   "karte": {
+    "titel": "Google-Unternehmensprofil für Arzt- und Zahnarztpraxen",
+    "text": "Einrichten, vollständig ausfüllen und aktuell halten."
+   },
+   "uebersicht": {
+    "eyebrow": "Anleitung",
+    "text": "In fünf Schritten zum vollständigen, aktuellen Profil bei Google, mit einer Liste zum Abhaken.",
+    "rang": 2
+   },
+   "cta_title": "Darf ich Ihnen Ihre neue Seite <em>zeigen?</em>",
+   "cta_lead": "Schicken Sie mir die Adresse Ihrer jetzigen Webseite. Sie erhalten innerhalb von drei Tagen kostenlos einen Entwurf Ihrer neuen Startseite."
+  },
+  {
+   "url": "/ratgeber/online-terminvergabe/",
+   "typ": "ratgeber",
+   "status": "live",
+   "cluster": "termine",
+   "keyword": {
+    "haupt": "online terminvergabe arztpraxis",
+    "neben": [
+     "online terminvergabe zahnarzt",
+     "terminbuchung website einbinden"
+    ]
+   },
+   "title": "Online-Terminvergabe in der Arztpraxis einführen | Praxel",
+   "og_title": "Online-Terminvergabe in der Arzt- und Zahnarztpraxis einführen",
+   "desc": "Für welche Arzt- und Zahnarztpraxen sich Online-Terminvergabe lohnt, welche Lösungen es gibt, worauf Sie achten sollten und wie die Einführung gelingt.",
+   "h1": "Online-Terminvergabe in der Arzt- und Zahnarztpraxis einführen",
+   "lead": "Praxissoftware, Buchungsplattform oder Anfrageformular: was zu Ihrer Praxis passt, worauf es bei der Auswahl ankommt und wie Sie starten, ohne die Kontrolle über den Kalender abzugeben.",
+   "date": "2026-11-16",
+   "og": "hub-termine",
+   "crumbs": [
+    [
+     "Ratgeber",
+     "/ratgeber/"
+    ],
+    [
+     "Empfang und Termine",
+     null
+    ]
+   ],
+   "inhalt": "ratgeber/hub-termine.html",
+   "offer": {
+    "art": "entwurf",
+    "titel": "Sehen Sie, wie der Weg zum Termin auf Ihrer Seite aussehen könnte.",
+    "text": "Sie nennen mir die Adresse Ihrer jetzigen Webseite und erhalten innerhalb von drei Tagen kostenlos einen Entwurf Ihrer neuen Startseite, mit einem sichtbaren Weg zur Terminanfrage."
+   },
+   "more": [
+    "/ratgeber/online-terminvergabe/telefon-entlasten/",
+    "/ratgeber/praxis-webseite/",
+    "/webseite-fuer-zahnaerzte/"
+   ],
+   "karte": {
+    "titel": "Online-Terminvergabe in der Praxis einführen",
+    "text": "Die Übersicht: welche Lösungen es gibt und wie die Einführung gelingt."
+   },
+   "uebersicht": {
+    "eyebrow": "Übersicht",
+    "text": "Praxissoftware, Buchungsplattform oder Anfrageformular: welche Lösung passt und wie die Einführung in fünf Schritten gelingt.",
+    "rang": 1
+   },
+   "cta_title": "Darf ich Ihnen Ihre neue Seite <em>zeigen?</em>",
+   "cta_lead": "Schicken Sie mir die Adresse Ihrer jetzigen Webseite. Sie erhalten innerhalb von drei Tagen kostenlos einen Entwurf Ihrer neuen Startseite.",
+   "geaendert": "2026-11-17"
+  },
+  {
+   "url": "/ratgeber/online-terminvergabe/telefon-entlasten/",
+   "typ": "ratgeber",
+   "status": "live",
+   "cluster": "termine",
+   "keyword": {
+    "haupt": "arztpraxis telefon entlasten",
+    "neben": [
+     "telefonaufkommen arztpraxis reduzieren",
+     "praxis empfang entlasten"
+    ]
+   },
+   "title": "Telefon am Empfang der Arztpraxis entlasten | Praxel",
+   "og_title": "Telefon am Empfang entlasten: Was die Praxis-Webseite abfangen kann",
+   "desc": "Welche Anrufe eine Arzt- oder Zahnarztpraxis vermeiden kann: Zeiten, Terminwünsche, Absagen und wiederkehrende Fragen. Mit Strichliste für den größten Hebel.",
+   "h1": "Telefon am Empfang der Arzt- oder Zahnarztpraxis entlasten: Was die Website abfangen kann",
+   "lead": "Ein Teil der Anrufe am Empfang müsste nicht sein, weil die Antwort längst feststeht. Wie Sie herausfinden, welche das bei Ihnen sind, und was die Webseite davon übernehmen kann.",
+   "date": "2026-11-16",
+   "og": "telefon-entlasten",
+   "crumbs": [
+    [
+     "Ratgeber",
+     "/ratgeber/"
+    ],
+    [
+     "Empfang und Termine",
+     "/ratgeber/online-terminvergabe/"
+    ],
+    [
+     "Telefon entlasten",
+     null
+    ]
+   ],
+   "inhalt": "ratgeber/telefon.html",
+   "offer": {
+    "art": "link",
+    "eyebrow": "Kostenloser Selbstcheck",
+    "titel": "Bringt Ihre Webseite die Grundlagen dafür mit?",
+    "text": "18 Fragen zu erstem Eindruck, Weg zum Termin, Schwerpunkten, Team, Karriere und Technik. Offen zugänglich, ohne Anmeldung und ohne E-Mail-Adresse.",
+    "href": "/ratgeber/webseiten-selbstcheck/",
+    "label": "Zum Selbstcheck"
+   },
+   "more": [
+    "/ratgeber/online-terminvergabe/",
+    "/ratgeber/webseiten-selbstcheck/",
+    "/webseite-fuer-zahnaerzte/"
+   ],
+   "karte": {
+    "titel": "Telefon am Empfang entlasten",
+    "text": "Welche Anrufe die Webseite abfangen kann und wie."
+   },
+   "uebersicht": {
+    "eyebrow": "Empfang",
+    "text": "Welche Anrufe die Webseite abfangen kann: Zeiten, Terminwünsche, Absagen und wiederkehrende Fragen.",
+    "rang": 2
+   },
+   "cta_title": "Darf ich Ihnen Ihre neue Seite <em>zeigen?</em>",
+   "cta_lead": "Schicken Sie mir die Adresse Ihrer jetzigen Webseite. Sie erhalten innerhalb von drei Tagen kostenlos einen Entwurf Ihrer neuen Startseite.",
+   "geaendert": "2026-11-17"
+  },
+  {
+   "url": "/ratgeber/personalsuche/stellenanzeige/",
+   "typ": "ratgeber",
+   "status": "live",
+   "cluster": "personalsuche",
+   "keyword": {
+    "haupt": "mfa stellenanzeige",
+    "neben": [
+     "zfa stellenanzeige",
+     "mfa stellenanzeige erstellen"
+    ]
+   },
+   "title": "MFA- und ZFA-Stellenanzeige schreiben | Praxel",
+   "og_title": "MFA- und ZFA-Stellenanzeige schreiben: Aufbau, Inhalte, Gerüst",
+   "desc": "So schreiben Sie eine Stellenanzeige für eine MFA oder ZFA, die gelesen wird: Titel, Aufgaben, konkrete Bedingungen, Bewerbungsweg. Mit Gerüst zum Ausfüllen.",
+   "h1": "MFA- und ZFA-Stellenanzeige schreiben: Aufbau, Inhalte und ein Gerüst zum Ausfüllen",
+   "lead": "Eine gute Anzeige ist kurz, konkret und führt mit einem Klick zur Bewerbung. Wie sie aufgebaut ist, welche Angaben überzeugen und welche Floskeln Sie streichen können.",
+   "date": "2026-11-16",
+   "og": "stellenanzeige",
+   "crumbs": [
+    [
+     "Ratgeber",
+     "/ratgeber/"
+    ],
+    [
+     "Personalsuche",
+     "/ratgeber/personalsuche/"
+    ],
+    [
+     "Stellenanzeige",
+     null
+    ]
+   ],
+   "inhalt": "ratgeber/stellenanzeige.html",
+   "offer": {
+    "art": "entwurf",
+    "titel": "Nach der Anzeige sehen Bewerber Ihre Webseite an.",
+    "text": "Sie nennen mir die Adresse Ihrer jetzigen Webseite und erhalten innerhalb von drei Tagen kostenlos einen Entwurf Ihrer neuen Startseite, mit einem sichtbaren Einstieg für Bewerberinnen und Bewerber."
+   },
+   "more": [
+    "/ratgeber/personalsuche/karriereseite/",
+    "/ratgeber/personalsuche/",
+    "/webseite-fuer-zahnaerzte/"
+   ],
+   "karte": {
+    "titel": "MFA- und ZFA-Stellenanzeige schreiben",
+    "text": "Aufbau, überzeugende Angaben und ein Gerüst zum Ausfüllen."
+   },
+   "uebersicht": {
+    "eyebrow": "Stellenanzeige",
+    "text": "Titel, Aufgaben, konkrete Bedingungen, Bewerbungsweg: wie eine Anzeige aufgebaut ist, die gelesen wird, mit Gerüst zum Ausfüllen.",
+    "rang": 2
+   },
+   "cta_title": "Darf ich Ihnen Ihre neue Seite <em>zeigen?</em>",
+   "cta_lead": "Schicken Sie mir die Adresse Ihrer jetzigen Webseite. Sie erhalten innerhalb von drei Tagen kostenlos einen Entwurf Ihrer neuen Startseite, auf der auch Bewerber sofort ihren Platz finden.",
+   "geaendert": "2026-11-17"
+  },
+  {
+   "url": "/webseite-fuer-arztpraxen/",
+   "typ": "leistung",
+   "status": "entwurf",
+   "cluster": "leistungen",
+   "keyword": {
+    "haupt": "website arztpraxis",
+    "neben": [
+     "webdesign arztpraxis",
+     "arztpraxis webseite",
+     "homepage arztpraxis",
+     "praxis homepage erstellen"
+    ]
+   },
+   "title": "Website für Arztpraxen – kostenloser Entwurf | Praxel",
+   "og_title": "Website für Arztpraxen: erst den Entwurf sehen, dann entscheiden",
+   "desc": "Webdesign für Arztpraxen: Sie schicken den Link zu Ihrer jetzigen Praxis-Website und erhalten in drei Tagen kostenlos einen Entwurf der neuen Startseite.",
+   "og": "lp-arztpraxen",
+   "og_bild": {
+    "eyebrow": "Webdesign für Arztpraxen",
+    "text": "Eine neue Website für Ihre <em>Arztpraxis</em>"
+   },
+   "inhalt": "leistungen/arztpraxen.json",
+   "karte": {
+    "titel": "Website für Arztpraxen",
+    "text": "Der kostenlose Entwurf Ihrer neuen Praxis-Startseite."
+   }
+  },
+  {
+   "url": "/webseite-fuer-hausaerzte/",
+   "typ": "leistung",
+   "status": "entwurf",
+   "cluster": "leistungen",
+   "keyword": {
+    "haupt": "website hausarztpraxis",
+    "neben": [
+     "hausarzt website erstellen",
+     "homepage hausarztpraxis",
+     "hausarztpraxis homepage"
+    ]
+   },
+   "title": "Website für Hausarztpraxen: weniger Anrufe | Praxel",
+   "og_title": "Website für Hausarztpraxen, die das Telefon entlastet",
+   "desc": "Eine Website für Ihre Hausarztpraxis, die Sprechzeiten, Rezeptwünsche, Vertretung und Aufnahme klar regelt. Den Entwurf Ihrer Startseite erhalten Sie kostenlos.",
+   "og": "lp-hausaerzte",
+   "og_bild": {
+    "eyebrow": "Webseiten für Hausarztpraxen",
+    "text": "Eine Website, die das <em>Telefon entlastet</em>"
+   },
+   "inhalt": "leistungen/hausaerzte.json",
+   "karte": {
+    "titel": "Website für Hausarztpraxen",
+    "text": "Sprechzeiten, Rezepte, Vertretung: klar geregelt."
+   }
+  },
+  {
+   "url": "/webseite-fuer-mvz/",
+   "typ": "leistung",
+   "status": "entwurf",
+   "cluster": "leistungen",
+   "keyword": {
+    "haupt": "website mvz",
+    "neben": [
+     "mvz website erstellen",
+     "website medizinisches versorgungszentrum",
+     "mvz webdesign"
+    ]
+   },
+   "title": "Website für MVZ: klare Struktur für alle Bereiche | Praxel",
+   "og_title": "Website für Medizinische Versorgungszentren",
+   "desc": "Webdesign für Medizinische Versorgungszentren: Fachrichtungen, Standorte und Profile übersichtlich geordnet. Entwurf Ihrer Startseite kostenlos in drei Tagen.",
+   "og": "lp-mvz",
+   "og_bild": {
+    "eyebrow": "Webseiten für MVZ",
+    "text": "Eine Website, auf der jeder <em>seinen Weg findet</em>"
+   },
+   "inhalt": "leistungen/mvz.json",
+   "karte": {
+    "titel": "Website für MVZ",
+    "text": "Fachrichtungen, Standorte und Profile übersichtlich geordnet."
+   }
+  },
+  {
+   "url": "/webseite-fuer-physiotherapie/",
+   "typ": "leistung",
+   "status": "entwurf",
+   "cluster": "leistungen",
+   "keyword": {
+    "haupt": "website physiotherapie",
+    "neben": [
+     "physiotherapie website erstellen",
+     "homepage physiotherapie",
+     "webdesign physiotherapie"
+    ]
+   },
+   "title": "Website für Physiotherapie-Praxen | Praxel",
+   "og_title": "Website für Physiotherapie-Praxen: Termine leichter machen",
+   "desc": "Behandlungen verständlich erklärt, Termin mit Verordnung anfragen, Kurse und Stellen sichtbar: die Website für Ihre Physiotherapie-Praxis, Entwurf kostenlos.",
+   "og": "lp-physiotherapie",
+   "og_bild": {
+    "eyebrow": "Webseiten für Physiotherapie",
+    "text": "Eine Website, die <em>Termine leichter macht</em>"
+   },
+   "inhalt": "leistungen/physiotherapie.json",
+   "karte": {
+    "titel": "Website für Physiotherapie",
+    "text": "Behandlungen, Kurse und Termine verständlich dargestellt."
+   }
+  },
+  {
+   "url": "/webseite-fuer-apotheken/",
+   "typ": "leistung",
+   "status": "entwurf",
+   "cluster": "leistungen",
+   "keyword": {
+    "haupt": "website apotheke",
+    "neben": [
+     "apotheke homepage erstellen",
+     "webdesign apotheke",
+     "apotheken website",
+     "pta finden"
+    ]
+   },
+   "title": "Website für Apotheken – Entwurf kostenlos | Praxel",
+   "og_title": "Website für Apotheken: zeigen, was Sie vor Ort leisten",
+   "desc": "Öffnungszeiten, Notdienst, Vorbestellung und Team: eine eigene Website für Ihre Apotheke, die zeigt, was Sie vor Ort leisten. Erster Entwurf in drei Tagen.",
+   "og": "lp-apotheken",
+   "og_bild": {
+    "eyebrow": "Webseiten für Apotheken",
+    "text": "Eine Website für Ihre <em>Apotheke</em>"
+   },
+   "inhalt": "leistungen/apotheken.json",
+   "karte": {
+    "titel": "Website für Apotheken",
+    "text": "Öffnungszeiten, Notdienst, Vorbestellung und Team."
+   }
+  },
+  {
+   "url": "/webseite-fuer-schoenheitskliniken/",
+   "typ": "leistung",
+   "status": "entwurf",
+   "cluster": "leistungen",
+   "keyword": {
+    "haupt": "website schönheitsklinik",
+    "neben": [
+     "webdesign ästhetische medizin",
+     "website plastische chirurgie",
+     "homepage ästhetische praxis",
+     "website schönheitschirurg"
+    ]
+   },
+   "title": "Website für Schönheitskliniken und Ästhetik | Praxel",
+   "og_title": "Website für Schönheitskliniken: überzeugen ohne zu versprechen",
+   "desc": "Hochwertige Website für Schönheitskliniken und ästhetische Medizin, sachlich geplant und mit Blick auf das Heilmittelwerbegesetz. Entwurf kostenlos.",
+   "og": "lp-schoenheitskliniken",
+   "og_bild": {
+    "eyebrow": "Webseiten für ästhetische Medizin",
+    "text": "Überzeugen, <em>ohne zu versprechen</em>"
+   },
+   "inhalt": "leistungen/schoenheitskliniken.json",
+   "karte": {
+    "titel": "Website für Schönheitskliniken",
+    "text": "Hochwertig gestaltet, sachlich informiert."
+   }
+  },
+  {
+   "url": "/webseite-fuer-privatkliniken/",
+   "typ": "leistung",
+   "status": "entwurf",
+   "cluster": "leistungen",
+   "keyword": {
+    "haupt": "website privatklinik",
+    "neben": [
+     "webdesign klinik",
+     "klinik website erstellen",
+     "homepage privatklinik"
+    ]
+   },
+   "title": "Website für Privatkliniken, die vorab überzeugt | Praxel",
+   "og_title": "Website für Privatkliniken: überzeugen vor der Anreise",
+   "desc": "Behandlung, Kosten, Aufenthalt und Anreise verständlich erklärt: eine Website für Ihre Privatklinik, die Fragen vor der Anfrage beantwortet. Entwurf kostenlos.",
+   "og": "lp-privatkliniken",
+   "og_bild": {
+    "eyebrow": "Webseiten für Privatkliniken",
+    "text": "Überzeugen, schon <em>vor der Anreise</em>"
+   },
+   "inhalt": "leistungen/privatkliniken.json",
+   "karte": {
+    "titel": "Website für Privatkliniken",
+    "text": "Behandlung, Kosten und Aufenthalt verständlich erklärt."
+   }
+  }
+ ]
+}

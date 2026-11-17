@@ -1,0 +1,231 @@
+{
+ "hinweise": [
+  "Spannen sind Schätzungen des Keyword-Planers und keine Traffic-Prognose.",
+  "Ads-Wettbewerb beschreibt Anzeigen, nicht die Schwierigkeit in der organischen Suche.",
+  "-90 % im Jahresvergleich bei einzelnen Begriffen nicht ohne Monatsverlauf als Rückgang deuten.",
+  "Die 62 Themenideen aus der Excel-Datei sind ungemessen.",
+  "Kandidaten für neue Branchen sind ungemessen und aus Sprachgebrauch und Suchergebnissen abgeleitet, nicht aus Volumendaten."
+ ],
+ "gemessen": {
+  "quelle": {
+   "quelle": "Google Keyword-Planer, Deutschland, Deutsch, letzte 12 Monate",
+   "abruf": "2026-11-16",
+   "datei": "Praxel_Keyword_und_Themenplanung.xlsx"
+  },
+  "keywords": [
+   {
+    "keyword": "website arztpraxis",
+    "min": 100,
+    "max": 1000,
+    "ads_wettbewerb": "Mittel",
+    "gebot_unten": 5.06,
+    "gebot_oben": 10.27,
+    "aenderung_jahr_prozent": -90,
+    "zuordnung": "/webseite-fuer-arztpraxen/"
+   },
+   {
+    "keyword": "webdesign arztpraxis",
+    "min": 100,
+    "max": 1000,
+    "ads_wettbewerb": "Mittel",
+    "gebot_unten": 4.74,
+    "gebot_oben": 7.09,
+    "aenderung_jahr_prozent": -90,
+    "zuordnung": "/webseite-fuer-arztpraxen/"
+   },
+   {
+    "keyword": "zahnarzt webseite",
+    "min": 100,
+    "max": 1000,
+    "ads_wettbewerb": "Mittel",
+    "gebot_unten": 5.09,
+    "gebot_oben": 7.46,
+    "aenderung_jahr_prozent": 0,
+    "zuordnung": "/webseite-fuer-zahnaerzte/"
+   },
+   {
+    "keyword": "praxismarketing",
+    "min": 100,
+    "max": 1000,
+    "ads_wettbewerb": "Mittel",
+    "gebot_unten": 3.66,
+    "gebot_oben": 6.92,
+    "aenderung_jahr_prozent": 0,
+    "zuordnung": "/ratgeber/patientengewinnung/"
+   },
+   {
+    "keyword": "telefonassistent arztpraxis",
+    "min": 100,
+    "max": 1000,
+    "ads_wettbewerb": "Hoch",
+    "gebot_unten": 10.03,
+    "gebot_oben": 30.82,
+    "aenderung_jahr_prozent": -90,
+    "zuordnung": "offen: nur, wenn Praxel einen Telefonassistenten anbietet oder anbindet"
+   },
+   {
+    "keyword": "mfa finden",
+    "min": 100,
+    "max": 1000,
+    "ads_wettbewerb": "Hoch",
+    "gebot_unten": 6.72,
+    "gebot_oben": 48.27,
+    "aenderung_jahr_prozent": -90,
+    "zuordnung": "/ratgeber/personalsuche/"
+   },
+   {
+    "keyword": "praxis software",
+    "min": 100,
+    "max": 1000,
+    "ads_wettbewerb": "Mittel",
+    "gebot_unten": 3.04,
+    "gebot_oben": 12.21,
+    "aenderung_jahr_prozent": 0,
+    "zuordnung": "bewusst nicht: Suchabsicht ist der Kauf eines Praxisverwaltungssystems"
+   },
+   {
+    "keyword": "praxissoftware",
+    "min": 100,
+    "max": 1000,
+    "ads_wettbewerb": "Mittel",
+    "gebot_unten": 3.41,
+    "gebot_oben": 16.07,
+    "aenderung_jahr_prozent": 0,
+    "zuordnung": "bewusst nicht: Suchabsicht ist der Kauf eines Praxisverwaltungssystems"
+   },
+   {
+    "keyword": "arztpraxis webseite",
+    "min": 10,
+    "max": 100,
+    "ads_wettbewerb": "Gering",
+    "gebot_unten": null,
+    "gebot_oben": null,
+    "aenderung_jahr_prozent": 0,
+    "zuordnung": "/webseite-fuer-arztpraxen/"
+   },
+   {
+    "keyword": "homepage arztpraxis",
+    "min": 10,
+    "max": 100,
+    "ads_wettbewerb": "Hoch",
+    "gebot_unten": 2.84,
+    "gebot_oben": 10.17,
+    "aenderung_jahr_prozent": 0,
+    "zuordnung": "/webseite-fuer-arztpraxen/"
+   },
+   {
+    "keyword": "praxis homepage erstellen",
+    "min": 10,
+    "max": 100,
+    "ads_wettbewerb": "Gering",
+    "gebot_unten": null,
+    "gebot_oben": null,
+    "aenderung_jahr_prozent": 0,
+    "zuordnung": "/webseite-fuer-arztpraxen/"
+   },
+   {
+    "keyword": "homepage zahnarzt",
+    "min": 10,
+    "max": 100,
+    "ads_wettbewerb": "Hoch",
+    "gebot_unten": 5.11,
+    "gebot_oben": 9.63,
+    "aenderung_jahr_prozent": 0,
+    "zuordnung": "/webseite-fuer-zahnaerzte/"
+   },
+   {
+    "keyword": "arztpraxis marketing",
+    "min": 10,
+    "max": 100,
+    "ads_wettbewerb": "Mittel",
+    "gebot_unten": 4.17,
+    "gebot_oben": 12.14,
+    "aenderung_jahr_prozent": 0,
+    "zuordnung": "/ratgeber/patientengewinnung/"
+   },
+   {
+    "keyword": "seo arztpraxis",
+    "min": 10,
+    "max": 100,
+    "ads_wettbewerb": "Mittel",
+    "gebot_unten": 10.11,
+    "gebot_oben": 20.43,
+    "aenderung_jahr_prozent": 0,
+    "zuordnung": "offen: geplanter Beitrag „Praxis bei Google finden“"
+   },
+   {
+    "keyword": "praxis automatisierung",
+    "min": 10,
+    "max": 100,
+    "ads_wettbewerb": "Mittel",
+    "gebot_unten": null,
+    "gebot_oben": null,
+    "aenderung_jahr_prozent": 0,
+    "zuordnung": "offen: Leistungsseite Automatisierung und Beitrag „Praxis automatisieren“, wartet auf Fabians Angebotsbeschreibung"
+   },
+   {
+    "keyword": "online terminvergabe arztpraxis",
+    "min": 10,
+    "max": 100,
+    "ads_wettbewerb": "Mittel",
+    "gebot_unten": null,
+    "gebot_oben": null,
+    "aenderung_jahr_prozent": 0,
+    "zuordnung": "/ratgeber/online-terminvergabe/"
+   },
+   {
+    "keyword": "praxis digitalisierung",
+    "min": 10,
+    "max": 100,
+    "ads_wettbewerb": "Mittel",
+    "gebot_unten": 3.07,
+    "gebot_oben": 20.23,
+    "aenderung_jahr_prozent": 0,
+    "zuordnung": "offen: wie praxis automatisierung"
+   }
+  ]
+ },
+ "ungemessen": {
+  "status": "ungemessen: vor Ausbau im Keyword-Planer prüfen",
+  "kandidaten_je_seite": {
+   "/webseite-fuer-hausaerzte/": [
+    "website hausarztpraxis",
+    "hausarzt website erstellen",
+    "homepage hausarztpraxis",
+    "hausarztpraxis homepage"
+   ],
+   "/webseite-fuer-mvz/": [
+    "website mvz",
+    "mvz website erstellen",
+    "website medizinisches versorgungszentrum",
+    "mvz webdesign"
+   ],
+   "/webseite-fuer-physiotherapie/": [
+    "website physiotherapie",
+    "physiotherapie website erstellen",
+    "homepage physiotherapie",
+    "webdesign physiotherapie"
+   ],
+   "/webseite-fuer-apotheken/": [
+    "website apotheke",
+    "apotheke homepage erstellen",
+    "webdesign apotheke",
+    "apotheken website",
+    "pta finden"
+   ],
+   "/webseite-fuer-schoenheitskliniken/": [
+    "website schönheitsklinik",
+    "webdesign ästhetische medizin",
+    "website plastische chirurgie",
+    "homepage ästhetische praxis",
+    "website schönheitschirurg"
+   ],
+   "/webseite-fuer-privatkliniken/": [
+    "website privatklinik",
+    "webdesign klinik",
+    "klinik website erstellen",
+    "homepage privatklinik"
+   ]
+  }
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "wort": {"ihre_akk": "Ihre Praxis", "plural": "Arztpraxen", "beispiel_url": "www.ihre-arztpraxis.de"},
+ "service": {"name": "Website für Arztpraxen", "typ": "Webdesign und Webentwicklung für Arztpraxen", "zielgruppe": "Inhaber und Praxismanager von Arztpraxen"},
+ "hero": {
+  "eyebrow": "Webdesign für Arztpraxen",
+  "h1": "Eine neue Website für Ihre Arztpraxis. <em>Erst sehen, dann entscheiden.</em>",
+  "lead": "Sie nennen mir die Adresse Ihrer jetzigen Praxis-Website und erhalten innerhalb von drei Tagen kostenlos einen Entwurf Ihrer neuen Startseite, gebaut aus Ihren Inhalten. Ob Allgemeinmedizin oder Facharztpraxis: Nur wenn Ihnen der Entwurf gefällt, sprechen wir unverbindlich darüber, wie es weitergeht."
+ },
+ "pruefpunkte": [
+  ["Fachrichtung und Ort", "Erkennt man auf den ersten Blick, welche Fachrichtung Sie vertreten, wo die Praxis liegt und wer dort behandelt?"],
+  ["Der Weg zum Termin", "Steht die Telefonnummer oben, sind die Sprechzeiten aktuell, und lässt sich ein Termin auch abends anfragen?"],
+  ["Schwerpunkte und Leistungen", "Werden Ihre Schwerpunkte verständlich erklärt, und ist klar, was Kassenleistung ist und was Patienten selbst zahlen?"],
+  ["Anfahrt und Zugang", "Finden Patienten Parkplätze, Haltestellen und Hinweise zum barrierefreien Zugang, bevor sie losfahren?"],
+  ["Die Karriereseite", "Findet eine MFA, die sich für Ihre Praxis interessiert, eine echte Stellenseite und einen kurzen Weg zur Bewerbung?"]
+ ],
+ "probleme": {
+  "punkte": [
+   "Ab acht Uhr ist das Telefon besetzt, und viele Anrufer fragen nach Sprechzeiten, Urlaub oder Anfahrt, obwohl das alles auf der Website stehen könnte.",
+   "Die Seite wurde vor Jahren mit einem Baukasten gebaut. Auf dem Handy muss man zoomen, und im Team traut sich niemand, etwas zu ändern.",
+   "Sie suchen eine MFA, aber die Stellenanzeige hängt seit Monaten als PDF ganz unten auf der Seite."
+  ],
+  "ende": "Im Praxisalltag bleibt für die Website kaum Zeit. Dabei entscheiden neue Patienten und Bewerber genau dort, ob sie anrufen, sich bewerben oder weitersuchen."
+ },
+ "warum": {
+  "h2": "Ihre Website arbeitet, <em>wenn die Praxis geschlossen ist.</em>",
+  "lead": "Viele Menschen suchen abends oder am Wochenende nach einer Arztpraxis, meist auf dem Handy. Gutes Webdesign für Arztpraxen heißt deshalb vor allem: die wichtigsten Fragen beantworten, bevor jemand anruft, und den Weg zum Termin kurz halten.",
+  "punkte": [
+   ["Weniger Rückfragen am Telefon", "Wenn Sprechzeiten, Urlaubsvertretung, Anfahrt und die häufigsten Fragen gut auffindbar sind, muss Ihr Team sie seltener am Telefon beantworten."],
+   ["Die passenden Patienten melden sich", "Wer Ihre Schwerpunkte verständlich erklärt findet, kommt mit dem richtigen Anliegen und mit realistischen Erwartungen zu Ihnen."],
+   ["Vertrauen vor dem ersten Termin", "Gesichter, ein Blick in die Räume und ein sachlicher Ton zeigen, wie in Ihrer Praxis gearbeitet wird, bevor jemand sie betritt."],
+   ["Bewerber vergleichen Praxen online", "Medizinische Fachangestellte sehen sich die Website an, bevor sie sich melden. Eine echte Karriereseite macht dabei einen spürbaren Unterschied."]
+  ]
+ },
+ "worauf": {
+  "eyebrow": "Worauf es ankommt",
+  "h2": "Was eine Arztpraxis-Website <em>besonders macht.</em>",
+  "absaetze": [
+   "Patienten suchen nach Fachrichtung und Ort, oft in Verbindung mit einem konkreten Anliegen. Deshalb bekommen Ihre Schwerpunkte eigene, verständlich geschriebene Seiten, und Name, Adresse, Telefonnummer und Sprechzeiten stehen überall gleich, auf der Website ebenso wie in Ihrem Google-Unternehmensprofil.",
+   "Viele Praxen bieten neben Kassenleistungen auch Leistungen für Privatpatienten oder Selbstzahler an. Auf der Website sollte klar und sachlich erkennbar sein, was wofür gilt. Werbung für ärztliche Leistungen ist an das Heilmittelwerbegesetz und die Berufsordnung gebunden: Ich schreibe ohne Heilversprechen und ohne Erfolgsgarantien.",
+   "Für Ärztinnen und Ärzte gehören ins Impressum zusätzliche Angaben, etwa die zuständige Ärztekammer, die gesetzliche Berufsbezeichnung mit dem Staat, in dem sie verliehen wurde, und ein Hinweis auf die berufsrechtlichen Regelungen. Dazu kommt eine Datenschutzerklärung, die zu den tatsächlich eingebundenen Diensten passt.",
+   "Technisch zählt, was Patienten spüren: Die Seite lädt schnell, funktioniert auf dem Handy und ist auch mit größerer Schrift oder Vorlesefunktion gut nutzbar. Je nach Größe der Praxis und Art der Online-Angebote können außerdem gesetzliche Anforderungen an die Barrierefreiheit gelten."
+  ],
+  "hinweis": "Die rechtlichen Hinweise auf dieser Seite sind eine Orientierung und ersetzen keine Rechtsberatung. Im Zweifel lohnt ein Blick Ihrer Kammer oder Ihrer Rechtsberatung auf die fertigen Texte."
+ },
+ "angebot": {
+  "titel": "Ihre neue Praxis-Website umfasst",
+  "punkte": [
+   "Komplett neues Design, abgestimmt auf Ihre Praxis und Ihre Fachrichtung",
+   "Startseite, Schwerpunkte, Team, Sprechzeiten und Anfahrt, Karriere",
+   "Für das Handy gebaut, mit kurzen Ladezeiten",
+   "Terminanfrage und Bewerbungsformular, vorhandene Buchungssysteme eingebunden",
+   "Ihre Texte verständlich überarbeitet, sachlich und ohne Heilversprechen",
+   "Saubere Grundlage für Suchmaschinen: klare Seitenstruktur, Fachrichtung, Ort und Sprechzeiten",
+   "Datensparsam gebaut: Schriften lokal eingebunden, keine Werbe-Tracker"
+  ]
+ },
+ "spaeter": {
+  "lead": "Die neue Seite steht für sich. Sie ist aber so gebaut, dass sich Schritt für Schritt Abläufe anschließen lassen, die am Empfang Zeit sparen. Sie entscheiden, ob und wann.",
+  "punkte": [
+   ["Terminerinnerungen und Absagen", "Patienten, die dem zugestimmt haben, werden an ihren Termin erinnert und können rechtzeitig absagen, damit der Termin neu vergeben werden kann."],
+   ["Rückrufwunsch statt Warteschleife", "Wer nicht durchkommt, hinterlässt über die Website einen Rückrufwunsch. Ihr Team ruft zurück, wenn es passt."],
+   ["Anamnesebogen vorab", "Neue Patienten füllen den Bogen in Ruhe aus, und die Angaben liegen beim ersten Termin schon vor."],
+   ["Bewerbungen im Blick", "Jede Bewerbung bekommt eine Eingangsbestätigung, und Sie sehen, wer noch auf eine Antwort wartet."]
+  ],
+  "hinweis": "Weil es hier um Patientendaten geht, plane ich solche Abläufe besonders sorgfältig und stimme sie mit Ihrer Praxissoftware und Ihren Datenschutzvorgaben ab."
+ },
+ "weiterlesen_titel": "Mehr zur <em>Praxis-Website.</em>",
+ "weiterlesen": ["/ratgeber/praxis-webseite/", "/ratgeber/praxis-webseite/kosten/", "/ratgeber/webseiten-selbstcheck/", "/ratgeber/personalsuche/"],
+ "faq_titel": "Was Arztpraxen vorher <em>wissen möchten.</em>",
+ "faq": [
+  ["Was kostet eine Website für eine Arztpraxis?", "Der Entwurf Ihrer Startseite kostet nichts. Was die gesamte Website kostet, hängt vom Umfang ab, zum Beispiel davon, wie viele Schwerpunkte eine eigene Seite bekommen. Im Gespräch nach dem Entwurf erhalten Sie ein Festpreisangebot und wissen vor Ihrer Entscheidung, woran Sie sind."],
+  ["Unsere Fachrichtung ist sehr speziell. Geht das trotzdem?", "Ja. Für den Entwurf arbeite ich mit dem, was auf Ihrer jetzigen Website steht. Fachliche Inhalte formuliere ich verständlicher, die fachliche Richtigkeit prüfen Sie, bevor etwas veröffentlicht wird."],
+  ["Können unsere Domain und unsere E-Mail-Adressen bleiben?", "In der Regel ja. Die neue Website ersetzt die alte unter Ihrer bisherigen Adresse. Wie das bei Ihrem Anbieter genau abläuft, kläre ich mit Ihnen, bevor etwas umgestellt wird."],
+  ["Wir nutzen eine Online-Terminbuchung. Passt das zusammen?", "Ja. Ein vorhandenes Buchungssystem binde ich gut sichtbar in die neue Seite ein. Sie müssen dafür nichts ersetzen und nichts neu lernen."],
+  ["Was gehört ins Impressum einer Arztpraxis?", "Neben den allgemeinen Angaben unter anderem die zuständige Ärztekammer, die gesetzliche Berufsbezeichnung mit dem Staat, in dem sie verliehen wurde, und ein Hinweis auf die berufsrechtlichen Regelungen. Ich baue die Seite so, dass diese Angaben ihren Platz haben. Die rechtliche Prüfung ersetze ich damit nicht."],
+  ["Können wir Inhalte später selbst ändern?", "Sprechzeiten, Urlaubszeiten und Stellenangebote können Sie selbst ändern, ich zeige Ihnen wie. Wenn Sie das lieber abgeben möchten, sprechen wir darüber, wie eine Betreuung aussehen kann."],
+  ["Wie viel Zeit kostet uns das?", "Wenig. Für den Entwurf genügt mir der Link zu Ihrer jetzigen Website. Danach braucht es Ihre Rückmeldung und, wenn Ihnen der Entwurf gefällt, ein Gespräch. Den Rest erledige ich."]
+ ],
+ "cta_lead": "Eine kurze WhatsApp-Nachricht mit der Adresse Ihrer jetzigen Praxis-Website genügt. Sie erhalten innerhalb von drei Tagen kostenlos einen Entwurf Ihrer neuen Startseite."
+}

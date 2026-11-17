@@ -1,0 +1,79 @@
+{
+ "wort": {"ihre_akk": "Ihre Hausarztpraxis", "plural": "Hausarztpraxen", "beispiel_url": "www.ihre-hausarztpraxis.de"},
+ "service": {"name": "Website für Hausarztpraxen", "typ": "Webdesign und Webentwicklung für Hausarztpraxen", "zielgruppe": "Inhaber und Praxismanager von Hausarztpraxen"},
+ "hero": {
+  "eyebrow": "Webseiten für Hausarztpraxen",
+  "h1": "Eine Website für Ihre Hausarztpraxis, <em>die das Telefon entlastet.</em>",
+  "lead": "In einer Hausarztpraxis entscheidet sich vieles am Telefon. Eine gute Website für Hausärzte beantwortet die häufigsten Fragen vorher. Sie nennen mir die Adresse Ihrer jetzigen Seite und erhalten innerhalb von drei Tagen kostenlos einen Entwurf Ihrer neuen Startseite."
+ },
+ "pruefpunkte": [
+  ["Sprechzeiten und Akutsprechstunde", "Sieht man sofort, wann die Praxis geöffnet ist, wann es eine offene Sprechstunde gibt und was bei akuten Beschwerden zu tun ist?"],
+  ["Rezepte und Überweisungen", "Gibt es einen klaren Weg für Folgerezepte und Überweisungen, oder bleibt nur das Telefon?"],
+  ["Neue Patienten", "Erfährt man, ob Sie neue Patienten aufnehmen und was man zum ersten Termin mitbringen soll?"],
+  ["Urlaub und Vertretung", "Ist der Hinweis auf Praxisurlaub und Vertretung aktuell und auf der Startseite zu finden?"],
+  ["Team und Karriere", "Sieht man, wer in der Praxis arbeitet, und findet eine MFA einen einfachen Weg zur Bewerbung?"]
+ ],
+ "probleme": {
+  "punkte": [
+   "Morgens klingelt das Telefon im Minutentakt, und ein großer Teil der Anrufe dreht sich um Folgerezepte, Überweisungen und Befunde.",
+   "Im Urlaub steht auf der Website noch die Vertretung vom letzten Jahr, und die Patienten rufen trotzdem an, um sicherzugehen.",
+   "Neue Patienten fragen, ob Sie überhaupt noch aufnehmen, und finden darauf keine Antwort auf Ihrer Seite."
+  ],
+  "ende": "Für die Website bleibt zwischen Sprechstunde, Hausbesuchen und Abrechnung kaum Zeit. Dabei kann gerade sie dem Empfang jeden Tag Arbeit abnehmen."
+ },
+ "warum": {
+  "h2": "Ihre Website beantwortet Fragen, <em>bevor das Telefon klingelt.</em>",
+  "lead": "Hausarztpraxen haben viele wiederkehrende Anliegen: Rezepte, Überweisungen, Impftermine, Check-ups, Bescheinigungen. Eine Website, die diese Fragen klar beantwortet und geordnete Wege anbietet, entlastet Ihr Team spürbar.",
+  "punkte": [
+   ["Ruhigere Vormittage am Empfang", "Wenn Sprechzeiten, Vertretung und Abläufe für Rezepte gut sichtbar sind, sinkt die Zahl der Anrufe, die nur eine Auskunft brauchen."],
+   ["Patienten wissen, was sie erwartet", "Klare Hinweise zur offenen Sprechstunde, zu Terminen und zur Aufnahme neuer Patienten vermeiden Missverständnisse an der Tür."],
+   ["Vorsorge und Impfungen werden verstanden", "Eine verständliche Übersicht über Check-up, Impfungen und Vorsorge hilft Patienten, rechtzeitig daran zu denken."],
+   ["Ihr Team fühlt sich gesehen", "Eine ehrliche Teamseite und eine echte Karriereseite helfen bei der Suche nach MFA, die zu Ihrer Praxis passen."]
+  ]
+ },
+ "worauf": {
+  "eyebrow": "Worauf es ankommt",
+  "h2": "Was eine Hausarztpraxis-Website <em>leisten muss.</em>",
+  "absaetze": [
+   "Die wichtigste Information steht oben: Sprechzeiten, offene Sprechstunde, Telefonnummer und was bei akuten Beschwerden außerhalb der Sprechzeiten gilt. Dazu gehört der Hinweis auf den ärztlichen Bereitschaftsdienst unter 116117 und im Notfall auf die 112.",
+   "Viele Anrufe betreffen Folgerezepte und Überweisungen. Ein geordneter Weg über die Website, etwa ein Anfrageformular, kann helfen. Weil dabei Gesundheitsdaten übertragen werden, muss die Übertragung verschlüsselt sein, und die Datenschutzerklärung muss den Ablauf beschreiben. Oft ist es sinnvoll, vorhandene Funktionen Ihrer Praxissoftware einzubinden, statt etwas Eigenes zu bauen.",
+   "Ehrlichkeit schafft Vertrauen: Wenn Sie derzeit keine neuen Patienten aufnehmen oder nur eingeschränkt, sollte das auf der Website stehen. Das erspart beiden Seiten Enttäuschungen und Ihrem Team viele Gespräche.",
+   "Auch für Hausärzte gelten das Heilmittelwerbegesetz und die Berufsordnung. Leistungen wie Check-up, Impfungen oder Hausbesuche beschreibe ich sachlich, ohne Versprechen. Ins Impressum gehören zusätzlich die zuständige Ärztekammer, die gesetzliche Berufsbezeichnung und ein Hinweis auf die berufsrechtlichen Regelungen."
+  ],
+  "hinweis": "Die rechtlichen Hinweise auf dieser Seite sind eine Orientierung und ersetzen keine Rechtsberatung."
+ },
+ "angebot": {
+  "titel": "Ihre neue Website umfasst",
+  "punkte": [
+   "Komplett neues Design, abgestimmt auf Ihre Hausarztpraxis",
+   "Startseite mit Sprechzeiten, Akuthinweisen und Vertretung auf einen Blick",
+   "Seiten für Leistungen wie Vorsorge, Impfungen und Hausbesuche, verständlich erklärt",
+   "Für das Handy gebaut, mit kurzen Ladezeiten",
+   "Terminanfrage und Bewerbungsformular, vorhandene Buchungssysteme eingebunden",
+   "Saubere Grundlage für Suchmaschinen: Ort, Sprechzeiten und Leistungen klar strukturiert",
+   "Datensparsam gebaut: Schriften lokal eingebunden, keine Werbe-Tracker"
+  ]
+ },
+ "spaeter": {
+  "lead": "Die neue Seite steht für sich. Darauf lassen sich Schritt für Schritt Abläufe aufbauen, die das Telefon und den Empfang entlasten. Sie entscheiden, ob und wann.",
+  "punkte": [
+   ["Anfragen für Folgerezepte", "Ein verschlüsseltes Formular nimmt Rezeptwünsche geordnet entgegen, und Ihr Team bearbeitet sie gesammelt statt zwischen zwei Anrufen."],
+   ["Urlaub an einer Stelle pflegen", "Praxisurlaub und Vertretung tragen Sie einmal ein, und der Hinweis erscheint überall dort auf der Website, wo er gebraucht wird."],
+   ["Erinnerung an Vorsorge und Impfungen", "Patienten, die dem ausdrücklich zugestimmt haben, werden an fällige Check-ups oder Auffrischungen erinnert."],
+   ["Rückrufwunsch statt Warteschleife", "Wer nicht durchkommt, hinterlässt online einen Rückrufwunsch, und Ihr Team meldet sich, wenn es passt."]
+  ],
+  "hinweis": "Bei allen Abläufen mit Patientendaten stimme ich mich mit Ihrer Praxissoftware und Ihren Datenschutzvorgaben ab. Die rechtliche Prüfung liegt bei Ihnen."
+ },
+ "weiterlesen_titel": "Mehr zu Empfang <em>und Website.</em>",
+ "weiterlesen": ["/ratgeber/online-terminvergabe/telefon-entlasten/", "/ratgeber/online-terminvergabe/", "/ratgeber/praxis-webseite/", "/ratgeber/personalsuche/"],
+ "faq_titel": "Was Hausarztpraxen vorher <em>wissen möchten.</em>",
+ "faq": [
+  ["Kann die Website Rezeptwünsche entgegennehmen?", "Ja, über ein verschlüsseltes Formular oder über eine Funktion Ihrer Praxissoftware, die ich einbinde. Weil Gesundheitsdaten übertragen werden, klären wir vorher, wer die Anfragen bearbeitet und wie die Datenschutzerklärung den Ablauf beschreibt."],
+  ["Sollen wir einen Aufnahmestopp auf der Website nennen?", "Ich empfehle es. Ein klarer, freundlicher Hinweis erspart neuen Patienten vergebliche Anrufe und Ihrem Team viele Gespräche. Sobald Sie wieder aufnehmen, ändern Sie den Hinweis."],
+  ["Wie zeigen wir Urlaub und Vertretung am besten?", "Als gut sichtbaren Hinweis auf der Startseite, mit Zeitraum, Name und Telefonnummer der Vertretung. Ich baue die Seite so, dass Sie diesen Hinweis selbst ein- und ausschalten können."],
+  ["Brauchen wir eine Online-Terminbuchung?", "Nicht zwingend. Für planbare Termine wie Check-ups oder Impfungen kann sie sinnvoll sein, für Akutfälle eher nicht. Wenn Sie bereits ein Buchungssystem nutzen, binde ich es ein."],
+  ["Was kostet die neue Website?", "Der Entwurf Ihrer Startseite kostet nichts. Was die gesamte Website kostet, hängt vom Umfang ab. Im Gespräch nach dem Entwurf erhalten Sie ein Festpreisangebot."],
+  ["Können wir unsere Domain behalten?", "In der Regel ja. Die neue Website ersetzt die alte unter Ihrer bisherigen Adresse. Wie das bei Ihrem Anbieter abläuft, kläre ich mit Ihnen, bevor etwas umgestellt wird."]
+ ],
+ "cta_lead": "Eine kurze WhatsApp-Nachricht mit der Adresse Ihrer jetzigen Website genügt. Sie erhalten innerhalb von drei Tagen kostenlos einen Entwurf Ihrer neuen Startseite."
+}
