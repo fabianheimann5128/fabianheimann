@@ -71,6 +71,30 @@ Software für Arztpraxen und Kliniken. Dieses Repository enthält die Webseite.
   verifiziert, die Sitemap ist eingereicht (10 Seiten erkannt).
 - Von X und Pinterest wurde abgeraten. Fabian hat Instagram und YouTube angelegt (16.11.2026).
 
+## Messung und Einwilligung (seit 17.11.2026)
+
+- Alles steckt in `website/js/consent.js` (eingebunden auf jeder Seite). Kein Google Tag Manager.
+- GA4: Mess-ID `G-QDZQZ22VJX` (Property „Praxel Deutschland“, Stream „Praxel Deutschland – Website“).
+  Google Ads: `AW-18573039016`. Beide über ein gemeinsames `gtag.js`, das erst nach Einwilligung lädt.
+- Einwilligung getrennt nach „Statistik“ (GA4) und „Anzeigenmessung“ (Ads). Gespeichert in `localStorage`
+  unter `praxel-einwilligung-v2` als `{v:2, stat, ads, datum}`. Der alte Schlüssel `praxel-einwilligung` (nur Ads)
+  wird ignoriert und gelöscht, Besucher werden neu gefragt. Ändern/Widerruf über jedes `[data-consent-open]`.
+- Consent Mode nur als Grundzustand „denied“; kein Laden vor Einwilligung (keine cookielosen Pings).
+  `ad_personalization` bleibt immer „denied“, Google-Signale und Werbepersonalisierung sind in der GA4-Konfiguration aus.
+  Widerruf: `ga-disable-G-…`, Consent-Update „denied“, Cookies `_ga*`, `_gcl_*` werden gelöscht.
+- Vor dem Laden entfernt `consent.js` fremde Abfrageparameter aus der Adresszeile (erlaubt: `utm_*`, `gclid`,
+  `gbraid`, `wbraid`), weil GA4 die Adresse direkt aus der Adresszeile liest; `page_location` in der Konfiguration
+  wurde für den ersten Seitenaufruf ignoriert (Test 17.11.2026).
+- Ereignisse (nur GA4, `send_to` gesetzt): `generate_lead` (Formular vom Server bestätigt), `whatsapp_click`
+  (Klick auf `a[href^="https://wa.me/"]`), `lead_form_error` (`error_type` = network | server | rejected).
+  Parameter: `contact_method` (form | whatsapp), `contact_location` (hero | article_offer | closing_cta | Abschnitts-ID).
+  Ads-Conversions „Anfrage Formular“ und „WhatsApp Klick“ laufen parallel nur mit Einwilligung „Anzeigenmessung“.
+- Formulare (`main.js`, `landing.js`, `ratgeber.js`): `pxTrack('form', form)` nur nach `ok:true` vom Server.
+  Bei Fehlschlag `pxTrack('form_error', form, art, weiter)` und danach automatische Weiterleitung zu WhatsApp; diese
+  Weiterleitung zählt NICHT als WhatsApp-Klick (bis 17.11.2026 wurde sie fälschlich als Ads-Conversion gezählt).
+- Tests: Playwright-Suite mit abgefangenen Google-Anfragen (keine Testdaten bei Google). Netzwerk der Umgebung
+  erlaubt dafür `www.googletagmanager.com`.
+
 ## Google Ads
 
 - Konto-ID des Tags: `AW-18573039016`

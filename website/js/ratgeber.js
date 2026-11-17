@@ -68,19 +68,23 @@
     const say = (t, ok) => { msg.hidden = false; msg.textContent = t; msg.classList.toggle('ok', !!ok); };
     if (!g('link') || g('whatsapp').replace(/\D/g, '').length < 6) { say('Bitte tragen Sie den Link zu Ihrer Webseite und Ihre WhatsApp-Nummer ein.'); (g('link') ? form.elements.whatsapp : form.elements.link).focus(); return; }
     btn.disabled = true;
+    // Ein Lead zählt erst, wenn der Server den Versand bestätigt. Fehler werden getrennt erfasst.
+    let stage = 'network';
     try {
       const res = await fetch(form.dataset.endpoint, { method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
         body: JSON.stringify({ link: g('link'), whatsapp: g('whatsapp'), nachricht: g('nachricht'), website2: g('website2'), seite: location.pathname }) });
+      stage = res.status >= 400 && res.status < 500 ? 'rejected' : 'server';
       const data = await res.json();
       if (!res.ok || !data.ok) throw new Error(data.fehler || 'Fehler');
       form.reset();
-      if (window.pxTrack) window.pxTrack('form');
+      if (window.pxTrack) window.pxTrack('form', form);
       say('Danke, Ihr Link ist angekommen. Ich melde mich per WhatsApp, und Sie erhalten Ihren Entwurf innerhalb von drei Tagen.', true);
     } catch (err) {
       const text = `Hallo Herr Heimann, hier ist der Link zu unserer Praxis-Webseite: ${g('link')}${g('nachricht') ? '\n\n' + g('nachricht') : ''}`;
       say('Das hat gerade nicht geklappt. Es öffnet sich WhatsApp mit der vorbereiteten Nachricht, bitte senden Sie sie dort ab.');
-      if (window.pxTrack) window.pxTrack('whatsapp');
-      location.href = `https://wa.me/${form.dataset.wa}?text=${encodeURIComponent(text)}`;
+      // Kein WhatsApp-Klick: Die Weiterleitung geschieht automatisch, nicht durch den Besucher.
+      const go = () => { location.href = `https://wa.me/${form.dataset.wa}?text=${encodeURIComponent(text)}`; };
+      if (window.pxTrack) window.pxTrack('form_error', form, stage, go); else go();
     }
     btn.disabled = false;
   }));
