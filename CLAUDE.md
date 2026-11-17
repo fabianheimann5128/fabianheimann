@@ -65,8 +65,9 @@ Software für Arztpraxen und Kliniken. Dieses Repository enthält die Webseite.
   Personalsuche („ZFA finden“), Foto-Leitfaden (kostenlos als Beitrag). Brotkrumen-Zwischenstufen sind verlinkt.
 - Footer (seit Welle 2): benannte Spalten (`.foot__cols`, Stil in `style.css`). Ratgeber-Seiten und Hauptseite:
   Angebot / Ratgeber / Praxel. Fachseite: „Auf dieser Seite“ / Praxel, bewusst ohne Ratgeber-Spalte.
-- Welle 3: Neue Patienten gewinnen (Übersicht), Google-Bewertungen, Google-Unternehmensprofil. Fertige Entwürfe
-  liegen unveröffentlicht in `entwuerfe/welle-3/` (siehe `entwuerfe/LIESMICH.md`); rechtliche Durchsicht steht aus.
+- Welle 3: Praxismarketing (Übersicht `/ratgeber/patientengewinnung/`), Google-Bewertungen, Google-Unternehmensprofil:
+  live seit 17.11.2026 auf Fabians ausdrücklichen Wunsch OHNE anwaltliche Durchsicht (im Register vermerkt).
+  Eine Prüfung durch einen Anwalt für Medizinrecht steht weiter aus, vor allem für den Bewertungsbeitrag.
   Welle 4: Online-Terminvergabe (Übersicht), Telefon entlasten, dazu ZFA-Stellenanzeige: live seit 16.11.2026
   (Themengruppe „Empfang und Termine“ unter `/ratgeber/online-terminvergabe/`). Welle 5: Pflichtangaben, Werberecht
   (Rechtsbeiträge vorher anwaltlich gegenlesen lassen; Pflichtangaben erst nach Prüfung der eigenen Datenschutzerklärung).

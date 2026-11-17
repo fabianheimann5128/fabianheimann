@@ -164,7 +164,7 @@ def foot(js, cta_anchor):
       </div>
       <nav class="foot__cols" aria-label="Fußnavigation">
         <div class="foot__col"><p class="foot__h">Webseiten für</p>{branchen}</div>
-        <div class="foot__col"><p class="foot__h">Ratgeber</p><a href="/ratgeber/">Alle Beiträge</a><a href="/ratgeber/webseiten-selbstcheck/">Webseiten-Selbstcheck</a><a href="/ratgeber/praxis-webseite/">Praxis-Webseite</a><a href="/ratgeber/personalsuche/">Personalsuche</a><a href="/ratgeber/online-terminvergabe/">Empfang und Termine</a></div>
+        <div class="foot__col"><p class="foot__h">Ratgeber</p><a href="/ratgeber/">Alle Beiträge</a><a href="/ratgeber/webseiten-selbstcheck/">Webseiten-Selbstcheck</a><a href="/ratgeber/praxis-webseite/">Praxis-Webseite</a><a href="/ratgeber/personalsuche/">Personalsuche</a><a href="/ratgeber/patientengewinnung/">Patientengewinnung</a><a href="/ratgeber/online-terminvergabe/">Empfang und Termine</a></div>
         <div class="foot__col"><p class="foot__h">Praxel</p><a href="/">Startseite</a><a href="/#leistungen">Leistungen</a><a href="/#ueber">Über mich</a><a href="{cta_anchor}">Kostenloser Entwurf</a></div>
       </nav>
     </div>

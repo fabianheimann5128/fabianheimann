@@ -27,9 +27,7 @@
   {
    "id": "patientengewinnung",
    "titel": "Patientengewinnung",
-   "text": "Wie Patienten eine Praxis auswählen und in welcher Reihenfolge Sie handeln sollten.",
-   "folgt": true,
-   "folgt_text": "Patientengewinnung und Google-Bewertungen"
+   "text": "Wie Patienten eine Praxis auswählen und in welcher Reihenfolge Sie handeln sollten."
   },
   {
    "id": "termine",
@@ -553,7 +551,7 @@
   {
    "url": "/ratgeber/patientengewinnung/",
    "typ": "ratgeber",
-   "status": "entwurf",
+   "status": "live",
    "cluster": "patientengewinnung",
    "keyword": {
     "haupt": "praxismarketing",
@@ -562,13 +560,13 @@
      "neue patienten gewinnen arztpraxis"
     ]
    },
-   "rechtspruefung": "offen",
+   "rechtspruefung": "von Fabian am 17.11.2026 ohne anwaltliche Prüfung freigegeben",
    "title": "Praxismarketing: neue Patienten gewinnen | Praxel",
    "og_title": "Praxismarketing: Was für Arzt- und Zahnarztpraxen wirklich zählt",
    "desc": "Praxismarketing in der richtigen Reihenfolge: Wie Patienten eine Arzt- oder Zahnarztpraxis auswählen und was zuerst zählt, vom Google-Profil bis zur Anzeige.",
    "h1": "Praxismarketing: Was für Arzt- und Zahnarztpraxen wirklich zählt",
    "lead": "Google-Profil, Webseite, Bewertungen und erst danach Anzeigen. Wer diese Reihenfolge einhält, gewinnt nicht einfach mehr Patienten, sondern die passenden.",
-   "date": "2026-11-13",
+   "date": "2026-11-17",
    "og": "hub-patienten",
    "crumbs": [
     [
@@ -609,7 +607,7 @@
   {
    "url": "/ratgeber/patientengewinnung/google-bewertungen/",
    "typ": "ratgeber",
-   "status": "entwurf",
+   "status": "live",
    "cluster": "patientengewinnung",
    "keyword": {
     "haupt": "google bewertungen arztpraxis",
@@ -617,13 +615,13 @@
      "negative google bewertung arztpraxis antworten"
     ]
    },
-   "rechtspruefung": "offen",
+   "rechtspruefung": "von Fabian am 17.11.2026 ohne anwaltliche Prüfung freigegeben",
    "title": "Google-Bewertungen für Arztpraxen | Praxel Ratgeber",
    "og_title": "Google-Bewertungen für Arzt- und Zahnarztpraxen: mehr echte Stimmen, richtig antworten",
    "desc": "Wie eine Arzt- oder Zahnarztpraxis zulässig zu mehr echten Google-Bewertungen kommt und auf Kritik antwortet, ohne die Schweigepflicht zu verletzen.",
    "h1": "Google-Bewertungen für Arzt- und Zahnarztpraxen: mehr echte Stimmen, richtig antworten",
    "lead": "Persönlich bitten statt belohnen, alle gleich fragen und auf Kritik nur allgemein antworten. Was erlaubt ist, was Sie unterlassen sollten und wo die Schweigepflicht die Grenze zieht.",
-   "date": "2026-11-13",
+   "date": "2026-11-17",
    "og": "google-bewertungen",
    "crumbs": [
     [
@@ -665,7 +663,7 @@
   {
    "url": "/ratgeber/patientengewinnung/google-unternehmensprofil/",
    "typ": "ratgeber",
-   "status": "entwurf",
+   "status": "live",
    "cluster": "patientengewinnung",
    "keyword": {
     "haupt": "google unternehmensprofil arztpraxis",
@@ -673,13 +671,13 @@
      "google maps arztpraxis"
     ]
    },
-   "rechtspruefung": "offen",
+   "rechtspruefung": "von Fabian am 17.11.2026 ohne anwaltliche Prüfung freigegeben",
    "title": "Google-Unternehmensprofil für Arztpraxen | Praxel",
    "og_title": "Google-Unternehmensprofil für Arzt- und Zahnarztpraxen einrichten und pflegen",
    "desc": "Zugriff sichern, Name, Kategorie und Öffnungszeiten richtig eintragen, Fotos hochladen: so pflegen Sie das Google-Profil Ihrer Arzt- oder Zahnarztpraxis.",
    "h1": "Google-Unternehmensprofil für Arzt- und Zahnarztpraxen einrichten und pflegen",
    "lead": "Für viele Suchende ist das Profil bei Google der erste Eindruck Ihrer Praxis. In fünf Schritten bringen Sie es in Ordnung, mit einer Liste zum Abhaken.",
-   "date": "2026-11-13",
+   "date": "2026-11-17",
    "og": "google-unternehmensprofil",
    "crumbs": [
     [
